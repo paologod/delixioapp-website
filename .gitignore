@@ -1,6 +1,10 @@
-# Environment
+# Environment (secrets — never commit)
 .env
-.env.*
+.env.local
+.env.*.local
+
+# Template only (safe to commit)
+!.env.example
 
 # macOS
 .DS_Store
