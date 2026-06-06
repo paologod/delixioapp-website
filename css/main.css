@@ -1135,6 +1135,19 @@ button { font: inherit; cursor: pointer; border: none; background: none; }
     margin-top: -37px;
   }
 
+  .cta-character,
+  .cta-pasta {
+    display: none;
+  }
+
+  .cta-content {
+    margin-bottom: 0;
+  }
+
+  .cta-inner {
+    padding-bottom: 48px;
+  }
+
   .site-footer .container {
     flex-direction: column;
     text-align: center;
@@ -1174,28 +1187,32 @@ button { font: inherit; cursor: pointer; border: none; background: none; }
 
   .features-grid {
     grid-template-columns: 1fr;
-    row-gap: 0;
+    row-gap: 8px;
   }
 
   .features-panel {
-    padding: 32px 16px 16px;
+    padding: 32px 16px 24px;
   }
 
   .feature-item {
-    padding: 28px 12px;
+    padding: 36px 16px;
     border-right: none !important;
     border-bottom: 1px solid rgba(250, 95, 6, 0.27);
   }
 
   .feature-item:last-child {
     border-bottom: none;
-    padding-bottom: 12px;
+    padding-bottom: 20px;
   }
 
   .feature-icon {
     width: 90px;
     height: 92px;
-    margin-bottom: 24px;
+    margin-bottom: 28px;
+  }
+
+  .feature-title {
+    margin-bottom: 16px;
   }
 
   .step-card {
@@ -1627,15 +1644,6 @@ button { font: inherit; cursor: pointer; border: none; background: none; }
   .cta-btn {
     min-height: 64px;
     padding: 16px 28px;
-  }
-
-  .cta-character,
-  .cta-pasta {
-    max-width: min(190px, 46vw);
-  }
-
-  .cta-pasta {
-    margin-top: -29px;
   }
 }
 
