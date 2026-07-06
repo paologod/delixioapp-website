@@ -821,7 +821,11 @@ button { font: inherit; cursor: pointer; border: none; background: none; }
 }
 
 .faq-section {
-  padding: var(--space-section-lg) 0;
+  padding-top: var(--space-section-lg);
+  padding-bottom: 32px;
+}
+.faq-section + .cta-banner {
+  padding-top: 48px;
 }
 .faq-section .section-header {
   margin-bottom: var(--space-section-lg);
