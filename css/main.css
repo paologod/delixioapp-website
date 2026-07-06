@@ -822,10 +822,10 @@ button { font: inherit; cursor: pointer; border: none; background: none; }
 
 .faq-section {
   padding-top: var(--space-section-lg);
-  padding-bottom: 32px;
+  padding-bottom: 0;
 }
 .faq-section + .cta-banner {
-  padding-top: 48px;
+  padding-top: var(--space-section);
 }
 .faq-section .section-header {
   margin-bottom: var(--space-section-lg);
