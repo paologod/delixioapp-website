@@ -125,6 +125,9 @@ button { font: inherit; cursor: pointer; border: none; background: none; }
   object-fit: contain;
   object-position: center;
 }
+.store-badge--unavailable {
+  cursor: default;
+}
 .hero-social { display: flex; align-items: center; gap: 24px; }
 .hero-avatars { display: flex; align-items: center; }
 .hero-avatars .avatar { position: relative; width: 72px; height: 72px; margin-left: -22px; }
