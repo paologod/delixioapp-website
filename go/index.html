@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, follow">
+  <title>Get Delixio — Redirecting</title>
+  <link rel="canonical" href="https://delixioapp.com/download/">
+  <script>
+    (function () {
+      var APP_STORE = 'https://apps.apple.com/us/app/delixio/id6774958116';
+      var PLAY_STORE = 'https://play.google.com/store/apps/details?id=com.fridgemeal.fridgemeal';
+      var FALLBACK = '/download/';
+      var ua = navigator.userAgent || '';
+
+      // iPadOS 13+ may report as Macintosh; treat touch Macs as iOS.
+      var isIos = /iPhone|iPad|iPod/i.test(ua) ||
+        (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+      var isAndroid = /Android/i.test(ua);
+
+      if (isIos) {
+        window.location.replace(APP_STORE);
+      } else if (isAndroid) {
+        window.location.replace(PLAY_STORE);
+      } else {
+        window.location.replace(FALLBACK);
+      }
+    })();
+  </script>
+</head>
+<body>
+  <p>Opening the store…</p>
+  <p>
+    <a href="https://apps.apple.com/us/app/delixio/id6774958116">App Store</a>
+    ·
+    <a href="https://play.google.com/store/apps/details?id=com.fridgemeal.fridgemeal">Google Play</a>
+    ·
+    <a href="/download/">Download page</a>
+  </p>
+</body>
+</html>
