@@ -630,6 +630,27 @@ button { font: inherit; cursor: pointer; border: none; background: none; }
 .legal-page a:hover {
   color: var(--color-text);
 }
+.legal-langs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+  margin: 0 0 28px;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+.legal-langs a {
+  color: var(--color-text-muted);
+  text-decoration: none;
+}
+.legal-langs a:hover {
+  color: var(--color-primary);
+}
+.legal-langs a[aria-current="page"] {
+  color: var(--color-primary);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
 
 .site-header--minimal .container {
   justify-content: flex-start;
