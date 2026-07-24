@@ -1,0 +1,31 @@
+---
+description: Always include Google Analytics gtag on every HTML page
+globs: "**/*.html"
+alwaysApply: true
+---
+
+# Google Analytics (gtag.js)
+
+Whenever you create or scaffold a new HTML page for this Delixio static site, include the Google Analytics tag in `<head>`, immediately after the charset meta tag.
+
+Measurement ID: `G-89YMNXP5XF`
+
+```html
+<meta charset="UTF-8">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-89YMNXP5XF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-89YMNXP5XF');
+</script>
+```
+
+Rules:
+
+- Add this to **every** new public HTML page (including locale variants and utility pages like redirects).
+- Do not invent a different measurement ID.
+- Do not omit the tag on legal, support, or redirect stub pages.
+- If copying an existing page as a template, keep the existing gtag block as-is.
