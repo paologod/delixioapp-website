@@ -1423,7 +1423,8 @@ button { font: inherit; cursor: pointer; border: none; background: none; }
 }
 
 .explore-section {
-  padding: 48px 0 24px;
+  padding: 72px 0 48px;
+  margin-top: 24px;
   background: var(--color-footer-bg);
 }
 .explore-section .section-header {
@@ -1477,7 +1478,12 @@ button { font: inherit; cursor: pointer; border: none; background: none; }
 
 .faq-section {
   padding-top: var(--space-section-lg);
-  padding-bottom: 0;
+  padding-bottom: 48px;
+}
+.faq-section + .explore-section {
+  margin-top: 0;
+  padding-top: 80px;
+  border-top: 1px solid rgba(238, 157, 81, 0.22);
 }
 .faq-section + .cta-banner {
   padding-top: var(--space-section);
