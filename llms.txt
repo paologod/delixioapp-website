@@ -1,0 +1,51 @@
+# Delixio
+
+> Delixio is an AI recipe app for iPhone and Android that turns ingredients you already have into practical meal ideas and full recipes, then helps you save, shop, and plan. Published by ACCESS24 SARL-S (Luxembourg).
+
+## Core product pages
+
+- [Home](https://delixioapp.com/): Product overview, features, and FAQ
+- [About Delixio](https://delixioapp.com/about/): What Delixio is, who publishes it, and how credits work
+- [How it works](https://delixioapp.com/how-it-works/): Step-by-step ingredient-to-recipe workflow
+- [FAQ](https://delixioapp.com/faq/): Detailed product questions and answers
+- [Download](https://delixioapp.com/download/): App Store and Google Play links
+- [Support](https://delixioapp.com/support/): Help and contact
+- [Privacy Policy](https://delixioapp.com/privacy/): Privacy information
+- [Terms of Use](https://delixioapp.com/terms/): Terms and conditions
+- [Delete account](https://delixioapp.com/delete-account/): Account deletion instructions
+
+## Cooking guides (editorial)
+
+Practical kitchen articles. Hub only until individual guides are published.
+
+- [Delixio Cooking Guides](https://delixioapp.com/guides/)
+
+## Intent / solution landing pages
+
+Capability-focused pages for common cooking intents (not the same as editorial guides).
+
+- [Recipe generator from ingredients](https://delixioapp.com/recipe-generator-from-ingredients/)
+- [What can I cook with these ingredients?](https://delixioapp.com/what-can-i-cook-with-these-ingredients/)
+- [Fridge recipe app](https://delixioapp.com/fridge-recipe-app/)
+- [AI recipe generator](https://delixioapp.com/ai-recipe-generator/)
+- [Leftover recipe generator](https://delixioapp.com/leftover-recipe-generator/)
+- [Quick dinner ideas](https://delixioapp.com/quick-dinner-ideas/)
+- [Use ingredients before they expire](https://delixioapp.com/use-ingredients-before-they-expire/)
+- [Reduce food waste](https://delixioapp.com/reduce-food-waste/)
+- [Meal planner app](https://delixioapp.com/meal-planner-app/)
+- [Grocery list recipe app](https://delixioapp.com/grocery-list-recipe-app/)
+
+## Store listings
+
+- [App Store](https://apps.apple.com/us/app/delixio/id6774958116)
+- [Google Play](https://play.google.com/store/apps/details?id=com.fridgemeal.fridgemeal)
+
+## Notes
+
+- Recipe ideas are free to generate; full recipes use credits (1 credit = 1 full recipe)
+- 1 free full recipe every day; new users start with 2 credits
+- Optional packs: 6 / 28 / 90 credits (never expire); no subscription
+- Languages: English, French, Italian, Spanish
+- Features include grocery lists, saved recipes and lists, meal planning with one-way device calendar export, My Kitchen pantry staples, and Strict / Flexible / Creative cooking modes
+- Type ingredients, no barcode scanner or fridge camera
+- Recipes are AI-assisted suggestions; always check ingredients and allergens yourself

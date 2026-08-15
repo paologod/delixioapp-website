@@ -1,0 +1,98 @@
+{
+  "slug": "use-ingredients-before-they-expire",
+  "cluster": "waste",
+  "intent": "Use food before it goes bad",
+  "breadcrumb": "Use ingredients before they expire",
+  "eyebrow": "Use soon",
+  "title": "Use Ingredients Before They Expire – A Practical Kitchen Guide",
+  "description": "Learn practical ways to use ingredients before they expire or go to waste, plus how Delixio helps you cook with what you already have.",
+  "h1": "Use ingredients before they expire",
+  "intro": [
+    "Using ingredients before they expire is less about perfect dating labels and more about noticing what needs attention soon: soft herbs, opened yogurt, cut fruit, cooked leftovers, and vegetables that will not last another weekend.",
+    "Build a simple “use soon” habit, then choose recipes that absorb those foods. Delixio supports that habit by generating meal ideas from the ingredients you type first, it does not track expiry dates for you."
+  ],
+  "sections": [
+    {
+      "heading": "A weekly “use soon” routine",
+      "steps": [
+        "Once or twice a week, check the fridge for foods that should be cooked soon.",
+        "Write a short list of 3–7 priority ingredients.",
+        "Plan one meal around that list before planning anything else.",
+        "Freeze what you cannot cook in time when freezing is safe and useful (bread, leftover portions, some cooked proteins).",
+        "Keep bridge ingredients ready so priority foods can become a complete meal quickly."
+      ]
+    },
+    {
+      "heading": "Best formats for “use soon” foods",
+      "examples": [
+        {
+          "title": "Soups and stews",
+          "text": "Forgiving with mixed vegetables and leftover proteins."
+        },
+        {
+          "title": "Frittatas and egg dishes",
+          "text": "Excellent for cheese ends, greens, and roasted vegetables."
+        },
+        {
+          "title": "Stir-fries",
+          "text": "Fast way to clear a crisper drawer."
+        },
+        {
+          "title": "Smoothies and sauces",
+          "text": "Useful for soft fruit, wilting greens, or herbs blended into dressings."
+        },
+        {
+          "title": "Grain bowls",
+          "text": "Combine odds and ends with one strong sauce."
+        }
+      ]
+    },
+    {
+      "heading": "Date labels without panic",
+      "paragraphs": [
+        "“Best before” often relates to quality, while “use by” is more safety-sensitive for perishable foods. When unsure, rely on storage guidance and sensory checks, and follow local food-safety advice. This page is practical kitchen guidance, not medical or food-safety certification."
+      ]
+    }
+  ],
+  "delixio": {
+    "heading": "Start Delixio with your “use soon” list",
+    "paragraphs": [
+      "Type the ingredients that need to be cooked first. Choose Strict mode if you want to avoid shopping, or Flexible if one extra item would finish the meal. Generate free ideas, then unlock a full recipe when you are ready.",
+      "Save successful recipes so the same pattern is easy next week."
+    ]
+  },
+  "related": [
+    {
+      "slug": "reduce-food-waste",
+      "label": "Reduce food waste"
+    },
+    {
+      "slug": "leftover-recipe-generator",
+      "label": "Leftover recipe generator"
+    },
+    {
+      "slug": "fridge-recipe-app",
+      "label": "Fridge recipe app"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What should I cook first from the fridge?",
+      "a": "Usually cooked leftovers, opened dairy, soft herbs, berries, and vegetables that are already cut or starting to soften."
+    },
+    {
+      "q": "Can Delixio help me use ingredients before they expire?",
+      "a": "Yes, by starting from the ingredients you already have. Delixio does not manage expiry dates; it helps you cook with what you enter."
+    },
+    {
+      "q": "Does cooking from “use soon” foods always save money?",
+      "a": "It often helps you get value from food you already bought, but results vary by household and shopping habits."
+    },
+    {
+      "q": "What if I am missing one ingredient for a use-soon meal?",
+      "a": "Consider Flexible mode or a small grocery top-up rather than abandoning the ingredients that need to be used."
+    }
+  ],
+  "card_blurb": "Build a use-soon habit and cook priority ingredients first.",
+  "type": "landing"
+}

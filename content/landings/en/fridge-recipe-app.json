@@ -1,0 +1,84 @@
+{
+  "slug": "fridge-recipe-app",
+  "cluster": "discovery",
+  "intent": "Find an app that turns fridge contents into recipes",
+  "breadcrumb": "Fridge recipe app",
+  "eyebrow": "Apps for home cooks",
+  "title": "Fridge Recipe App – Turn What’s in Your Fridge into Dinner",
+  "description": "A fridge recipe app starts from food you already have. Learn how fridge-based cooking works and how Delixio helps you generate meal ideas from your ingredients.",
+  "h1": "Fridge recipe app",
+  "intro": [
+    "A fridge recipe app is built for the everyday moment when you open the fridge, see random ingredients, and need dinner. Instead of browsing recipes that assume a full shopping trip, you start with what is already there.",
+    "Delixio is designed for that workflow: type ingredients, set preferences, choose a cooking mode, explore free meal ideas, and unlock a full recipe when you want to cook, on iPhone or Android."
+  ],
+  "sections": [
+    {
+      "heading": "What a good fridge recipe workflow looks like",
+      "list": [
+        "Type or add ingredients quickly (no full fridge inventory, barcode, or camera required).",
+        "Remember pantry staples you always have (My Kitchen in Delixio).",
+        "Respect preferences, servings, cooking time, and meal type.",
+        "Show whether a recipe needs extra shopping.",
+        "Help you save the meals that worked."
+      ],
+      "paragraphs": [
+        "If an app only stores recipes and never starts from your fridge, it is a cookbook, useful, but not the same problem."
+      ]
+    },
+    {
+      "heading": "Fridge cooking tips that work without any app",
+      "paragraphs": [
+        "Keep a short “use soon” mental list every time you open the fridge. Cook those items first.",
+        "Keep a few bridge ingredients at home: eggs, tortillas, pasta, rice, canned tomatoes, beans, frozen vegetables, yogurt, lemon, garlic.",
+        "Batch-cook one base (rice, roasted vegetables, shredded chicken) that can become bowls, wraps, or soups later in the week."
+      ]
+    },
+    {
+      "heading": "Where Delixio fits",
+      "paragraphs": [
+        "Delixio adds AI recipe ideas on top of ingredient-first cooking, then full recipes when you unlock them, plus grocery lists, saved recipes with lists (Favorites, Quick dinners, Healthy, and custom), notes, ratings, mark cooked, and a meal calendar with optional one-way export to your device calendar. My Kitchen stores pantry staples so everyday basics are available without re-entering them, and they stay off the grocery list unless needed."
+      ]
+    }
+  ],
+  "delixio": {
+    "heading": "Try Delixio as your fridge-to-recipe companion",
+    "paragraphs": [
+      "Download Delixio, type what is in your fridge, choose Strict if you want to avoid shopping, or Flexible if one or two extras are fine, then generate dinner ideas.",
+      "Ideas are free. Unlocking a full recipe uses 1 credit, including 1 free full recipe every day. Optional packs: 6, 28, or 90 credits. No subscription. No barcode scanner or fridge camera required."
+    ]
+  },
+  "related": [
+    {
+      "slug": "recipe-generator-from-ingredients",
+      "label": "Recipe generator from ingredients"
+    },
+    {
+      "slug": "what-can-i-cook-with-these-ingredients",
+      "label": "What can I cook with these ingredients?"
+    },
+    {
+      "slug": "ai-recipe-generator",
+      "label": "AI recipe generator"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is a fridge recipe app?",
+      "a": "It is an app that helps you cook from ingredients you already have at home, usually by suggesting recipes around your fridge and pantry foods."
+    },
+    {
+      "q": "Do I need to inventory my whole fridge?",
+      "a": "No. Start with the ingredients you want to cook with. Delixio uses typed ingredient chips, not a full fridge inventory, barcode scanner, or camera."
+    },
+    {
+      "q": "Is Delixio available on iPhone and Android?",
+      "a": "Yes. Delixio is available on the App Store and Google Play."
+    },
+    {
+      "q": "Can a fridge recipe app help reduce waste?",
+      "a": "It can help you cook with what you already bought. Delixio supports that by starting from your ingredients so leftovers and “use soon” foods get used."
+    }
+  ],
+  "card_blurb": "Cook from what’s in your fridge, not from a shopping list.",
+  "type": "landing"
+}

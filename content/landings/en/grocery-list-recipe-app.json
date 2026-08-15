@@ -1,0 +1,92 @@
+{
+  "slug": "grocery-list-recipe-app",
+  "cluster": "planning",
+  "intent": "Connect recipes to missing ingredients and shopping lists",
+  "breadcrumb": "Grocery list recipe app",
+  "eyebrow": "Shopping & cooking",
+  "title": "Grocery List Recipe App – Shop Only for What You’re Missing",
+  "description": "A grocery list recipe app should start from ingredients you have and list only what is missing. Learn the workflow and how Delixio helps on iPhone and Android.",
+  "h1": "Grocery list recipe app",
+  "intro": [
+    "The best grocery lists for home cooks are short because they start from a meal decision, not from wandering the store. A grocery list recipe app helps you choose a recipe, see missing ingredients, and shop only for the gaps.",
+    "Delixio is built around that loop: generate ideas from ingredients you have, unlock a full recipe when you want it, review what is missing, and add those items to a grocery list (you can also add items manually)."
+  ],
+  "sections": [
+    {
+      "heading": "A better grocery workflow",
+      "steps": [
+        "Start with ingredients already at home.",
+        "Choose a recipe idea that mostly fits.",
+        "Identify the missing items.",
+        "Decide whether to substitute, skip, or buy them.",
+        "Shop the short gap list.",
+        "Cook, then save the recipe if it worked."
+      ]
+    },
+    {
+      "heading": "Why missing-ingredient lists beat full recipe shopping",
+      "paragraphs": [
+        "Full recipe shopping recreates the pantry from scratch every time. Missing-ingredient shopping respects what you already own and usually reduces both spend and waste.",
+        "Flexible cooking modes are useful here: allow about 1–2 missing items when the meal is worth it, or stay Strict when you want zero store trip."
+      ]
+    },
+    {
+      "heading": "Examples of gap shopping",
+      "examples": [
+        {
+          "title": "Almost-tacos",
+          "text": "You have beans, cheese, and salsa, the grocery list may only need tortillas."
+        },
+        {
+          "title": "Almost-soup",
+          "text": "You have vegetables and leftovers, the list may only need stock."
+        },
+        {
+          "title": "Almost-stir-fry",
+          "text": "You have vegetables and rice, the list may only need soy sauce or protein."
+        }
+      ]
+    }
+  ],
+  "delixio": {
+    "heading": "Grocery lists inside Delixio",
+    "paragraphs": [
+      "From a recipe, you can add selected ingredients to your grocery list. You can also add items manually with an optional quantity, check them off, clear completed items, and sort the list. My Kitchen staples stay off the grocery list unless needed.",
+      "Combine grocery with meal planning so shopping stays connected to real dinners. Grocery lists themselves do not require a subscription."
+    ]
+  },
+  "related": [
+    {
+      "slug": "meal-planner-app",
+      "label": "Meal planner app"
+    },
+    {
+      "slug": "recipe-generator-from-ingredients",
+      "label": "Recipe generator from ingredients"
+    },
+    {
+      "slug": "fridge-recipe-app",
+      "label": "Fridge recipe app"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can Delixio create grocery lists?",
+      "a": "Yes. You can add ingredients from recipes to a grocery list, and add manual items too."
+    },
+    {
+      "q": "Do I have to buy every missing ingredient?",
+      "a": "No. You can substitute, skip, or choose a different recipe idea that fits better."
+    },
+    {
+      "q": "How is this different from a normal notes list?",
+      "a": "It is tied to a specific recipe decision and to ingredients you already have, so the list stays shorter and more intentional."
+    },
+    {
+      "q": "Does Delixio require a subscription for grocery lists?",
+      "a": "No. Delixio has no subscription. Credits are only used to unlock full recipes (ideas are free). Grocery lists are part of the app workflow."
+    }
+  ],
+  "card_blurb": "Shop only for the ingredients you’re actually missing.",
+  "type": "landing"
+}

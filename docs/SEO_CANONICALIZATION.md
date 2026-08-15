@@ -12,6 +12,12 @@ This document defines the canonical URL policy for the Delixio static website ho
 | Page | Canonical URL |
 |------|---------------|
 | Homepage | `https://delixioapp.com/` |
+| About | `https://delixioapp.com/about/` |
+| How it works | `https://delixioapp.com/how-it-works/` |
+| FAQ | `https://delixioapp.com/faq/` |
+| Cooking Guides hub | `https://delixioapp.com/guides/` |
+| Editorial guide article | `https://delixioapp.com/guides/<slug>/` |
+| Intent landing (example) | `https://delixioapp.com/ai-recipe-generator/` |
 | Download | `https://delixioapp.com/download/` |
 | Privacy | `https://delixioapp.com/privacy/` |
 | Terms | `https://delixioapp.com/terms/` |
@@ -39,7 +45,11 @@ Sitemap: https://delixioapp.com/sitemap.xml
 
 Use root-relative clean paths:
 
-- `/` (homepage)
+- `/`
+- `/about/`
+- `/how-it-works/`
+- `/faq/`
+- `/guides/`
 - `/download/`
 - `/privacy/`
 - `/terms/`
@@ -47,6 +57,10 @@ Use root-relative clean paths:
 - `/delete-account/`
 
 Do **not** link internally to `/index.html`, `/download/index.html`, or other `*/index.html` variants.
+
+`/go/` is a UA redirect helper: keep `noindex` and do **not** include it in `sitemap.xml`.
+
+`/explore/` redirects to `/guides/` (legacy alias). Do not list `/explore/` in the sitemap.
 
 ## Redirect policy
 

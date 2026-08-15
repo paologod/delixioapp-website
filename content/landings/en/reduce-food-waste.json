@@ -1,0 +1,95 @@
+{
+  "slug": "reduce-food-waste",
+  "cluster": "waste",
+  "intent": "Reduce household food waste with practical cooking habits",
+  "breadcrumb": "Reduce food waste",
+  "eyebrow": "Less waste",
+  "title": "Reduce Food Waste at Home with Ingredient-First Cooking",
+  "description": "Practical ways to reduce food waste at home by cooking from ingredients you already have, using leftovers, and planning simpler meals, with optional help from Delixio.",
+  "h1": "Reduce food waste",
+  "intro": [
+    "Household food waste often happens in quiet ways: produce forgotten in a drawer, leftovers abandoned, and ambitious recipe shopping that does not match real weeknights. Reducing waste starts with cooking from what you already bought.",
+    "You do not need a perfect zero-waste system. A few repeatable habits: use-soon lists, leftover remixes, and ingredient-first dinners, usually matter more than complicated tracking."
+  ],
+  "sections": [
+    {
+      "heading": "Habits that reduce waste",
+      "list": [
+        "Shop with a short list based on meals you will actually cook.",
+        "Cook “use soon” ingredients before buying more produce.",
+        "Design leftover-friendly meals once or twice a week.",
+        "Store opened food in clear containers so it stays visible.",
+        "Keep a fast pantry that can rescue lonely ingredients."
+      ]
+    },
+    {
+      "heading": "Ingredient-first cooking vs recipe-first shopping",
+      "paragraphs": [
+        "Recipe-first shopping is fun, but it can create waste when plans change. Ingredient-first cooking asks: what do I already have, and what meal can that become?",
+        "That is the core Delixio loop: ingredients → recipe ideas → preferences → missing ingredients → grocery list → saved recipes → meal planning."
+      ]
+    },
+    {
+      "heading": "Small kitchen examples",
+      "examples": [
+        {
+          "title": "Herbs going soft",
+          "text": "Blend into dressing, chop into eggs, or freeze in oil portions."
+        },
+        {
+          "title": "Half a cabbage",
+          "text": "Slaw one night, stir-fry the next."
+        },
+        {
+          "title": "Extra cooked grains",
+          "text": "Lunch bowls, soup thickener, or fried rice."
+        },
+        {
+          "title": "Bread ends",
+          "text": "Toast, croutons, or breadcrumbs if appropriate."
+        }
+      ]
+    }
+  ],
+  "delixio": {
+    "heading": "How Delixio supports less waste",
+    "paragraphs": [
+      "Delixio helps you generate ideas from ingredients you already have, remix leftovers, unlock full recipes when you want them, and create grocery lists only for what is missing. Meal planning can also reduce impulse shopping by giving upcoming dinners a place to land.",
+      "Delixio does not guarantee a specific waste or savings percentage. It is a practical cooking companion for ingredient-first meals."
+    ]
+  },
+  "related": [
+    {
+      "slug": "use-ingredients-before-they-expire",
+      "label": "Use ingredients before they expire"
+    },
+    {
+      "slug": "leftover-recipe-generator",
+      "label": "Leftover recipe generator"
+    },
+    {
+      "slug": "meal-planner-app",
+      "label": "Meal planner app"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is the simplest way to reduce food waste at home?",
+      "a": "Cook from a short “use soon” list before buying more groceries, and plan at least one leftover remix each week."
+    },
+    {
+      "q": "Can an app reduce food waste?",
+      "a": "An app can help you notice and cook what you already have. Habits still matter more than features."
+    },
+    {
+      "q": "Does Delixio claim to eliminate food waste?",
+      "a": "No. Delixio helps you cook with ingredients you already have; waste outcomes vary by household."
+    },
+    {
+      "q": "Where should I start this week?",
+      "a": "Open the fridge, pick three ingredients that need using, and build one meal around them: manually or with Delixio."
+    }
+  ],
+  "card_blurb": "Practical habits for ingredient-first cooking at home.",
+  "type": "landing"
+}

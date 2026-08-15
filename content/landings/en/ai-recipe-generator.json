@@ -1,0 +1,86 @@
+{
+  "slug": "ai-recipe-generator",
+  "cluster": "discovery",
+  "intent": "Understand AI recipe generators and how Delixio uses AI for ingredient-based meals",
+  "breadcrumb": "AI recipe generator",
+  "eyebrow": "AI cooking tools",
+  "title": "AI Recipe Generator – Personalized Meals from Your Ingredients",
+  "description": "An AI recipe generator can turn a list of ingredients and preferences into meal ideas. Learn how to use one well, and how Delixio generates personalized recipes on iPhone and Android.",
+  "h1": "AI recipe generator",
+  "intro": [
+    "An AI recipe generator creates meal ideas from prompts or ingredients. The useful versions for home cooks are not generic “give me dinner” chatbots. They are tools that respect what you already have, your preferences, and how much time you want to spend.",
+    "Delixio is an AI recipe app for that ingredient-first use case: you type the foods you have, set preferences and a cooking mode, explore free recipe ideas, then unlock full recipes when you want them."
+  ],
+  "sections": [
+    {
+      "heading": "What to tell an AI recipe generator",
+      "paragraphs": [
+        "Better inputs produce better meals. Include:"
+      ],
+      "list": [
+        "Ingredients you want to use",
+        "Ingredients you dislike (treated as hard excludes in Delixio)",
+        "Servings",
+        "Cooking time (for example under 30 minutes, 30–60, or 1 hour+)",
+        "Meal type (breakfast, lunch, dinner, or snack)",
+        "Diet preference (none, vegetarian, pescatarian, or vegan)",
+        "How strict to stay with what you already have"
+      ]
+    },
+    {
+      "heading": "How to judge AI recipe suggestions",
+      "paragraphs": [
+        "Treat AI output as a draft. Recipes are AI-assisted suggestions, always check ingredients and allergens yourself before cooking or serving.",
+        "Save the recipes that work. Over time, your favorites and custom lists become more valuable than endless new generations."
+      ]
+    },
+    {
+      "heading": "AI recipe generator vs generic recipe search",
+      "paragraphs": [
+        "Search engines are excellent when you already know the dish. An AI recipe generator is more helpful when the starting point is a fridge, leftovers, or a short list of ingredients with no named recipe in mind."
+      ]
+    }
+  ],
+  "delixio": {
+    "heading": "Delixio’s AI recipe workflow",
+    "paragraphs": [
+      "In Delixio, you enter ingredients, set cooking time, servings, meal type, and Strict / Flexible / Creative mode, then generate ideas. Ideas are free to explore. When you want the complete recipe, unlocking it uses 1 credit (your daily free full recipe is used first).",
+      "After that you can save recipes to lists, add notes and ratings, build a grocery list, plan meals on the calendar, and optionally export plans one-way to your device calendar. Languages: English, French, Italian, and Spanish.",
+      "Recipe ideas are free to explore. Unlocking a full recipe uses 1 credit, including 1 free full recipe every day. Optional packs are 6, 28, or 90 credits. No subscription."
+    ]
+  },
+  "related": [
+    {
+      "slug": "recipe-generator-from-ingredients",
+      "label": "Recipe generator from ingredients"
+    },
+    {
+      "slug": "what-can-i-cook-with-these-ingredients",
+      "label": "What can I cook with these ingredients?"
+    },
+    {
+      "slug": "fridge-recipe-app",
+      "label": "Fridge recipe app"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is Delixio an AI recipe generator?",
+      "a": "Yes. Delixio uses AI to create recipe ideas from ingredients you already have, then lets you unlock full recipes when you want them."
+    },
+    {
+      "q": "Does an AI recipe generator replace cooking skills?",
+      "a": "No. It helps with ideas and structure. You still cook, taste, and adjust, and you should review ingredients and allergens yourself."
+    },
+    {
+      "q": "Can Delixio follow diet preferences?",
+      "a": "Yes. You can set diet (none, vegetarian, pescatarian, or vegan) and disliked ingredients. Dislikes are treated as hard excludes in generation."
+    },
+    {
+      "q": "Do I need a subscription for Delixio?",
+      "a": "No. Delixio uses optional credit packs (6, 28, or 90) instead of a subscription. Recipe ideas are free to generate; full recipes use credits, including 1 free full recipe per day."
+    }
+  ],
+  "card_blurb": "Personalized meal ideas from ingredients and preferences.",
+  "type": "landing"
+}

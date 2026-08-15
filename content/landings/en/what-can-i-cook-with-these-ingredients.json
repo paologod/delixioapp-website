@@ -1,0 +1,118 @@
+{
+  "slug": "what-can-i-cook-with-these-ingredients",
+  "cluster": "discovery",
+  "intent": "Answer “what can I cook with what I have?” with a practical method",
+  "breadcrumb": "What can I cook?",
+  "eyebrow": "Dinner decisions",
+  "title": "What Can I Cook with These Ingredients? A Practical Guide",
+  "description": "Stuck staring at the fridge? Use this practical method to decide what to cook with the ingredients you already have, and see how Delixio can generate meal ideas for you.",
+  "h1": "What can I cook with these ingredients?",
+  "intro": [
+    "When people ask “what can I cook with these ingredients?”, they usually have a short list: half a zucchini, some eggs, rice, a lonely chicken breast, or yesterday’s roast vegetables. The goal is not a perfect cookbook meal. The goal is a tasty dinner without another trip to the store.",
+    "Start by naming your constraints, time, servings, and how willing you are to buy missing items, then match your ingredients to a cooking format. Delixio can do this automatically once you enter what you have."
+  ],
+  "sections": [
+    {
+      "heading": "Ask four questions first",
+      "list": [
+        "How much time do I have?",
+        "How many people am I cooking for?",
+        "What must be used soon (leftovers or produce that will not last)?",
+        "Am I cooking only with what I have, or can I add one small missing item?"
+      ],
+      "paragraphs": [
+        "Those answers prevent endless scrolling through recipes that do not fit your fridge or your evening."
+      ]
+    },
+    {
+      "heading": "Match ingredients to a meal format",
+      "paragraphs": [
+        "Once you know your ingredients, pick a format that can absorb leftovers well:"
+      ],
+      "examples": [
+        {
+          "title": "Skillet / stir-fry",
+          "text": "Best for mixed vegetables, leftover meat, eggs, tofu, or cooked rice."
+        },
+        {
+          "title": "Soup or stew",
+          "text": "Best when you have odds and ends of vegetables, beans, or leftover roast."
+        },
+        {
+          "title": "Pasta or noodles",
+          "text": "Best when you have a sauce base (tomatoes, cream, pesto, garlic-oil) plus a few add-ins."
+        },
+        {
+          "title": "Bowl or salad",
+          "text": "Best for cooked grains, greens, beans, cheese, and leftover protein."
+        },
+        {
+          "title": "Eggs for dinner",
+          "text": "Best when the fridge looks empty but you still have eggs, cheese, and a vegetable."
+        }
+      ]
+    },
+    {
+      "heading": "Example fridge lists and meal ideas",
+      "examples": [
+        {
+          "title": "Eggs, onion, cheese, tortillas",
+          "text": "Breakfast tacos or a folded omelette wrap with salsa if you have it."
+        },
+        {
+          "title": "Cooked rice, frozen peas, eggs, soy sauce",
+          "text": "Fried rice in under 20 minutes."
+        },
+        {
+          "title": "Chicken, potatoes, mustard, herbs",
+          "text": "Roast or skillet chicken with mustard potatoes."
+        },
+        {
+          "title": "Canned beans, tomatoes, spices, rice",
+          "text": "Bean stew over rice with whatever vegetables are left."
+        }
+      ]
+    }
+  ],
+  "delixio": {
+    "heading": "Let Delixio answer from your real fridge",
+    "paragraphs": [
+      "Open Delixio, type the ingredients you want to use, choose servings, cooking time, meal type, and Strict / Flexible / Creative mode, then generate free recipe ideas.",
+      "Unlock a full recipe when you are ready to cook (1 credit, with 1 free full recipe per day). If something is missing, add ingredients to your grocery list. You can also save recipes, rate them, add notes, mark them cooked, and schedule meals."
+    ]
+  },
+  "related": [
+    {
+      "slug": "recipe-generator-from-ingredients",
+      "label": "Recipe generator from ingredients"
+    },
+    {
+      "slug": "quick-dinner-ideas",
+      "label": "Quick dinner ideas"
+    },
+    {
+      "slug": "leftover-recipe-generator",
+      "label": "Leftover recipe generator"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What if I only have a few ingredients?",
+      "a": "Focus on one format that stretches food: eggs, pasta, rice bowls, soups, and skillet meals are usually the most forgiving."
+    },
+    {
+      "q": "Should I include spices and oil in my list?",
+      "a": "Yes if they matter for flavor. Even a short list of garlic, lemon, chili, soy sauce, or herbs can change the meal."
+    },
+    {
+      "q": "How does Delixio help with this question?",
+      "a": "You enter the ingredients you have and Delixio generates personalized recipe ideas around them. You can unlock full recipes with credits and add missing ingredients to a grocery list."
+    },
+    {
+      "q": "Can I avoid ingredients I dislike?",
+      "a": "Yes. In Delixio, disliked ingredients are treated as hard excludes during generation, and you can also set diet preferences."
+    }
+  ],
+  "card_blurb": "A simple method for fridge-first dinner decisions.",
+  "type": "landing"
+}

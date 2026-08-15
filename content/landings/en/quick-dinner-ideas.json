@@ -1,0 +1,99 @@
+{
+  "slug": "quick-dinner-ideas",
+  "cluster": "discovery",
+  "intent": "Find fast dinner ideas using ingredients on hand",
+  "breadcrumb": "Quick dinner ideas",
+  "eyebrow": "Weeknight cooking",
+  "title": "Quick Dinner Ideas from Ingredients You Already Have",
+  "description": "Need dinner fast? Use these quick dinner frameworks based on ingredients you already have, and generate personalized ideas in Delixio with your preferred cooking time.",
+  "h1": "Quick dinner ideas",
+  "intro": [
+    "Quick dinner ideas work best when they start from food already in your kitchen. The fastest meals usually share a pattern: one hot pan or pot, a short ingredient list, and a format you already know how to cook.",
+    "Below are frameworks you can reuse any weeknight. In Delixio you can set cooking time bands (under 30 minutes, 30–60, or 1 hour+) so suggestions fit your evening."
+  ],
+  "sections": [
+    {
+      "heading": "15–20 minute dinner frameworks",
+      "examples": [
+        {
+          "title": "Egg skillet",
+          "text": "Eggs plus any vegetable, cheese, or leftover meat. Serve with toast or tortillas."
+        },
+        {
+          "title": "Garlic oil pasta",
+          "text": "Pasta, olive oil, garlic, chili, and whatever greens or canned tuna you have."
+        },
+        {
+          "title": "Rice bowl reboot",
+          "text": "Microwave leftover rice, add a protein, a vegetable, and a strong sauce."
+        },
+        {
+          "title": "Quesadilla or wrap",
+          "text": "Tortillas, cheese, and fridge odds and ends toasted in a pan."
+        },
+        {
+          "title": "Soup shortcut",
+          "text": "Sauté onion/garlic, add stock or canned tomatoes, stir in leftovers or beans, finish with herbs."
+        }
+      ]
+    },
+    {
+      "heading": "A weeknight decision tree",
+      "steps": [
+        "If you have eggs → skillet or omelette.",
+        "If you have pasta or noodles → one-pan pasta with a simple sauce base.",
+        "If you have cooked grains → bowl or fried rice.",
+        "If you have tortillas → wraps or quesadillas.",
+        "If you have beans or lentils → quick stew or tacos.",
+        "If none of the above → roast or sauté the vegetable that must be used soon and add toast, eggs, or cheese."
+      ]
+    },
+    {
+      "heading": "Make speed easier tomorrow",
+      "paragraphs": [
+        "Keep a small set of fast staples stocked: eggs, tortillas, pasta, frozen vegetables, canned tomatoes, beans, and one favorite sauce. That pantry turns almost any leftover protein into dinner."
+      ]
+    }
+  ],
+  "delixio": {
+    "heading": "Ask Delixio for dinners that fit your time",
+    "paragraphs": [
+      "In Delixio, choose a cooking time band, add the ingredients you already have, pick Strict / Flexible / Creative mode, and generate free recipe ideas. Unlock a full recipe with 1 credit when you want to cook, including 1 free full recipe per day.",
+      "Saved recipes can go into the Quick dinners list so your best weeknight meals are easy to find again."
+    ]
+  },
+  "related": [
+    {
+      "slug": "what-can-i-cook-with-these-ingredients",
+      "label": "What can I cook with these ingredients?"
+    },
+    {
+      "slug": "leftover-recipe-generator",
+      "label": "Leftover recipe generator"
+    },
+    {
+      "slug": "meal-planner-app",
+      "label": "Meal planner app"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What makes a dinner “quick”?",
+      "a": "Usually under about 30 minutes, one main pan or pot, and ingredients that need little prep."
+    },
+    {
+      "q": "Can Delixio filter by cooking time?",
+      "a": "Yes. You can choose cooking time bands: under 30 minutes, 30–60 minutes, or 1 hour+, and Delixio suggests ideas that fit."
+    },
+    {
+      "q": "Are quick dinners always less healthy?",
+      "a": "Not necessarily. Eggs, beans, vegetables, yogurt, and whole grains can all be fast. Balance depends on what you cook | Delixio is not a nutrition or dietitian tool."
+    },
+    {
+      "q": "How do I avoid takeout on busy nights?",
+      "a": "Keep a short list of default frameworks and a stocked “fast pantry,” then cook from what you already have."
+    }
+  ],
+  "card_blurb": "Fast weeknight frameworks based on what you have.",
+  "type": "landing"
+}

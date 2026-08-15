@@ -1,0 +1,80 @@
+{
+  "slug": "meal-planner-app",
+  "cluster": "planning",
+  "intent": "Plan meals without complicated spreadsheets",
+  "breadcrumb": "Meal planner app",
+  "eyebrow": "Planning",
+  "title": "Meal Planner App – Plan Dinners from Real Ingredients",
+  "description": "Looking for a meal planner app that fits real life? Learn a lightweight planning method and how Delixio helps you save recipes and schedule meals on iPhone and Android.",
+  "h1": "Meal planner app",
+  "intro": [
+    "A meal planner app should reduce decision fatigue, not create a second job. The most sustainable plans are short, flexible, and based on food you will actually cook, often starting from ingredients already at home.",
+    "Delixio includes a meal calendar so you can save recipes and schedule meals after generating ideas from your ingredients. You can also export plans one-way to your device calendar."
+  ],
+  "sections": [
+    {
+      "heading": "A lightweight weekly planning method",
+      "steps": [
+        "List ingredients that should be used soon.",
+        "Choose 3–5 dinners max for the week (leave open nights).",
+        "Repeat one favorite to reduce decision load.",
+        "Plan one leftover remix night.",
+        "Make a grocery list only for gaps.",
+        "Adjust when plans change instead of forcing perfection."
+      ]
+    },
+    {
+      "heading": "What to look for in a meal planner",
+      "list": [
+        "Easy saving of recipes you liked",
+        "A calendar or schedule that is quick to edit",
+        "Connection to ingredients and grocery needs",
+        "Room for preferences and constraints",
+        "No requirement for an oversized weekly ritual"
+      ]
+    },
+    {
+      "heading": "Planning from recipes vs planning from the fridge",
+      "paragraphs": [
+        "Some planners start with recipe collections. That works if you love browsing. Ingredient-first planning works better when the fridge is already full and you need dinners that consume what you bought."
+      ]
+    }
+  ],
+  "delixio": {
+    "heading": "Plan meals in Delixio",
+    "paragraphs": [
+      "Generate ideas from your ingredients, unlock a full recipe when you want it, save it, then add it to the meal calendar (Today, 2 weeks, Month, or Year views). If ingredients are missing, build a grocery list, and you can plan a shopping day too.",
+      "Export is one-way to your device calendar (Delixio can create or update local calendar events). It is not two-way Google/Apple cloud sync."
+    ]
+  },
+  "related": [
+    {
+      "slug": "grocery-list-recipe-app",
+      "label": "Grocery list recipe app"
+    },
+    {
+      "slug": "quick-dinner-ideas",
+      "label": "Quick dinner ideas"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Does Delixio include meal planning?",
+      "a": "Yes. Delixio includes a meal calendar for planning meals and shopping entries ahead."
+    },
+    {
+      "q": "Do I have to plan every day?",
+      "a": "No. Many people plan only a few dinners and leave flexible nights."
+    },
+    {
+      "q": "Can I schedule a recipe in Delixio?",
+      "a": "Yes. You can add recipes to the meal calendar to schedule when you want to cook them, and optionally export those plans one-way to your device calendar."
+    },
+    {
+      "q": "Is meal planning only for large households?",
+      "a": "No. Even cooking for one is easier with a short plan and leftover strategy."
+    }
+  ],
+  "card_blurb": "Plan a few real dinners without an oversized weekly ritual.",
+  "type": "landing"
+}
