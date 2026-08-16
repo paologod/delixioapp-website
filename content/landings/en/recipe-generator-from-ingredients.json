@@ -97,5 +97,8 @@
     }
   ],
   "card_blurb": "Turn foods you already have into practical meal ideas.",
-  "type": "landing"
+  "type": "landing",
+  "content_type": "landing",
+  "status": "published",
+  "language": "en"
 }

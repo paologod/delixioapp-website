@@ -20,26 +20,61 @@
     "related"
   ],
   "properties": {
-    "type": { "const": "guide" },
+    "type": {
+      "const": "guide"
+    },
     "slug": {
       "type": "string",
       "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
-      "not": { "enum": ["dinner", "leftovers", "pantry", "planning"] }
+      "not": {
+        "enum": [
+          "dinner",
+          "leftovers",
+          "pantry",
+          "planning"
+        ]
+      }
     },
     "category": {
       "type": "string",
-      "enum": ["dinner", "leftovers", "pantry", "planning"]
+      "enum": [
+        "dinner",
+        "leftovers",
+        "pantry",
+        "planning"
+      ]
     },
-    "card_blurb": { "type": "string", "minLength": 1 },
-    "breadcrumb": { "type": "string", "minLength": 1 },
-    "eyebrow": { "type": "string", "minLength": 1 },
-    "title": { "type": "string", "minLength": 1 },
-    "description": { "type": "string", "minLength": 1 },
-    "h1": { "type": "string", "minLength": 1 },
+    "card_blurb": {
+      "type": "string",
+      "minLength": 1
+    },
+    "breadcrumb": {
+      "type": "string",
+      "minLength": 1
+    },
+    "eyebrow": {
+      "type": "string",
+      "minLength": 1
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1
+    },
+    "h1": {
+      "type": "string",
+      "minLength": 1
+    },
     "intro": {
       "type": "array",
       "minItems": 1,
-      "items": { "type": "string", "minLength": 1 }
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
     },
     "sections": {
       "type": "array",
@@ -47,20 +82,30 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["heading"],
+        "required": [
+          "heading"
+        ],
         "properties": {
-          "heading": { "type": "string" },
+          "heading": {
+            "type": "string"
+          },
           "paragraphs": {
             "type": "array",
-            "items": { "type": "string" }
+            "items": {
+              "type": "string"
+            }
           },
           "list": {
             "type": "array",
-            "items": { "type": "string" }
+            "items": {
+              "type": "string"
+            }
           },
           "steps": {
             "type": "array",
-            "items": { "type": "string" }
+            "items": {
+              "type": "string"
+            }
           }
         }
       }
@@ -68,13 +113,19 @@
     "delixio": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["paragraphs"],
+      "required": [
+        "paragraphs"
+      ],
       "properties": {
-        "heading": { "type": "string" },
+        "heading": {
+          "type": "string"
+        },
         "paragraphs": {
           "type": "array",
           "minItems": 1,
-          "items": { "type": "string" }
+          "items": {
+            "type": "string"
+          }
         }
       }
     },
@@ -84,28 +135,79 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["label"],
+        "required": [
+          "label"
+        ],
         "properties": {
-          "label": { "type": "string" },
-          "slug": { "type": "string" },
-          "type": { "type": "string", "enum": ["landing", "guide"] },
-          "href": { "type": "string" }
+          "label": {
+            "type": "string"
+          },
+          "slug": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string",
+            "enum": [
+              "landing",
+              "guide"
+            ]
+          },
+          "href": {
+            "type": "string"
+          }
         }
       }
     },
     "image": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["file", "alt"],
+      "required": [
+        "file",
+        "alt"
+      ],
       "properties": {
         "file": {
           "type": "string",
           "description": "Filename only under assets/guides/",
           "pattern": "^[A-Za-z0-9._-]+\\.(webp|jpg|jpeg|png)$"
         },
-        "alt": { "type": "string", "minLength": 1 },
-        "credit": { "type": "string" }
+        "alt": {
+          "type": "string",
+          "minLength": 1
+        },
+        "credit": {
+          "type": "string"
+        }
       }
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "published",
+        "draft"
+      ]
+    },
+    "language": {
+      "type": "string"
+    },
+    "content_type": {
+      "type": "string",
+      "const": "guide"
+    },
+    "primary_intent": {
+      "type": "string"
+    },
+    "delixio_capability": {
+      "type": "string"
+    },
+    "datePublished": {
+      "type": "string"
+    },
+    "dateModified": {
+      "type": "string"
+    },
+    "author": {
+      "type": "string"
     }
   }
 }

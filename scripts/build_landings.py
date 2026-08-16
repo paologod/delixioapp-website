@@ -266,6 +266,15 @@ def render_page(data: dict, locale: str = "en") -> str:
             f'        <li><a href="/{rel["slug"]}/">{esc_text(rel["label"])}</a></li>'
         )
 
+    related_block = ""
+    if related_html:
+        related_block = (
+            "\n      <h2>Related</h2>\n"
+            '      <ul class="landing-related">\n'
+            + "\n".join(related_html)
+            + "\n      </ul>\n"
+        )
+
     delixio = data.get("delixio", {})
     delixio_parts = [f'      <h2>{esc_text(delixio.get("heading", "How Delixio helps"))}</h2>']
     for p in delixio.get("paragraphs", []):
@@ -309,9 +318,7 @@ def render_page(data: dict, locale: str = "en") -> str:
   <script type="application/ld+json">
 {json.dumps(webpage, ensure_ascii=False, indent=2)}
   </script>
-  <script type="application/ld+json">
-{render_faq_jsonld(data.get("faq", []))}
-  </script>
+{('  <script type="application/ld+json">\n' + render_faq_jsonld(data.get("faq", [])) + '\n  </script>') if data.get('faq') else ''}
 </head>
 <body class="page-download page-internal">
 {site_header("../assets/", current=None)}
@@ -329,12 +336,7 @@ def render_page(data: dict, locale: str = "en") -> str:
 {chr(10).join(sections_html)}
 
 {chr(10).join(delixio_parts)}
-
-      <h2>Related</h2>
-      <ul class="landing-related">
-{chr(10).join(related_html)}
-      </ul>
-
+{related_block}
       <div class="landing-download">
         <h2>Try Delixio</h2>
         <p>Delixio is currently available for iPhone and Android. Type the ingredients you already have, explore free recipe ideas, then unlock a full recipe when you want to cook. You get 1 free full recipe every day, plus optional credit packs. No subscription.</p>
@@ -494,11 +496,21 @@ def render_guide_page(data: dict, locale: str = "en") -> str:
     webpage = {
         "@context": "https://schema.org",
         "@type": "Article",
+        "headline": h1,
         "name": title,
         "url": url,
         "description": description,
-        "headline": h1,
+        "mainEntityOfPage": {"@type": "WebPage", "@id": url},
         "isPartOf": {"@type": "WebSite", "name": "Delixio", "url": f"{SITE}/"},
+        "publisher": {
+            "@type": "Organization",
+            "name": "Delixio",
+            "url": f"{SITE}/",
+            "logo": {
+                "@type": "ImageObject",
+                "url": f"{SITE}/assets/logo.webp",
+            },
+        },
         "about": {
             "@type": "SoftwareApplication",
             "name": "Delixio",
@@ -506,11 +518,20 @@ def render_guide_page(data: dict, locale: str = "en") -> str:
             "operatingSystem": "iOS, Android",
         },
     }
+    author = (data.get("author") or "").strip()
+    if author:
+        webpage["author"] = {"@type": "Organization", "name": author}
+    if data.get("datePublished"):
+        webpage["datePublished"] = data["datePublished"]
+    if data.get("dateModified"):
+        webpage["dateModified"] = data["dateModified"]
+    elif data.get("datePublished"):
+        webpage["dateModified"] = data["datePublished"]
 
     image = guide_image_meta(data)
     og_image = image["abs_url"] if image else OG_IMAGE
     if image:
-        webpage["image"] = image["abs_url"]
+        webpage["image"] = [image["abs_url"]]
 
     sections_html = []
     for section in data.get("sections", []):
@@ -950,9 +971,126 @@ def write_explore_redirect() -> None:
     (explore_dir / "index.html").write_text(html, encoding="utf-8")
 
 
+def write_redirects() -> list[str]:
+    """Write soft redirect HTML for retired URLs. Returns paths to exclude from sitemap."""
+    redirects_path = ROOT / "content" / "redirects.json"
+    if not redirects_path.exists():
+        return []
+    redirects = json.loads(redirects_path.read_text(encoding="utf-8"))
+    excluded: list[str] = []
+    for item in redirects:
+        src = item["from"].rstrip("/") + "/"
+        dest = item["to"]
+        excluded.append(src)
+        # Map /guides/slug/ -> guides/slug/index.html
+        rel = src.strip("/")
+        out_dir = ROOT / rel
+        out_dir.mkdir(parents=True, exist_ok=True)
+        html = f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex, follow">
+  <link rel="canonical" href="{SITE}{dest}">
+  <meta http-equiv="refresh" content="0; url={dest}">
+  <title>Redirecting…</title>
+</head>
+<body>
+  <p>This page has moved to <a href="{esc(dest)}">{esc_text(dest)}</a>.</p>
+</body>
+</html>
+"""
+        (out_dir / "index.html").write_text(html, encoding="utf-8")
+        print(f"Wrote redirect {out_dir / 'index.html'} -> {dest}")
+    return excluded
+
+
+def run_content_quality_checks(
+    landing_pages: list[dict],
+    guide_pages: list[dict],
+) -> None:
+    """Warn about structural content issues (non-fatal)."""
+    warnings: list[str] = []
+    titles: dict[str, list[str]] = {}
+    slugs: dict[str, list[str]] = {}
+
+    def note_title(title: str, url: str) -> None:
+        titles.setdefault(title.strip().lower(), []).append(url)
+
+    def note_slug(slug: str, kind: str) -> None:
+        slugs.setdefault(slug, []).append(kind)
+
+    for page in landing_pages:
+        slug = page["slug"]
+        note_slug(slug, "landing")
+        note_title(page.get("title", ""), f"/{slug}/")
+        if not page.get("description"):
+            warnings.append(f"landing {slug}: missing description")
+        if not page.get("h1"):
+            warnings.append(f"landing {slug}: missing h1")
+        related = page.get("related") or []
+        if not related:
+            warnings.append(f"landing {slug}: empty related")
+        elif len(related) < 2:
+            warnings.append(f"landing {slug}: related has fewer than 2 links")
+
+    for page in guide_pages:
+        slug = page["slug"]
+        note_slug(slug, "guide")
+        note_title(page.get("title", ""), f"/guides/{slug}/")
+        if page.get("type") not in (None, "guide") and page.get("content_type") == "landing":
+            warnings.append(f"guide {slug}: landing content_type on guide path")
+        if not page.get("description"):
+            warnings.append(f"guide {slug}: missing description")
+        if not page.get("h1"):
+            warnings.append(f"guide {slug}: missing h1")
+        if not page.get("datePublished"):
+            warnings.append(f"guide {slug}: missing datePublished")
+        if not page.get("author"):
+            warnings.append(f"guide {slug}: missing author")
+        related = page.get("related") or []
+        if not related:
+            warnings.append(f"guide {slug}: empty related")
+
+    for slug, kinds in slugs.items():
+        if len(kinds) > 1:
+            warnings.append(f"duplicate slug across types: {slug} ({', '.join(kinds)})")
+
+    for title, urls in titles.items():
+        if title and len(urls) > 1:
+            warnings.append(f"duplicate title '{title}' on {', '.join(urls)}")
+
+    # Broken related targets
+    landing_slugs = {p["slug"] for p in landing_pages}
+    guide_slugs = {p["slug"] for p in guide_pages}
+    for page in landing_pages + guide_pages:
+        for rel in page.get("related") or []:
+            target = rel.get("slug")
+            if not target:
+                continue
+            if rel.get("type") == "guide":
+                if target not in guide_slugs:
+                    warnings.append(
+                        f"{page.get('slug')}: related guide missing: {target}"
+                    )
+            else:
+                if target not in landing_slugs and not rel.get("href"):
+                    warnings.append(
+                        f"{page.get('slug')}: related landing missing: {target}"
+                    )
+
+    if warnings:
+        print("Content quality warnings:")
+        for w in warnings:
+            print(f"  - {w}")
+    else:
+        print("Content quality checks: OK")
+
+
 def main() -> None:
     landing_paths: list[str] = []
     guide_paths: list[str] = []
+    landing_pages: list[dict] = []
     locales = sorted(p.name for p in CONTENT_DIR.iterdir() if p.is_dir())
     if not locales:
         raise SystemExit(f"No locale directories found under {CONTENT_DIR}")
@@ -969,6 +1107,9 @@ def main() -> None:
             page_type = data.get("type", "landing")
             if page_type != "landing":
                 raise SystemExit(f"{path} must have type=landing (got {page_type})")
+            if data.get("status", "published") != "published":
+                print(f"Skipping unpublished landing {path}")
+                continue
             data["type"] = "landing"
             html_out = render_page(data, locale=locale)
             out_dir = output_dir(slug, locale)
@@ -976,6 +1117,8 @@ def main() -> None:
             (out_dir / "index.html").write_text(html_out, encoding="utf-8")
             prefix = LOCALE_META[locale]["dir_prefix"]
             landing_paths.append(f"/{prefix}{slug}/")
+            if locale == "en":
+                landing_pages.append(data)
             print(f"Wrote landing {out_dir / 'index.html'}")
 
     en_guides: list[dict] = []
@@ -992,6 +1135,9 @@ def main() -> None:
                 raise SystemExit(
                     f"guide slug '{slug}' collides with reserved category path /guides/{slug}/"
                 )
+            if data.get("status", "published") != "published":
+                print(f"Skipping unpublished guide {path}")
+                continue
             image = guide_image_meta(data)
             if data.get("image") and not image:
                 raise SystemExit(f"{path}: invalid image.file (use filename only under assets/guides/)")
@@ -1029,10 +1175,15 @@ def main() -> None:
     print(f"Wrote {guides_dir / 'index.html'}")
     write_explore_redirect()
     print(f"Wrote {ROOT / 'explore' / 'index.html'} (redirect)")
+    redirect_paths = write_redirects()
 
     all_extra = landing_paths + guide_paths + category_paths
+    # redirects are written but excluded from sitemap
     write_sitemap(all_extra)
     print(f"Updated sitemap.xml ({len(STATIC_SITEMAP) + len(all_extra)} URLs)")
+    if redirect_paths:
+        print(f"Redirect pages excluded from sitemap: {', '.join(redirect_paths)}")
+    run_content_quality_checks(landing_pages, en_guides)
 
 
 if __name__ == "__main__":

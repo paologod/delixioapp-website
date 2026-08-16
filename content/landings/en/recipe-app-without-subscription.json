@@ -71,5 +71,8 @@
     }
   ],
   "card_blurb": "A recipe app for ingredient-first cooking without a monthly subscription.",
-  "type": "landing"
+  "type": "landing",
+  "content_type": "landing",
+  "status": "published",
+  "language": "en"
 }

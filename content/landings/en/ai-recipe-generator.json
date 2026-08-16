@@ -82,5 +82,8 @@
     }
   ],
   "card_blurb": "Personalized meal ideas from ingredients and preferences.",
-  "type": "landing"
+  "type": "landing",
+  "content_type": "landing",
+  "status": "published",
+  "language": "en"
 }

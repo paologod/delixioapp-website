@@ -1,0 +1,99 @@
+{
+  "type": "guide",
+  "content_type": "guide",
+  "status": "published",
+  "language": "en",
+  "author": "Delixio Editorial Team",
+  "datePublished": "2026-08-16",
+  "dateModified": "2026-08-16",
+  "slug": "how-to-turn-leftovers-into-a-completely-different-dinner",
+  "category": "leftovers",
+  "primary_intent": "Learn how to transform leftovers into a different meal instead of reheating the same dish",
+  "delixio_capability": "leftover recipe ideas from ingredients you enter",
+  "card_blurb": "A practical method for turning leftover rice, vegetables, protein, and sauces into a different dinner.",
+  "breadcrumb": "Turn leftovers into a different dinner",
+  "eyebrow": "Leftovers",
+  "title": "How to Turn Leftovers Into a Completely Different Dinner",
+  "description": "Learn how to reuse leftover rice, roasted vegetables, cooked protein, and sauces by changing the meal format, flavour, and texture.",
+  "h1": "How to turn leftovers into a completely different dinner",
+  "intro": [
+    "Reheating yesterday’s dinner is fine. The more useful skill is turning leftovers into a meal that feels new.",
+    "That usually means changing three things: the format, the flavour direction, and the texture. Cooked rice can become fried rice. Roast vegetables can become a pasta sauce or frittata filling. Leftover chicken can become wraps, soup, or a grain bowl.",
+    "This guide is about that kitchen method. If you want software that suggests recipes from the leftovers you type in, see Delixio’s leftover recipe generator."
+  ],
+  "sections": [
+    {
+      "heading": "Start with what needs using first",
+      "paragraphs": [
+        "List the leftovers that will not last: cooked grains, roasted vegetables, open sauces, cooked protein, soft herbs, and cut produce.",
+        "Build dinner around the most urgent item. Pantry staples can fill gaps, but they should not decide the meal if something perishable is waiting."
+      ]
+    },
+    {
+      "heading": "Change the format before you change the shopping list",
+      "paragraphs": [
+        "Most leftover wins come from a format swap:",
+        "- Cooked rice or grains → fried rice, bowls, soup, stuffed wraps.",
+        "- Roast vegetables → pasta, frittata, toast topping, blended soup.",
+        "- Cooked protein → wraps, salad, tacos, fried rice, quick stew.",
+        "- Bread → toast dinner, breadcrumbs, panzanella-style salad.",
+        "- Sauce leftovers → pasta coating, bowl dressing, wrap spread.",
+        "Ask: “What shape of dinner fits this food?” before searching for a named recipe."
+      ]
+    },
+    {
+      "heading": "Add contrast so it does not taste like leftovers",
+      "paragraphs": [
+        "A second meal feels new when you add contrast:",
+        "- Acid: lemon, vinegar, pickles, yoghurt.",
+        "- Heat: chilli, black pepper, mustard, hot sauce.",
+        "- Freshness: herbs, salad leaves, cucumber, spring onion.",
+        "- Crunch: toast, seeds, nuts, crispy onions.",
+        "You do not need many extras. One sharp finish is often enough."
+      ]
+    },
+    {
+      "heading": "A simple leftover remix example",
+      "paragraphs": [
+        "Suppose you have leftover roast chicken, half a pepper, cooked potatoes, and a spoon of mustard.",
+        "Instead of reheating the plate, turn it into a skillet hash: crisp the potatoes, add pepper and chicken, finish with mustard and herbs.",
+        "Same ingredients. Different dinner."
+      ]
+    }
+  ],
+  "delixio": {
+    "heading": "Where Delixio helps",
+    "paragraphs": [
+      "Once you know the leftovers you want to use, [[/leftover-recipe-generator/|Delixio’s leftover recipe generator]] can turn that list into free recipe ideas. Choose Strict mode to stay close to what you have, or Flexible if one extra item would finish the meal.",
+      "Unlock a full recipe when you want steps and details (1 credit, with 1 free full recipe every day). You can save what works, add missing items to a grocery list, and plan meals on the calendar.",
+      "Recipes are AI-assisted suggestions. Always check ingredients and allergens yourself before cooking."
+    ]
+  },
+  "related": [
+    {
+      "slug": "leftover-recipes-that-start-with-what-is-already-in-your-fridge",
+      "label": "Leftover recipes that start with what is already in your fridge",
+      "type": "guide"
+    },
+    {
+      "slug": "leftover-recipe-generator",
+      "label": "Leftover recipe generator",
+      "type": "landing"
+    },
+    {
+      "slug": "reduce-food-waste",
+      "label": "Reduce food waste",
+      "type": "landing"
+    },
+    {
+      "slug": "use-ingredients-before-they-expire",
+      "label": "Use ingredients before they expire",
+      "type": "landing"
+    }
+  ],
+  "image": {
+    "file": "how-a-leftover-recipe-generator-helps-you-waste-less-food.webp",
+    "alt": "Leftover rice, eggs, peas, carrots, and soy sauce ready to become a different dinner.",
+    "credit": ""
+  }
+}

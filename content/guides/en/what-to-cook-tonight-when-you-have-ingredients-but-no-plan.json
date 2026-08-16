@@ -87,6 +87,11 @@
   },
   "related": [
     {
+      "slug": "quick-dinner-ideas-with-what-you-already-have-at-home",
+      "label": "How to build a quick weeknight dinner from what you have",
+      "type": "guide"
+    },
+    {
       "slug": "what-can-i-cook-with-these-ingredients",
       "label": "What can I cook with these ingredients?",
       "type": "landing"
@@ -95,16 +100,19 @@
       "slug": "recipe-generator-from-ingredients",
       "label": "Recipe generator from ingredients",
       "type": "landing"
-    },
-    {
-      "slug": "quick-dinner-ideas",
-      "label": "Quick dinner ideas",
-      "type": "landing"
     }
   ],
   "image": {
     "file": "what-to-cook-tonight-when-you-have-ingredients-but-no-plan.webp",
     "alt": "A kitchen counter with rice, eggs, spinach, tomatoes, cheese, and herbs arranged for a simple weeknight dinner.",
     "credit": ""
-  }
+  },
+  "status": "published",
+  "language": "en",
+  "author": "Delixio Editorial Team",
+  "datePublished": "2026-08-16",
+  "dateModified": "2026-08-16",
+  "content_type": "guide",
+  "primary_intent": "Decide what to cook tonight from ingredients on hand",
+  "delixio_capability": "ingredient-to-recipe ideas"
 }

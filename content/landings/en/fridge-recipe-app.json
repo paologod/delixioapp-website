@@ -80,5 +80,8 @@
     }
   ],
   "card_blurb": "Cook from what’s in your fridge, not from a shopping list.",
-  "type": "landing"
+  "type": "landing",
+  "content_type": "landing",
+  "status": "published",
+  "language": "en"
 }

@@ -88,5 +88,8 @@
     }
   ],
   "card_blurb": "Shop only for the ingredients you’re actually missing.",
-  "type": "landing"
+  "type": "landing",
+  "content_type": "landing",
+  "status": "published",
+  "language": "en"
 }

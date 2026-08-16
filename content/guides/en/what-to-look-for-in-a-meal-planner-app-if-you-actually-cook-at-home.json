@@ -80,6 +80,11 @@
   },
   "related": [
     {
+      "slug": "how-to-plan-meals-for-the-week-without-making-dinner-feel-like-homework",
+      "label": "How to plan meals for the week",
+      "type": "guide"
+    },
+    {
       "slug": "meal-planner-app",
       "label": "Meal planner app",
       "type": "landing"
@@ -88,16 +93,19 @@
       "slug": "grocery-list-recipe-app",
       "label": "Grocery list recipe app",
       "type": "landing"
-    },
-    {
-      "slug": "recipe-app-without-subscription",
-      "label": "Recipe app without subscription",
-      "type": "landing"
     }
   ],
   "image": {
     "file": "what-to-look-for-in-a-meal-planner-app-if-you-actually-cook-at-home.webp",
     "alt": "Ingredients and a blank meal planning sheet arranged on a kitchen table.",
     "credit": ""
-  }
+  },
+  "status": "published",
+  "language": "en",
+  "author": "Delixio Editorial Team",
+  "datePublished": "2026-08-16",
+  "dateModified": "2026-08-16",
+  "content_type": "guide",
+  "primary_intent": "Evaluate meal planner apps for real home cooking",
+  "delixio_capability": "meal calendar with optional one-way calendar export"
 }

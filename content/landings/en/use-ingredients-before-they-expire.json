@@ -50,7 +50,10 @@
     {
       "heading": "Date labels without panic",
       "paragraphs": [
-        "“Best before” often relates to quality, while “use by” is more safety-sensitive for perishable foods. When unsure, rely on storage guidance and sensory checks, and follow local food-safety advice. This page is practical kitchen guidance, not medical or food-safety certification."
+        "“Best before” generally relates to food quality. Food may still be usable after that date if it has been stored properly, though quality can decline.",
+        "“Use by” relates to food safety for highly perishable foods. Do not eat food after its use-by date, even if it looks or smells normal.",
+        "Sensory checks (look, smell, texture) can help you judge quality for some best-before foods together with proper storage guidance. They are not a substitute for respecting use-by dates.",
+        "This page is practical kitchen guidance, not medical or food-safety certification. Follow local food-safety advice when unsure."
       ]
     }
   ],
@@ -94,5 +97,8 @@
     }
   ],
   "card_blurb": "Build a use-soon habit and cook priority ingredients first.",
-  "type": "landing"
+  "type": "landing",
+  "content_type": "landing",
+  "status": "published",
+  "language": "en"
 }

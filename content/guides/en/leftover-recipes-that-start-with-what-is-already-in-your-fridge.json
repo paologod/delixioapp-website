@@ -97,6 +97,11 @@
   },
   "related": [
     {
+      "slug": "how-to-turn-leftovers-into-a-completely-different-dinner",
+      "label": "How to turn leftovers into a completely different dinner",
+      "type": "guide"
+    },
+    {
       "slug": "leftover-recipe-generator",
       "label": "Leftover recipe generator",
       "type": "landing"
@@ -105,16 +110,19 @@
       "slug": "reduce-food-waste",
       "label": "Reduce food waste",
       "type": "landing"
-    },
-    {
-      "slug": "use-ingredients-before-they-expire",
-      "label": "Use ingredients before they expire",
-      "type": "landing"
     }
   ],
   "image": {
     "file": "leftover-recipes-that-start-with-what-is-already-in-your-fridge.webp",
     "alt": "Leftover rice, vegetables, beans, herbs, and cheese arranged for a new meal.",
     "credit": ""
-  }
+  },
+  "status": "published",
+  "language": "en",
+  "author": "Delixio Editorial Team",
+  "datePublished": "2026-08-16",
+  "dateModified": "2026-08-16",
+  "content_type": "guide",
+  "primary_intent": "Reuse cooked food and fridge odds into practical leftover meals",
+  "delixio_capability": "leftover recipe ideas from ingredients you enter"
 }

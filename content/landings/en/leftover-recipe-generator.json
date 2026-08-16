@@ -94,5 +94,8 @@
     }
   ],
   "card_blurb": "Remix yesterday’s food into a new meal.",
-  "type": "landing"
+  "type": "landing",
+  "content_type": "landing",
+  "status": "published",
+  "language": "en"
 }

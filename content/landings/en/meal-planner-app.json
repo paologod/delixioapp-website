@@ -76,5 +76,8 @@
     }
   ],
   "card_blurb": "Plan a few real dinners without an oversized weekly ritual.",
-  "type": "landing"
+  "type": "landing",
+  "content_type": "landing",
+  "status": "published",
+  "language": "en"
 }

@@ -2,19 +2,19 @@
   "type": "guide",
   "slug": "quick-dinner-ideas-with-what-you-already-have-at-home",
   "category": "dinner",
-  "card_blurb": "Fast dinner ideas using fridge, freezer, and pantry ingredients you already have, from eggs and pasta to rice, beans, wraps, and leftovers.",
-  "breadcrumb": "Quick Dinner Ideas With What You Already Have at Home",
+  "card_blurb": "A practical framework for building a fast weeknight dinner from fridge, freezer, and pantry foods you already have.",
+  "breadcrumb": "Build a quick weeknight dinner",
   "eyebrow": "Dinner",
-  "title": "Quick Dinner Ideas With What You Already Have at Home",
-  "description": "Fast dinner ideas using fridge, freezer, and pantry ingredients you already have, from eggs and pasta to rice, beans, wraps, and leftovers.",
-  "h1": "Quick Dinner Ideas With What You Already Have at Home",
+  "title": "How to Build a Quick Weeknight Dinner From What You Have",
+  "description": "A practical cooking framework for turning fridge, freezer, and pantry ingredients into a fast weeknight dinner without starting from a blank recipe search.",
+  "h1": "How to build a quick weeknight dinner from what you have",
   "intro": [
-    "Before you order takeaway, check your kitchen like a cook, not like a disappointed shopper.",
-    "Most quick dinners come from the same few moves: use a base, add something filling, bring in flavour, and make the plate feel finished. You do not need a full grocery shop. You need a useful way to combine what is already there."
+    "This guide is about the cooking method, not an app feature list. The goal is a dinner framework you can reuse on busy nights: check what you have, choose a fast format, and finish the plate with flavour and texture.",
+    "If you want Delixio to generate timed meal ideas from ingredients you enter, use the [[/quick-dinner-ideas/|quick dinner ideas]] solution page after you understand the kitchen approach below."
   ],
   "sections": [
     {
-      "heading": "First, check three places",
+      "heading": "Check the kitchen before you search for recipes",
       "paragraphs": [
         "Look in this order:",
         "1. **Fridge:** fresh ingredients, leftovers, open jars, cheese, eggs, herbs. 2. **Freezer:** vegetables, bread, protein, cooked rice, stock, odds and ends. 3. **Pantry:** pasta, rice, noodles, beans, lentils, tinned tomatoes, wraps, spices.",
@@ -84,18 +84,18 @@
   },
   "related": [
     {
-      "slug": "what-can-i-cook-with-these-ingredients",
-      "label": "What can I cook with these ingredients?",
-      "type": "landing"
-    },
-    {
-      "slug": "recipe-generator-from-ingredients",
-      "label": "Recipe generator from ingredients",
-      "type": "landing"
+      "slug": "what-to-cook-tonight-when-you-have-ingredients-but-no-plan",
+      "label": "What to cook tonight when you have ingredients but no plan",
+      "type": "guide"
     },
     {
       "slug": "quick-dinner-ideas",
-      "label": "Quick dinner ideas",
+      "label": "Quick dinner ideas (Delixio solution)",
+      "type": "landing"
+    },
+    {
+      "slug": "what-can-i-cook-with-these-ingredients",
+      "label": "What can I cook with these ingredients?",
       "type": "landing"
     }
   ],
@@ -103,5 +103,13 @@
     "file": "quick-dinner-ideas-with-what-you-already-have-at-home.webp",
     "alt": "Pantry and fridge ingredients arranged for a quick weeknight dinner.",
     "credit": ""
-  }
+  },
+  "status": "published",
+  "language": "en",
+  "author": "Delixio Editorial Team",
+  "datePublished": "2026-08-16",
+  "dateModified": "2026-08-16",
+  "content_type": "guide",
+  "primary_intent": "Learn a practical framework for fast weeknight dinners from food already at home",
+  "delixio_capability": "quick dinner ideas with cooking time preferences"
 }

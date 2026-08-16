@@ -27,10 +27,16 @@ Verify these respond **200** without cookies or JavaScript:
 - [ ] `https://delixioapp.com/how-it-works/`
 - [ ] `https://delixioapp.com/download/`
 
+## Cookies and auth
+
+- [ ] Public product, landing, and guide pages return **200** without requiring cookies or login
+- [ ] Sitemap and robots are reachable without authentication
+
 ## Redirects (recommended)
 
 - [ ] `http://` → `https://delixioapp.com/`
 - [ ] `www` → apex `delixioapp.com`
 - [ ] `/index.html` and `/*/index.html` → clean trailing-slash directory URLs
+- [ ] Permanent **301**: `/guides/how-a-leftover-recipe-generator-helps-you-waste-less-food/` → `/guides/how-to-turn-leftovers-into-a-completely-different-dinner/` (repo currently ships meta refresh + `noindex`; Cloudflare 301 is preferred)
 
-See also `docs/SEO_CANONICALIZATION.md`.
+See also `docs/SEO_CANONICALIZATION.md` and `docs/CONTENT_AUDIT_2026-08.md`.

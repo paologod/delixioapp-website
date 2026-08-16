@@ -50,6 +50,19 @@ Homepage “Cooking guides” section links to `/guides/` only. Do **not** featu
 4. Run `python3 scripts/validate_guide.py content/guides/en/<slug>.json` then `python3 scripts/build_landings.py`
 5. Optionally feature it on the homepage (max ~4 cards)
 
-Do not create thin placeholder guides.
+Guide metadata should support at minimum:
 
-See also `docs/GUIDE_AUTHORING.md`, `docs/CONTENT_LANDINGS.md`, `content/guides/README.md`, and the product knowledge base `DELIXIO_CONTENT_KNOWLEDGE.md` (in the Delixio app repo) for approved claims.
+* title, slug, description, language
+* content type (`guide`)
+* category
+* primary intent
+* related pages
+* relevant Delixio capability
+* datePublished, dateModified
+* author
+* publication status (`published` | `draft`)
+
+Draft/unpublished content (`"status": "draft"`) is skipped by `scripts/build_landings.py` and must not become publicly accessible.
+
+See `docs/GUIDE_AUTHORING.md` and `docs/CONTENT_AUDIT_2026-08.md`.
+

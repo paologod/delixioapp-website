@@ -27,28 +27,23 @@ Sources of truth:
 
 Reserved: do not use `dinner`, `leftovers`, `pantry`, or `planning` as article slugs.
 
-## JSON file
+## Required JSON fields (Ava / publishing)
 
-Path: `content/guides/en/<slug>.json`  
-Public URL after build: `/guides/<slug>/`
+Include at minimum:
 
-### Required
+- `type`: `"guide"`
+- `status`: `"published"` or `"draft"` (drafts are **not** built into public HTML)
+- `language`: e.g. `"en"`
+- `category`, `slug`, `title`, `description`, `h1`, `card_blurb`
+- `primary_intent`: the educational question this guide owns
+- `delixio_capability`: which Delixio capability it should hand off to
+- `datePublished`, `dateModified`, `author` (e.g. `"Delixio Editorial Team"`)
+- `related`: 2–4 items mixing relevant guides and intent landings
+- `intro`, `sections`, `delixio`
 
-| Field | Notes |
-|-------|--------|
-| `type` | Always `"guide"` |
-| `slug` | Must match filename stem |
-| `category` | One of the four keys above |
-| `card_blurb` | Short text for cards |
-| `breadcrumb` | Short crumb label |
-| `eyebrow` | Section label (e.g. Leftovers) |
-| `title` | Document title (SEO) |
-| `description` | Meta description |
-| `h1` | Page headline |
-| `intro` | Array of paragraphs |
-| `sections` | Array of `{ heading, paragraphs?, list?, steps? }` |
-| `delixio` | `{ heading, paragraphs }` with KB-safe claims |
-| `related` | 2–4 links; prefer landings (`type: "landing"`) |
+Do **not** target a landing-page keyword as the guide’s primary intent.
+
+Path: `content/guides/en/<slug>.json` → public URL `/guides/<slug>/`.
 
 Inline links in paragraphs: `[[/path/|label]]`.
 

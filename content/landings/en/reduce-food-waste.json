@@ -91,5 +91,8 @@
     }
   ],
   "card_blurb": "Practical habits for ingredient-first cooking at home.",
-  "type": "landing"
+  "type": "landing",
+  "content_type": "landing",
+  "status": "published",
+  "language": "en"
 }
