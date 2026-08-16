@@ -81,5 +81,10 @@
       "label": "Fridge recipe app",
       "type": "landing"
     }
-  ]
+  ],
+  "image": {
+    "file": "pantry-meal-ideas-how-to-make-dinner-from-staples-you-already-have.webp",
+    "alt": "Pantry staples including pasta, rice, beans, eggs, and vegetables arranged for dinner ideas.",
+    "credit": ""
+  }
 }

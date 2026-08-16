@@ -117,5 +117,10 @@
       "label": "Recipe app without subscription",
       "type": "landing"
     }
-  ]
+  ],
+  "image": {
+    "file": "how-to-plan-meals-for-the-week-without-making-dinner-feel-like-homework.webp",
+    "alt": "A kitchen table with groceries, leftovers, and a blank weekly meal planning sheet.",
+    "credit": ""
+  }
 }

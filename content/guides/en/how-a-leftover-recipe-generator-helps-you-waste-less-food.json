@@ -89,5 +89,10 @@
       "label": "Use ingredients before they expire",
       "type": "landing"
     }
-  ]
+  ],
+  "image": {
+    "file": "how-a-leftover-recipe-generator-helps-you-waste-less-food.webp",
+    "alt": "Leftover rice, eggs, peas, carrots, and soy sauce ready to become fried rice.",
+    "credit": ""
+  }
 }

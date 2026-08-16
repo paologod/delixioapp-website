@@ -98,5 +98,10 @@
       "label": "Quick dinner ideas",
       "type": "landing"
     }
-  ]
+  ],
+  "image": {
+    "file": "quick-dinner-ideas-with-what-you-already-have-at-home.webp",
+    "alt": "Pantry and fridge ingredients arranged for a quick weeknight dinner.",
+    "credit": ""
+  }
 }

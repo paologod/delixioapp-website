@@ -89,5 +89,10 @@
       "label": "Fridge recipe app",
       "type": "landing"
     }
-  ]
+  ],
+  "image": {
+    "file": "meals-from-pantry-staples-a-simple-system-for-better-last-minute-dinners.webp",
+    "alt": "Pantry staples and a half-prepared bowl meal on a kitchen counter.",
+    "credit": ""
+  }
 }

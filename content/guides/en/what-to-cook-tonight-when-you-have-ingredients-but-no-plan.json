@@ -101,5 +101,10 @@
       "label": "Quick dinner ideas",
       "type": "landing"
     }
-  ]
+  ],
+  "image": {
+    "file": "what-to-cook-tonight-when-you-have-ingredients-but-no-plan.webp",
+    "alt": "A kitchen counter with rice, eggs, spinach, tomatoes, cheese, and herbs arranged for a simple weeknight dinner.",
+    "credit": ""
+  }
 }

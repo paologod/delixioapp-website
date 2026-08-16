@@ -111,5 +111,10 @@
       "label": "Use ingredients before they expire",
       "type": "landing"
     }
-  ]
+  ],
+  "image": {
+    "file": "leftover-recipes-that-start-with-what-is-already-in-your-fridge.webp",
+    "alt": "Leftover rice, vegetables, beans, herbs, and cheese arranged for a new meal.",
+    "credit": ""
+  }
 }
