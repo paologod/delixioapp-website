@@ -1,0 +1,100 @@
+---
+title: "What to Cook Tonight When You Have Ingredients But No Plan"
+slug: what-to-cook-tonight-when-you-have-ingredients-but-no-plan
+description: "A practical way to decide what to cook tonight from fridge and pantry ingredients you already have, with simple dinner shapes and examples."
+excerpt: ""
+status: approved
+language: en
+project: delixio
+strategic_reason: seo
+---
+
+# What to Cook Tonight When You Have Ingredients But No Plan
+
+# What to Cook Tonight When You Have Ingredients But No Plan
+
+You do not need a perfect recipe to start dinner. You need a way to make a decision.
+
+The hardest part of cooking on a normal weeknight is often not the cooking. It is standing in front of the fridge, seeing ingredients, and still having no clear answer to the question: what should I make tonight?
+
+Use this simple framework when you have food at home but no plan.
+
+## Start with the ingredient that needs using first
+
+Before choosing a recipe, choose the ingredient most likely to go to waste.
+
+That might be:
+
+- Soft vegetables.
+- Cooked rice or pasta.
+- Half a tin of beans.
+- Leftover chicken or roasted vegetables.
+- Open cream, yoghurt, cheese, or herbs.
+- Salad leaves that will not survive much longer.
+
+This makes dinner easier because one decision is already made. Instead of searching for every possible recipe, you are building around one ingredient.
+
+## Pick a dinner shape
+
+Most weeknight meals fit into one of a few shapes:
+
+- **Bowl:** rice, grains, potatoes, noodles, vegetables, protein, sauce.
+- **Pasta:** pasta plus vegetables, beans, cheese, sauce, or leftovers.
+- **Wrap or toast:** quick base plus filling plus sauce.
+- **Soup or stew:** vegetables, beans, lentils, stock, tomatoes, spices.
+- **Egg dinner:** omelette, frittata, fried rice, eggs on toast.
+- **Tray bake:** vegetables, potatoes, protein, oil, seasoning.
+
+Once you choose the shape, the ingredients stop looking random.
+
+## Use the base, filling, flavour rule
+
+A meal usually needs three things:
+
+1. **A base:** rice, pasta, potatoes, bread, wraps, couscous, noodles.
+2. **A filling element:** eggs, beans, lentils, cheese, tofu, fish, chicken, leftovers.
+3. **Flavour:** sauce, spices, herbs, lemon, vinegar, garlic, chilli, yoghurt, pesto.
+
+If dinner feels incomplete, it is usually missing one of those three.
+
+## Examples from ordinary ingredients
+
+If you have rice, eggs, frozen peas, and soy sauce, make egg fried rice.
+
+If you have pasta, spinach, cream cheese, and black pepper, make a fast creamy pasta.
+
+If you have potatoes, beans, cheese, and salad leaves, make loaded potatoes.
+
+If you have tortillas, leftover chicken, cucumber, and yoghurt, make wraps.
+
+If you have lentils, tinned tomatoes, carrots, and curry powder, make a simple dhal or stew.
+
+None of these dinners require a perfect fridge. They only need a direction.
+
+## When to be strict and when to be flexible
+
+Use a strict approach when you cannot shop or want to use only what is already there.
+
+Use a flexible approach when you are happy to add one or two extras, like fresh herbs, cheese, bread, or a vegetable.
+
+Use a creative approach when you want inspiration and are open to unusual combinations.
+
+That is the difference between “I have no idea” and “I have three possible dinners.”
+
+## Where Delixio helps
+
+Delixio helps with exactly this moment. You type the ingredients you have, choose how strict or flexible you want the ideas to be, and get recipe inspiration from what is already in your fridge and pantry.
+
+You can save recipes, add missing ingredients to a grocery list, and plan meals on a calendar when you want to organize the week.
+
+Recipes are AI-assisted suggestions. Always check ingredients and allergens yourself before cooking or serving.
+
+## Tonight’s decision shortcut
+
+Choose one ingredient that needs using first. Choose one dinner shape. Add a base, a filling element, and flavour.
+
+That is enough to get dinner moving.
+
+## Next step
+
+Try Delixio to turn the ingredients you already have into dinner ideas.
