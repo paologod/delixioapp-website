@@ -1,0 +1,75 @@
+{
+  "slug": "recipe-app-without-subscription",
+  "cluster": "planning",
+  "intent": "Find a recipe app that does not require a subscription",
+  "breadcrumb": "Recipe app without subscription",
+  "eyebrow": "No subscription cooking help",
+  "title": "Recipe App Without Subscription | Daily Free Recipe Ideas",
+  "description": "Looking for a recipe app without another subscription? Delixio uses daily free full recipes and optional credit packs instead.",
+  "h1": "Recipe app without subscription",
+  "intro": [
+    "Another subscription is not always what home cooks need. Sometimes you just want practical dinner help when the fridge is full but the plan is missing.",
+    "Delixio is built for that lighter commitment: generate recipe ideas from ingredients you already have, use your daily free full recipe, and buy optional credit packs only when you want more."
+  ],
+  "sections": [
+    {
+      "heading": "Why no subscription matters for cooking apps",
+      "paragraphs": [
+        "Cooking help should fit real kitchen habits. Some weeks you cook every night. Some weeks you barely open the fridge. A credit model gives you more control than a monthly plan if your cooking rhythm changes.",
+        "Delixio gives recipe ideas for free, includes one free full recipe every day, and offers optional credit packs for extra full recipes."
+      ]
+    },
+    {
+      "heading": "What to check before choosing a recipe app",
+      "paragraphs": [
+        "Look for a tool that starts from your ingredients, not just from a recipe database.",
+        "Check whether it can save recipes, create a grocery list, and help plan meals on a calendar.",
+        "Avoid apps that make strong savings, health, or nutrition promises without evidence. A recipe app should help with ideas, not pretend to guarantee outcomes."
+      ]
+    },
+    {
+      "heading": "How Delixio keeps the model simple",
+      "paragraphs": [
+        "Recipe ideas are free to explore. Full recipes use credits, with one free full recipe every day. Optional packs are available when you want more recipes, and prices are shown by the App Store or Google Play.",
+        "There is no subscription. You can use Delixio when you need dinner inspiration, then come back when the next fridge puzzle appears."
+      ]
+    }
+  ],
+  "delixio": {
+    "heading": "How Delixio helps",
+    "paragraphs": [
+      "Type the ingredients you already have, choose preferences such as cooking time, servings, meal type, and Strict, Flexible, or Creative mode, then explore recipe ideas.",
+      "When you want the complete version, unlock a full recipe with your daily free recipe or a credit. You can save recipes, add missing ingredients to a grocery list, and plan meals on a calendar."
+    ]
+  },
+  "related": [
+    {
+      "slug": "ai-recipe-generator",
+      "label": "AI recipe generator"
+    },
+    {
+      "slug": "meal-planner-app",
+      "label": "Meal planner app"
+    },
+    {
+      "slug": "grocery-list-recipe-app",
+      "label": "Grocery list recipe app"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is Delixio a subscription app?",
+      "a": "No. Delixio uses daily free full recipes and optional credit packs instead of a subscription."
+    },
+    {
+      "q": "Can I try Delixio for free?",
+      "a": "Yes. Recipe ideas are free to generate, and you get one free full recipe every day."
+    },
+    {
+      "q": "Do credits expire?",
+      "a": "Delixio credit packs are designed for optional use when you want more full recipes. Check the app stores for local pricing and current purchase details."
+    }
+  ],
+  "card_blurb": "A recipe app for ingredient-first cooking without a monthly subscription.",
+  "type": "landing"
+}

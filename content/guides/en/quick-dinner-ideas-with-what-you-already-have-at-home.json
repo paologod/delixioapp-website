@@ -1,0 +1,102 @@
+{
+  "type": "guide",
+  "slug": "quick-dinner-ideas-with-what-you-already-have-at-home",
+  "category": "dinner",
+  "card_blurb": "Fast dinner ideas using fridge, freezer, and pantry ingredients you already have, from eggs and pasta to rice, beans, wraps, and leftovers.",
+  "breadcrumb": "Quick Dinner Ideas With What You Already Have at Home",
+  "eyebrow": "Dinner",
+  "title": "Quick Dinner Ideas With What You Already Have at Home",
+  "description": "Fast dinner ideas using fridge, freezer, and pantry ingredients you already have, from eggs and pasta to rice, beans, wraps, and leftovers.",
+  "h1": "Quick Dinner Ideas With What You Already Have at Home",
+  "intro": [
+    "Before you order takeaway, check your kitchen like a cook, not like a disappointed shopper.",
+    "Most quick dinners come from the same few moves: use a base, add something filling, bring in flavour, and make the plate feel finished. You do not need a full grocery shop. You need a useful way to combine what is already there."
+  ],
+  "sections": [
+    {
+      "heading": "First, check three places",
+      "paragraphs": [
+        "Look in this order:",
+        "1. **Fridge:** fresh ingredients, leftovers, open jars, cheese, eggs, herbs. 2. **Freezer:** vegetables, bread, protein, cooked rice, stock, odds and ends. 3. **Pantry:** pasta, rice, noodles, beans, lentils, tinned tomatoes, wraps, spices.",
+        "The best dinner usually comes from connecting one item from each place."
+      ]
+    },
+    {
+      "heading": "Quick dinner ideas by ingredient type",
+      "paragraphs": [
+        "If you have eggs",
+        "Eggs can become an omelette, frittata, egg fried rice, shakshuka-style eggs, or eggs on toast.",
+        "Add almost any leftover vegetable, cheese, herbs, or cooked potatoes.",
+        "If you have pasta",
+        "Make pasta with tinned tomatoes, pesto, garlic and oil, cream cheese, leftover vegetables, frozen peas, tuna, beans, or grated cheese.",
+        "A splash of pasta water can help small ingredients turn into a sauce.",
+        "If you have rice",
+        "Cooked rice is dinner waiting to happen. Make fried rice, rice bowls, burrito filling, soup with rice, or rice with beans and salsa.",
+        "Add egg, frozen vegetables, leftovers, or a quick sauce.",
+        "If you have beans or lentils",
+        "Beans and lentils can become soup, stew, chilli, curry, salad, wraps, or toast toppings.",
+        "They work especially well with tinned tomatoes, onion, garlic, spices, cheese, yoghurt, lemon, or herbs.",
+        "If you have wraps or bread",
+        "A wrap or toast plate can rescue small leftovers. Fill it with eggs, beans, roasted vegetables, cheese, salad, chicken, tuna, hummus, or yoghurt sauce.",
+        "If the filling is soft, add crunch. If it is dry, add sauce."
+      ]
+    },
+    {
+      "heading": "Fast combinations to try",
+      "paragraphs": [
+        "- Pasta, frozen peas, cream cheese, black pepper.",
+        "- Rice, egg, soy sauce, frozen vegetables.",
+        "- Beans, tinned tomatoes, chilli, toast.",
+        "- Wraps, cheese, leftover vegetables, yoghurt.",
+        "- Potatoes, tuna, sweetcorn, salad.",
+        "- Lentils, tomatoes, curry powder, rice.",
+        "- Eggs, spinach, cheese, toast.",
+        "These are not fancy, but they solve dinner."
+      ]
+    },
+    {
+      "heading": "How to make random food feel like a meal",
+      "paragraphs": [
+        "Use one small finishing touch:",
+        "- Lemon juice or vinegar for brightness.",
+        "- Chilli oil or hot sauce for energy.",
+        "- Yoghurt, mayo, or hummus for creaminess.",
+        "- Toasted breadcrumbs, seeds, or nuts for crunch.",
+        "- Herbs, spring onions, or salad leaves for freshness.",
+        "A quick dinner often fails because it feels unfinished, not because the ingredients are wrong."
+      ]
+    },
+    {
+      "heading": "The takeaway test",
+      "paragraphs": [
+        "If you can name a base, something filling, and a flavour direction, you probably have dinner at home.",
+        "Open the fridge first. Your next meal might already be waiting there."
+      ]
+    }
+  ],
+  "delixio": {
+    "heading": "Where Delixio helps",
+    "paragraphs": [
+      "Delixio starts from your ingredients. Type what you have, choose how strict or flexible you want the ideas to be, and get recipe inspiration that fits your fridge and pantry.",
+      "It is useful when you know you have food but cannot see the dinner yet.",
+      "Recipes are AI-assisted suggestions. Always check ingredients and allergens yourself before cooking or serving."
+    ]
+  },
+  "related": [
+    {
+      "slug": "what-can-i-cook-with-these-ingredients",
+      "label": "What can I cook with these ingredients?",
+      "type": "landing"
+    },
+    {
+      "slug": "recipe-generator-from-ingredients",
+      "label": "Recipe generator from ingredients",
+      "type": "landing"
+    },
+    {
+      "slug": "quick-dinner-ideas",
+      "label": "Quick dinner ideas",
+      "type": "landing"
+    }
+  ]
+}

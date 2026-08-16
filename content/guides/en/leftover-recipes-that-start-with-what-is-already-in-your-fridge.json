@@ -1,0 +1,115 @@
+{
+  "type": "guide",
+  "slug": "leftover-recipes-that-start-with-what-is-already-in-your-fridge",
+  "category": "leftovers",
+  "card_blurb": "Use leftover rice, vegetables, beans, chicken, pasta, and sauces with simple dinner shapes like fried rice, frittatas, soups, bowls, and wraps.",
+  "breadcrumb": "Leftover Recipes That Start With What Is Already in Your Fri",
+  "eyebrow": "Leftovers",
+  "title": "Leftover Recipes That Start With What Is Already in Your Fridge",
+  "description": "Use leftover rice, vegetables, beans, chicken, pasta, and sauces with simple dinner shapes like fried rice, frittatas, soups, bowls, and wraps.",
+  "h1": "Leftover Recipes That Start With What Is Already in Your Fridge",
+  "intro": [
+    "Leftovers are easier to use when you stop thinking of them as a repeat meal.",
+    "That cooked rice does not have to become the same dinner again. The roasted vegetables do not have to sit beside another plate of something. The half tin of beans, the cooked chicken, the soft herbs, the last spoon of sauce: they can all become the start of a new meal.",
+    "Here is how to turn leftovers into dinner without making the fridge feel like a puzzle."
+  ],
+  "sections": [
+    {
+      "heading": "Start by sorting leftovers by texture",
+      "paragraphs": [
+        "Texture tells you what format will work best.",
+        "Soft leftovers",
+        "Think roasted vegetables, cooked greens, sauces, mashed potatoes, beans, or stews.",
+        "Best uses:",
+        "- Soup.",
+        "- Pasta sauce.",
+        "- Frittata.",
+        "- Curry.",
+        "- Toast topping.",
+        "- Wrap filling with crunch added.",
+        "Dry leftovers",
+        "Think rice, cooked grains, chicken, roasted potatoes, bread, or pasta.",
+        "Best uses:",
+        "- Fried rice.",
+        "- Bowls.",
+        "- Tray bakes.",
+        "- Salads.",
+        "- Wraps.",
+        "- Toasties.",
+        "Small leftovers",
+        "Think half an onion, a few herbs, a spoon of pesto, a little cheese, or a handful of vegetables.",
+        "Best uses:",
+        "- Omelette.",
+        "- Pasta finish.",
+        "- Soup boost.",
+        "- Sauce.",
+        "- Topping.",
+        "Small leftovers often work best as flavour, not as the whole meal."
+      ]
+    },
+    {
+      "heading": "Seven reliable leftover meal shapes",
+      "paragraphs": [
+        "1. Fried rice",
+        "Use cooked rice, egg, frozen vegetables, soy sauce, and any leftover protein or vegetables. Keep the heat high and avoid too much sauce.",
+        "2. Frittata",
+        "Eggs turn small leftovers into dinner. Use cooked potatoes, greens, peppers, mushrooms, cheese, herbs, or roasted vegetables.",
+        "3. Soup",
+        "Soup is perfect for odds and ends. Add stock, tinned tomatoes, lentils, beans, rice, pasta, or vegetables. Blend if the texture needs saving.",
+        "4. Pasta",
+        "Leftover vegetables, beans, cheese, cooked meat, pesto, cream cheese, and tomato sauce can all become pasta. Add pasta water to help everything come together.",
+        "5. Bowls",
+        "Start with rice, couscous, potatoes, noodles, or salad. Add leftovers, a sauce, and one fresh or crunchy thing.",
+        "6. Wraps",
+        "Wraps are ideal when ingredients feel too random for a formal recipe. Add sauce, crunch, and something filling.",
+        "7. Tray bakes",
+        "Leftover potatoes, vegetables, sausages, chicken, beans, and cheese can often go into one tray and become dinner with oil, seasoning, and heat."
+      ]
+    },
+    {
+      "heading": "The use first rule",
+      "paragraphs": [
+        "Not every leftover has the same urgency. Use delicate foods first:",
+        "- Cooked rice.",
+        "- Seafood or fish.",
+        "- Salad leaves.",
+        "- Soft herbs.",
+        "- Open dairy.",
+        "- Cooked vegetables.",
+        "Pantry items and hard vegetables can wait longer."
+      ]
+    },
+    {
+      "heading": "Tonight’s leftover move",
+      "paragraphs": [
+        "Choose the leftover most likely to go to waste. Decide if it belongs in rice, eggs, soup, pasta, a bowl, a wrap, or a tray bake.",
+        "That is your dinner direction."
+      ]
+    }
+  ],
+  "delixio": {
+    "heading": "Where Delixio helps",
+    "paragraphs": [
+      "Delixio helps you turn leftovers into meal ideas by starting with the ingredients you already have. You can type the leftovers in your fridge, choose how strict or flexible you want the ideas to be, and save the recipes that work.",
+      "That makes leftovers feel less like a chore and more like a shortcut.",
+      "Recipes are AI-assisted suggestions. Always check ingredients and allergens yourself before cooking or serving."
+    ]
+  },
+  "related": [
+    {
+      "slug": "leftover-recipe-generator",
+      "label": "Leftover recipe generator",
+      "type": "landing"
+    },
+    {
+      "slug": "reduce-food-waste",
+      "label": "Reduce food waste",
+      "type": "landing"
+    },
+    {
+      "slug": "use-ingredients-before-they-expire",
+      "label": "Use ingredients before they expire",
+      "type": "landing"
+    }
+  ]
+}

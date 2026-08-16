@@ -1,0 +1,98 @@
+{
+  "type": "guide",
+  "slug": "what-to-look-for-in-a-meal-planner-app-if-you-actually-cook-at-home",
+  "category": "planning",
+  "card_blurb": "What to look for in a meal planner app, from ingredient-first planning and saved recipes to grocery lists and flexible calendars.",
+  "breadcrumb": "What to Look for in a Meal Planner App If You Actually Cook ",
+  "eyebrow": "Planning",
+  "title": "What to Look for in a Meal Planner App If You Actually Cook at Home",
+  "description": "What to look for in a meal planner app, from ingredient-first planning and saved recipes to grocery lists and flexible calendars.",
+  "h1": "What to Look for in a Meal Planner App If You Actually Cook at Home",
+  "intro": [
+    "A meal planner app should not make your kitchen feel more complicated.",
+    "The best one is not just a calendar with recipe names. It should help you answer the question that matters most on a normal weeknight: what can I cook from what I already have, and what do I actually need to buy?",
+    "If you cook at home, here is what to look for."
+  ],
+  "sections": [
+    {
+      "heading": "1. It should start from your ingredients",
+      "paragraphs": [
+        "Many meal plans start with recipes first. That can be inspiring, but it often creates a shopping list full of new ingredients while food you already bought gets ignored.",
+        "An ingredient-first planner works differently. It helps you look at your fridge, freezer, and pantry, then build meals around what is already there.",
+        "That is better for:",
+        "- Reducing forgotten groceries.",
+        "- Using leftovers sooner.",
+        "- Avoiding unnecessary shopping.",
+        "- Making dinner decisions faster."
+      ]
+    },
+    {
+      "heading": "2. It should connect ideas to recipes",
+      "paragraphs": [
+        "A good meal planner should help you move from “maybe pasta?” to a meal you can actually cook.",
+        "Look for a tool that can help you generate practical recipe ideas, save the ones you like, and return to them later. Planning is much easier when your good ideas do not disappear after dinner."
+      ]
+    },
+    {
+      "heading": "3. It should handle grocery lists naturally",
+      "paragraphs": [
+        "The grocery list should not be a separate chore.",
+        "If a recipe needs missing ingredients, the app should make it easy to add them to a list. If you are planning several meals, the list should help you see what you need across the week.",
+        "This matters because most people do not fail at meal planning because they lack recipes. They fail because the recipe, the shopping list, and the real kitchen are disconnected."
+      ]
+    },
+    {
+      "heading": "4. It should leave room for real life",
+      "paragraphs": [
+        "Rigid planning breaks quickly. A useful meal planner should support flexible cooking:",
+        "- Fast dinners for tired nights.",
+        "- Leftover-based meals.",
+        "- Pantry meals when you do not want to shop.",
+        "- Simple saved recipes you can repeat.",
+        "- Calendar planning that can change when the week changes.",
+        "The goal is not perfection. The goal is fewer blank-stare-at-the-fridge moments."
+      ]
+    },
+    {
+      "heading": "5. It should be clear about costs",
+      "paragraphs": [
+        "If you do not want another subscription, look for the monetization model before you commit.",
+        "Delixio uses a credit-pack model instead of a subscription. You get a daily free full recipe, and optional credit packs are available when you want more. Prices are shown by the App Store or Google Play, so always check the store for local pricing."
+      ]
+    },
+    {
+      "heading": "The simple test",
+      "paragraphs": [
+        "Before choosing a meal planner app, ask:",
+        "“Will this help me use the food already in my kitchen?”",
+        "If the answer is yes, it is more than a planner. It is dinner support."
+      ]
+    }
+  ],
+  "delixio": {
+    "heading": "Where Delixio fits",
+    "paragraphs": [
+      "Delixio is built around the everyday cooking loop:",
+      "1. Type the ingredients you already have. 2. Get meal ideas. 3. Generate full recipes when you want them. 4. Save recipes. 5. Build a grocery list. 6. Plan meals on a calendar.",
+      "That makes it useful for people who want dinner help without starting from a blank page or subscribing to a rigid meal plan.",
+      "Recipes are AI-assisted suggestions. Always check ingredients and allergens yourself before cooking or serving."
+    ]
+  },
+  "related": [
+    {
+      "slug": "meal-planner-app",
+      "label": "Meal planner app",
+      "type": "landing"
+    },
+    {
+      "slug": "grocery-list-recipe-app",
+      "label": "Grocery list recipe app",
+      "type": "landing"
+    },
+    {
+      "slug": "recipe-app-without-subscription",
+      "label": "Recipe app without subscription",
+      "type": "landing"
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "type": "guide",
+  "slug": "how-to-plan-meals-for-the-week-without-making-dinner-feel-like-homework",
+  "category": "planning",
+  "card_blurb": "A realistic weekly meal planning method that starts with ingredients you already have, leftovers, pantry meals, and flexible dinners.",
+  "breadcrumb": "How to Plan Meals for the Week Without Making Dinner Feel Li",
+  "eyebrow": "Planning",
+  "title": "How to Plan Meals for the Week Without Making Dinner Feel Like Homework",
+  "description": "A realistic weekly meal planning method that starts with ingredients you already have, leftovers, pantry meals, and flexible dinners.",
+  "h1": "How to Plan Meals for the Week Without Making Dinner Feel Like Homework",
+  "intro": [
+    "Meal planning fails when it becomes too perfect.",
+    "A seven-day grid full of exact recipes looks organized, but real life has late meetings, tired evenings, missing ingredients, changing moods, and leftovers that need attention. A better meal plan gives you direction without locking you into a week you have not lived yet.",
+    "Here is a more realistic way to plan meals for the week."
+  ],
+  "sections": [
+    {
+      "heading": "Start with what you already have",
+      "paragraphs": [
+        "Before choosing recipes, check your fridge, freezer, and pantry.",
+        "Look for:",
+        "- Ingredients that need using first.",
+        "- Open packets or jars.",
+        "- Leftovers from cooked meals.",
+        "- Proteins in the freezer.",
+        "- Pantry bases like rice, pasta, beans, lentils, wraps, and potatoes.",
+        "This step matters because it changes the question from “What should I buy?” to “What can I build from what is already here?”",
+        "That is usually cheaper, faster, and less wasteful."
+      ]
+    },
+    {
+      "heading": "Plan meal types, not just recipes",
+      "paragraphs": [
+        "Instead of assigning seven exact recipes, choose a few meal types:",
+        "- One pasta night.",
+        "- One rice or grain bowl.",
+        "- One soup, stew, or curry.",
+        "- One leftovers night.",
+        "- One quick egg, toast, or wrap dinner.",
+        "- One flexible “use what is left” slot.",
+        "This gives the week shape while leaving room to adapt."
+      ]
+    },
+    {
+      "heading": "Use the “needs using first” rule",
+      "paragraphs": [
+        "Every weekly plan should protect the ingredients most likely to go bad.",
+        "Soft vegetables, fresh herbs, opened dairy, cooked rice, leftover meat, and salad leaves should appear earlier in the week. Longer-lasting pantry staples can wait.",
+        "Example:",
+        "- Monday: spinach and mushrooms into pasta or omelette.",
+        "- Tuesday: cooked rice into fried rice or bowls.",
+        "- Wednesday: beans and tinned tomatoes into soup or chilli.",
+        "- Thursday: leftover vegetables into wraps or frittata.",
+        "Planning around expiry is one of the simplest ways to reduce everyday food waste."
+      ]
+    },
+    {
+      "heading": "Keep one dinner deliberately easy",
+      "paragraphs": [
+        "Do not plan seven ambitious meals. That is how meal plans become abandoned.",
+        "Choose one dinner that is barely a recipe:",
+        "- Eggs on toast with tomatoes.",
+        "- Pasta with pesto and peas.",
+        "- Jacket potatoes with beans and cheese.",
+        "- Noodles with egg and frozen vegetables.",
+        "- Wraps with whatever is left.",
+        "A realistic plan needs an easy night built in."
+      ]
+    },
+    {
+      "heading": "Make the grocery list after the plan",
+      "paragraphs": [
+        "Once you know what you can cook from home, only shop for the gaps.",
+        "Group your list by meal:",
+        "- What is missing for Monday?",
+        "- What ingredient helps two dinners?",
+        "- What fresh item will actually get used?",
+        "- What pantry staple needs replacing?",
+        "This keeps the shop focused and helps avoid buying ingredients with no job."
+      ]
+    },
+    {
+      "heading": "A simple weekly planning template",
+      "paragraphs": [
+        "Try this:",
+        "- **Day 1:** Use the freshest ingredient.",
+        "- **Day 2:** Cook a pantry-based dinner.",
+        "- **Day 3:** Use leftovers from Day 1 or 2.",
+        "- **Day 4:** Choose the fastest meal.",
+        "- **Day 5:** Make a flexible fridge-clear dinner.",
+        "- **Weekend:** Shop only after checking what is left.",
+        "That is enough structure to reduce dinner stress without turning your kitchen into a spreadsheet."
+      ]
+    }
+  ],
+  "delixio": {
+    "heading": "Where Delixio helps",
+    "paragraphs": [
+      "Delixio helps you start meal planning from your actual kitchen. You can type the ingredients you have, get meal ideas, save recipes, build a grocery list, and plan meals on a calendar.",
+      "That makes planning less about copying someone else’s perfect week and more about turning your real fridge into a practical plan.",
+      "Recipes are AI-assisted suggestions. Always check ingredients and allergens yourself before cooking or serving."
+    ]
+  },
+  "related": [
+    {
+      "slug": "meal-planner-app",
+      "label": "Meal planner app",
+      "type": "landing"
+    },
+    {
+      "slug": "grocery-list-recipe-app",
+      "label": "Grocery list recipe app",
+      "type": "landing"
+    },
+    {
+      "slug": "recipe-app-without-subscription",
+      "label": "Recipe app without subscription",
+      "type": "landing"
+    }
+  ]
+}
