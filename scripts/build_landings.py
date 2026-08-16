@@ -21,7 +21,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 CONTENT_DIR = ROOT / "content" / "landings"
 GUIDES_DIR = ROOT / "content" / "guides"
-CSS_VERSION = "92"
+CSS_VERSION = "96"
 GA_ID = "G-89YMNXP5XF"
 SITE = "https://delixioapp.com"
 APP_STORE = "https://apps.apple.com/us/app/delixio/id6774958116"
@@ -389,6 +389,68 @@ def append_explore_cards(sections_html: list[str], items: list[dict]) -> None:
     sections_html.append("        </div>")
 
 
+def guide_image_meta(data: dict) -> dict | None:
+    """Optional guide hero image. Files live under assets/guides/.
+
+    JSON shape:
+      "image": {
+        "file": "my-slug.webp",
+        "alt": "Descriptive alt text",
+        "credit": "optional credit line"
+      }
+    """
+    image = data.get("image")
+    if not image:
+        return None
+    filename = (image.get("file") or "").strip()
+    if not filename or "/" in filename or "\\" in filename or ".." in filename:
+        return None
+    alt = (image.get("alt") or data.get("h1") or "Cooking guide").strip()
+    credit = (image.get("credit") or "").strip()
+    web_path = f"/assets/guides/{filename}"
+    return {
+        "filename": filename,
+        "web_path": web_path,
+        "abs_url": f"{SITE}{web_path}",
+        "alt": alt,
+        "credit": credit,
+        "disk_path": ROOT / "assets" / "guides" / filename,
+    }
+
+
+def guide_hero_html(image: dict | None) -> str:
+    if not image:
+        return ""
+    credit = ""
+    if image["credit"]:
+        credit = (
+            f'\n      <p class="guide-hero-credit">{esc_text(image["credit"])}</p>'
+        )
+    return f"""      <figure class="guide-hero">
+        <img src="{image["web_path"]}" alt="{esc(image["alt"])}" width="1200" height="675" loading="eager">
+      </figure>{credit}
+"""
+
+
+def guide_card_html(page: dict) -> str:
+    blurb = page.get("card_blurb") or page.get("description") or ""
+    image = guide_image_meta(page)
+    thumb = ""
+    if image and image["disk_path"].exists():
+        thumb = (
+            f'<span class="explore-card-thumb">'
+            f'<img src="{image["web_path"]}" alt="" width="640" height="360" loading="lazy">'
+            f"</span>"
+        )
+    return (
+        f'        <a class="explore-link{" explore-link--with-image" if thumb else ""}" '
+        f'href="/guides/{page["slug"]}/">'
+        f"{thumb}"
+        f'<strong>{esc_text(page["h1"])}</strong>'
+        f"<span>{esc_text(blurb)}</span></a>"
+    )
+
+
 def write_sitemap(landing_paths: list[str]) -> None:
     urls = STATIC_SITEMAP + sorted(set(landing_paths))
     lines = [
@@ -444,6 +506,11 @@ def render_guide_page(data: dict, locale: str = "en") -> str:
             "operatingSystem": "iOS, Android",
         },
     }
+
+    image = guide_image_meta(data)
+    og_image = image["abs_url"] if image else OG_IMAGE
+    if image:
+        webpage["image"] = image["abs_url"]
 
     sections_html = []
     for section in data.get("sections", []):
@@ -514,12 +581,12 @@ def render_guide_page(data: dict, locale: str = "en") -> str:
   <meta property="og:url" content="{url}">
   <meta property="og:title" content="{esc(title)}">
   <meta property="og:description" content="{esc(description)}">
-  <meta property="og:image" content="{OG_IMAGE}">
+  <meta property="og:image" content="{og_image}">
   <meta property="og:locale" content="{meta['og_locale']}">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{esc(title)}">
   <meta name="twitter:description" content="{esc(description)}">
-  <meta name="twitter:image" content="{OG_IMAGE}">
+  <meta name="twitter:image" content="{og_image}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Quicksand:wght@700&display=swap" rel="stylesheet">
@@ -545,6 +612,7 @@ def render_guide_page(data: dict, locale: str = "en") -> str:
       </nav>
       <p class="legal-eyebrow">{esc_text(eyebrow)}</p>
       <h1>{esc_text(h1)}</h1>
+{guide_hero_html(image)}
 {paragraphs(data.get("intro", []))}
 
 {chr(10).join(sections_html)}
@@ -611,12 +679,7 @@ def render_guide_category_page(
     if guide_pages:
         cards.append('      <div class="explore-hub-grid">')
         for page in guide_pages:
-            card_blurb = page.get("card_blurb") or page.get("description") or ""
-            cards.append(
-                f'        <a class="explore-link" href="/guides/{page["slug"]}/">'
-                f'<strong>{esc_text(page["h1"])}</strong>'
-                f"<span>{esc_text(card_blurb)}</span></a>"
-            )
+            cards.append(guide_card_html(page))
         cards.append("      </div>")
     else:
         cards.append(
@@ -758,12 +821,7 @@ def render_guides_hub(guide_pages: list[dict], locale: str = "en") -> str:
             '        <div class="explore-hub-grid">',
         ]
         for page in other:
-            card_blurb = page.get("card_blurb") or page.get("description") or ""
-            other_parts.append(
-                f'          <a class="explore-link" href="/guides/{page["slug"]}/">'
-                f'<strong>{esc_text(page["h1"])}</strong>'
-                f"<span>{esc_text(card_blurb)}</span></a>"
-            )
+            other_parts.append(guide_card_html(page))
         other_parts.extend(["        </div>", "      </section>"])
         other_html = "\n" + "\n".join(other_parts)
 
@@ -934,6 +992,16 @@ def main() -> None:
                 raise SystemExit(
                     f"guide slug '{slug}' collides with reserved category path /guides/{slug}/"
                 )
+            image = guide_image_meta(data)
+            if data.get("image") and not image:
+                raise SystemExit(f"{path}: invalid image.file (use filename only under assets/guides/)")
+            if image and not image["disk_path"].exists():
+                raise SystemExit(
+                    f"{path}: image file missing: {image['disk_path']} "
+                    f"(save the asset before building)"
+                )
+            if image and not (image.get("alt") or "").strip():
+                raise SystemExit(f"{path}: image.alt is required when image is set")
             html_out = render_guide_page(data, locale="en")
             out_dir = ROOT / "guides" / slug
             out_dir.mkdir(parents=True, exist_ok=True)

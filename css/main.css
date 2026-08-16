@@ -1360,6 +1360,43 @@ button { font: inherit; cursor: pointer; border: none; background: none; }
   text-decoration: underline;
   text-underline-offset: 2px;
 }
+.guide-hero {
+  margin: 8px 0 24px;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid var(--color-primary-border);
+  background: rgba(255, 255, 255, 0.65);
+}
+.guide-hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+.guide-hero-credit {
+  margin: -12px 0 24px;
+  font-size: 13px;
+  color: var(--color-text-muted);
+}
+.explore-link--with-image {
+  padding-top: 0;
+  overflow: hidden;
+}
+.explore-card-thumb {
+  display: block;
+  margin: 0 -24px 14px;
+  width: calc(100% + 48px);
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background: rgba(254, 247, 238, 0.8);
+}
+.explore-card-thumb img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 .explore-hub-section {
   margin: 0 0 40px;
 }

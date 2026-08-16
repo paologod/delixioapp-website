@@ -45,10 +45,11 @@ Homepage “Cooking guides” section links to `/guides/` only. Do **not** featu
 ## Adding an editorial guide
 
 1. Create `content/guides/en/<slug>.json` with `"type": "guide"` and `"category"`: `dinner` | `leftovers` | `pantry` | `planning`
-2. Link contextually to the best landing page in body/`delixio`/`related`
-3. Run `python3 scripts/build_landings.py`
-4. Optionally feature it on the homepage (max ~4 cards)
+2. Optionally add a hero image file under `assets/guides/` and reference it with `"image": { "file", "alt" }` (never embed bytes in JSON)
+3. Link contextually to the best landing page in body/`delixio`/`related`
+4. Run `python3 scripts/validate_guide.py content/guides/en/<slug>.json` then `python3 scripts/build_landings.py`
+5. Optionally feature it on the homepage (max ~4 cards)
 
 Do not create thin placeholder guides.
 
-See also `docs/CONTENT_LANDINGS.md`, `content/guides/README.md`, and the product knowledge base `DELIXIO_CONTENT_KNOWLEDGE.md` (in the Delixio app repo) for approved claims.
+See also `docs/GUIDE_AUTHORING.md`, `docs/CONTENT_LANDINGS.md`, `content/guides/README.md`, and the product knowledge base `DELIXIO_CONTENT_KNOWLEDGE.md` (in the Delixio app repo) for approved claims.

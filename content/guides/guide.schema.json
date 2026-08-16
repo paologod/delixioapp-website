@@ -1,0 +1,111 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://delixioapp.com/schemas/guide.json",
+  "title": "Delixio editorial guide",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "type",
+    "slug",
+    "category",
+    "card_blurb",
+    "breadcrumb",
+    "eyebrow",
+    "title",
+    "description",
+    "h1",
+    "intro",
+    "sections",
+    "delixio",
+    "related"
+  ],
+  "properties": {
+    "type": { "const": "guide" },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "not": { "enum": ["dinner", "leftovers", "pantry", "planning"] }
+    },
+    "category": {
+      "type": "string",
+      "enum": ["dinner", "leftovers", "pantry", "planning"]
+    },
+    "card_blurb": { "type": "string", "minLength": 1 },
+    "breadcrumb": { "type": "string", "minLength": 1 },
+    "eyebrow": { "type": "string", "minLength": 1 },
+    "title": { "type": "string", "minLength": 1 },
+    "description": { "type": "string", "minLength": 1 },
+    "h1": { "type": "string", "minLength": 1 },
+    "intro": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "sections": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["heading"],
+        "properties": {
+          "heading": { "type": "string" },
+          "paragraphs": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "list": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "steps": {
+            "type": "array",
+            "items": { "type": "string" }
+          }
+        }
+      }
+    },
+    "delixio": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["paragraphs"],
+      "properties": {
+        "heading": { "type": "string" },
+        "paragraphs": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "related": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["label"],
+        "properties": {
+          "label": { "type": "string" },
+          "slug": { "type": "string" },
+          "type": { "type": "string", "enum": ["landing", "guide"] },
+          "href": { "type": "string" }
+        }
+      }
+    },
+    "image": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["file", "alt"],
+      "properties": {
+        "file": {
+          "type": "string",
+          "description": "Filename only under assets/guides/",
+          "pattern": "^[A-Za-z0-9._-]+\\.(webp|jpg|jpeg|png)$"
+        },
+        "alt": { "type": "string", "minLength": 1 },
+        "credit": { "type": "string" }
+      }
+    }
+  }
+}

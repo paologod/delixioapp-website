@@ -7,6 +7,7 @@ These are **not** search/AI intent landing pages.
 | Content | Path | URL |
 |---------|------|-----|
 | Guides | `content/guides/` | `/guides/<slug>/` |
+| Guide images | `assets/guides/` | `/assets/guides/<file>` |
 | Landings | `content/landings/` | `/<slug>/` (root) |
 
 ## Required fields
@@ -38,7 +39,34 @@ These are **not** search/AI intent landing pages.
 
 `category`: `dinner` | `leftovers` | `pantry` | `planning`
 
-Category listing URLs (reserved, do not use as guide article slugs):
+## Optional hero image
+
+Do **not** embed image bytes in JSON. Save a file, then reference it:
+
+```json
+"image": {
+  "file": "how-to-turn-leftovers-into-another-meal.webp",
+  "alt": "Leftover roast vegetables reheated in a skillet for a second meal",
+  "credit": ""
+}
+```
+
+| Rule | Detail |
+|------|--------|
+| Location | `assets/guides/<file>` only |
+| `file` | Filename only (no paths, no `..`) |
+| Formats | Prefer `.webp`; `.jpg` / `.png` OK |
+| Size | ~1200×675 (16:9), under ~300 KB |
+| `alt` | Required when `image` is set; describe the scene |
+| `credit` | Optional short credit line |
+
+If `image` is omitted, the article still builds (default OG image).
+
+Category listing cards show a thumbnail when the image file exists.
+
+## Category URLs (reserved)
+
+Do not use these as guide article slugs:
 
 | Category | URL |
 |----------|-----|
@@ -47,10 +75,13 @@ Category listing URLs (reserved, do not use as guide article slugs):
 | pantry | `/guides/pantry/` |
 | planning | `/guides/planning/` |
 
-Then run:
+## Build / validate
 
 ```bash
+python3 scripts/validate_guide.py content/guides/en/<slug>.json
 python3 scripts/build_landings.py
 ```
+
+Full agent + UI instructions: [`docs/GUIDE_AUTHORING.md`](../../docs/GUIDE_AUTHORING.md).
 
 Do not publish thin placeholder guides. See `docs/CONTENT_ARCHITECTURE.md`.
