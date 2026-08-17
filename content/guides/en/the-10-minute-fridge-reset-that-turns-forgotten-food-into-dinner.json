@@ -169,5 +169,10 @@
       "label": "How a leftover recipe generator helps you waste less food",
       "type": "guide"
     }
-  ]
+  ],
+  "image": {
+    "file": "the-10-minute-fridge-reset-that-turns-forgotten-food-into-dinner.webp",
+    "alt": "Forgotten fridge ingredients pulled onto a kitchen counter for a quick leftovers dinner reset.",
+    "credit": ""
+  }
 }
