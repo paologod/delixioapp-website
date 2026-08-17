@@ -26,6 +26,7 @@ Practical kitchen articles grouped under [Delixio Cooking Guides](https://delixi
 - [7 Meal Templates You Can Build From Pantry Staples](https://delixioapp.com/guides/pantry-meal-ideas-how-to-make-dinner-from-staples-you-already-have/)
 - [How to Plan Meals for the Week Without Making Dinner Feel Like Homework](https://delixioapp.com/guides/how-to-plan-meals-for-the-week-without-making-dinner-feel-like-homework/)
 - [What to Look for in a Meal Planner App If You Actually Cook at Home](https://delixioapp.com/guides/what-to-look-for-in-a-meal-planner-app-if-you-actually-cook-at-home/)
+- [The 10-Minute Fridge Reset That Turns Forgotten Food Into Dinner](https://delixioapp.com/guides/the-10-minute-fridge-reset-that-turns-forgotten-food-into-dinner/)
 
 ## Intent / solution landing pages
 
