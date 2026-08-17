@@ -67,8 +67,8 @@ def site_footer(asset_prefix: str, js_prefix: str) -> str:
       <div class="footer-end">
         <ul class="footer-links">
           <li><a href="/download/">Download</a></li>
-          <li><a href="/privacy/">Privacy Policy</a></li>
-          <li><a href="/terms/">Terms of Use</a></li>
+          <li><a href="/privacy/">Privacy</a></li>
+          <li><a href="/terms/">Terms</a></li>
           <li><a href="/support/">Support</a></li>
         </ul>
         <div class="footer-social">

@@ -8,6 +8,8 @@
 
 # macOS
 .DS_Store
+._*
+**/._*
 
 # Cursor
 .cursor/cache/
