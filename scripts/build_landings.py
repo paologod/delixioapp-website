@@ -280,6 +280,14 @@ def render_page(data: dict, locale: str = "en") -> str:
     for p in delixio.get("paragraphs", []):
         delixio_parts.append(f"      <p>{linkify(p)}</p>")
 
+    faq_jsonld = ""
+    if data.get("faq"):
+        faq_jsonld = (
+            '  <script type="application/ld+json">\n'
+            + render_faq_jsonld(data.get("faq", []))
+            + "\n  </script>"
+        )
+
     return f"""<!DOCTYPE html>
 <html lang="{meta['html_lang']}">
 <head>
@@ -318,7 +326,7 @@ def render_page(data: dict, locale: str = "en") -> str:
   <script type="application/ld+json">
 {json.dumps(webpage, ensure_ascii=False, indent=2)}
   </script>
-{('  <script type="application/ld+json">\n' + render_faq_jsonld(data.get("faq", [])) + '\n  </script>') if data.get('faq') else ''}
+{faq_jsonld}
 </head>
 <body class="page-download page-internal">
 {site_header("../assets/", current=None)}
