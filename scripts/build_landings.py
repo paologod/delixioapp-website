@@ -21,7 +21,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 CONTENT_DIR = ROOT / "content" / "landings"
 GUIDES_DIR = ROOT / "content" / "guides"
-CSS_VERSION = "96"
+CSS_VERSION = "97"
 GA_ID = "G-89YMNXP5XF"
 SITE = "https://delixioapp.com"
 APP_STORE = "https://apps.apple.com/us/app/delixio/id6774958116"
@@ -486,20 +486,48 @@ def render_guide_page(data: dict, locale: str = "en") -> str:
     h1 = data["h1"]
     eyebrow = data.get("eyebrow", "Cooking guide")
     breadcrumb_name = data.get("breadcrumb", h1)
+    category = str(data.get("category") or "")
+    cat_meta = GUIDE_CATEGORY_META.get(category)
+
+    crumb_items = [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": f"{SITE}/"},
+        {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Cooking Guides",
+            "item": f"{SITE}/guides/",
+        },
+    ]
+    if cat_meta:
+        crumb_items.append(
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "name": cat_meta["label"],
+                "item": f"{SITE}/guides/{category}/",
+            }
+        )
+        crumb_items.append(
+            {"@type": "ListItem", "position": 4, "name": breadcrumb_name, "item": url}
+        )
+        cat_crumb_html = (
+            f'        <a href="/guides/{category}/">{esc_text(cat_meta["label"])}</a>\n'
+            '        <span aria-hidden="true">/</span>\n'
+        )
+        eyebrow_html = (
+            f'<a href="/guides/{category}/">{esc_text(eyebrow)}</a>'
+        )
+    else:
+        crumb_items.append(
+            {"@type": "ListItem", "position": 3, "name": breadcrumb_name, "item": url}
+        )
+        cat_crumb_html = ""
+        eyebrow_html = esc_text(eyebrow)
 
     breadcrumb = {
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
-        "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Home", "item": f"{SITE}/"},
-            {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Cooking Guides",
-                "item": f"{SITE}/guides/",
-            },
-            {"@type": "ListItem", "position": 3, "name": breadcrumb_name, "item": url},
-        ],
+        "itemListElement": crumb_items,
     }
     webpage = {
         "@context": "https://schema.org",
@@ -637,9 +665,9 @@ def render_guide_page(data: dict, locale: str = "en") -> str:
         <span aria-hidden="true">/</span>
         <a href="/guides/">Cooking Guides</a>
         <span aria-hidden="true">/</span>
-        <span>{esc_text(breadcrumb_name)}</span>
+{cat_crumb_html}        <span>{esc_text(breadcrumb_name)}</span>
       </nav>
-      <p class="legal-eyebrow">{esc_text(eyebrow)}</p>
+      <p class="legal-eyebrow">{eyebrow_html}</p>
       <h1>{esc_text(h1)}</h1>
 {guide_hero_html(image)}
 {paragraphs(data.get("intro", []))}
@@ -679,7 +707,14 @@ def group_guides_by_category(guide_pages: list[dict]) -> tuple[dict[str, list[di
             by_category[category].append(page)
         else:
             other.append(page)
+    for key in by_category:
+        by_category[key].sort(key=_guide_list_sort_key, reverse=True)
+    other.sort(key=_guide_list_sort_key, reverse=True)
     return by_category, other
+
+
+def _guide_list_sort_key(page: dict) -> tuple[str, str]:
+    return (str(page.get("datePublished") or ""), str(page.get("slug") or ""))
 
 
 def category_count_label(count: int) -> str:
