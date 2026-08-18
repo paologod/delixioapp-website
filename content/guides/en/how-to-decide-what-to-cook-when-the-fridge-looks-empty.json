@@ -1,0 +1,107 @@
+{
+  "type": "guide",
+  "slug": "how-to-decide-what-to-cook-when-the-fridge-looks-empty",
+  "category": "dinner",
+  "card_blurb": "A nearly empty fridge can make dinner feel impossible, even when there is enough to make something useful. The problem is rarely that you have nothing. It is that the ingredients d",
+  "breadcrumb": "How to Decide What to Cook When the Fridge",
+  "eyebrow": "Dinner",
+  "title": "How to Decide What to Cook When the Fridge Looks Empty | Delixio",
+  "description": "Learn a practical way to turn a sparse fridge into dinner: choose a base, assign ingredient roles and pick a realistic meal shape.",
+  "h1": "How to Decide What to Cook When the Fridge Looks Empty",
+  "intro": [
+    "A nearly empty fridge can make dinner feel impossible, even when there is enough to make something useful. The problem is rarely that you have nothing. It is that the ingredients do not arrive as an obvious meal.",
+    "Before you shop or order takeaway, give yourself ten minutes to turn the scattered bits into a decision. This is not a food-safety check: use only ingredients you are comfortable cooking with, and follow the storage guidance on their packaging."
+  ],
+  "sections": [
+    {
+      "heading": "Start with what is actually available",
+      "paragraphs": [
+        "Open the fridge, freezer and cupboard, then make three short lists. Keep it practical, not aspirational.",
+        "You do not need every category to make a meal. The lists simply show which dinner shapes are realistic tonight."
+      ],
+      "list": [
+        "**A base:** pasta, rice, bread, wraps, potatoes, noodles, beans or eggs.",
+        "**Something to build around:** cooked chicken, a tin of beans, cheese, tofu, frozen peas, a leftover vegetable or a sauce.",
+        "**A flavour direction:** tomato, soy, curry paste, stock, herbs, lemon, chilli, mustard or a favourite seasoning."
+      ]
+    },
+    {
+      "heading": "Use ingredient roles instead of recipe names",
+      "paragraphs": [
+        "When the fridge looks sparse, searching your memory for the perfect recipe can stall you. Instead, give each ingredient a role.",
+        "A handful of spinach can be a quick vegetable add-in. A small amount of cheese can finish a toastie, pasta or baked potato. Half an onion can start almost anything. A tin of beans can be the filling in a bowl, soup or wrap.",
+        "This shift matters because ingredients become flexible building blocks. You are no longer asking, “What recipe uses exactly this?” You are asking, “What job can this ingredient do?”"
+      ]
+    },
+    {
+      "heading": "Choose one dinner shape",
+      "paragraphs": [
+        "Pick the shape that matches your base and your energy. A decision is more useful than an endless list of possibilities.",
+        "### 1. Bowl or skillet",
+        "Use this when you have rice, grains, potatoes or noodles plus one or two add-ins. Cook the base, warm the supporting ingredients together, then add your flavour direction.",
+        "### 2. Toast, wrap or sandwich",
+        "Use bread or wraps when the fridge has small amounts rather than a full set of ingredients. A spread, leftover vegetables, cheese, eggs or beans can become a proper dinner with a crisp side or a simple soup.",
+        "### 3. Soup, sauce or stew",
+        "Use this when several small ingredients need one shared home. Start with an onion or seasoning if you have one, add a tin, stock or tomatoes, then fold in vegetables, beans, pasta or leftovers that suit the texture.",
+        "### 4. Tray, pan or baked potato dinner",
+        "Use this when the most convincing ingredient is a potato, frozen item or roastable vegetable. Let the oven do the work while you turn one small topping or sauce into the finishing move.",
+        "The goal is not to make every ingredient disappear. It is to choose a dinner you can happily cook now."
+      ]
+    },
+    {
+      "heading": "Make the smallest useful shop list",
+      "paragraphs": [
+        "Sometimes one missing ingredient makes the rest of the kitchen click. Once you have chosen a dinner shape, write down only the one or two extras that would make it work better.",
+        "For example, a bag of rice may only need a vegetable and a flavourful sauce. Bread, eggs and a little cheese may only need tomatoes or salad leaves. This keeps a sparse-fridge night from becoming an expensive, unfocused shop."
+      ]
+    },
+    {
+      "heading": "Keep a short list of reliable rescue combinations",
+      "paragraphs": [
+        "The next time dinner looks uncertain, start from combinations you already like. A few examples:",
+        "Treat these as starting points, not rules. Swap ingredients according to what you have and what you enjoy eating."
+      ],
+      "list": [
+        "Pasta + beans + tomato-based sauce",
+        "Eggs + potatoes + greens",
+        "Rice + frozen vegetables + soy or curry flavour",
+        "Bread + cheese + leftover vegetables",
+        "Noodles + a tin or frozen vegetables + a quick broth"
+      ]
+    },
+    {
+      "heading": "When you want more tailored ideas",
+      "paragraphs": [
+        "If you have ingredients but cannot see the connection between them, an ingredient-led tool can help you move from a short list to dinner options. Delixio lets you add what you have at home, choose cooking time, servings and meal type, then explore recipe ideas built around those ingredients. You can use Strict, Flexible or Creative modes depending on how closely you want to stay to your list.",
+        "For more ingredient-first dinner help, see <a href=\"https://delixioapp.com/what-can-i-cook-with-these-ingredients/\">what you can cook with the ingredients you have</a> or [[https://delixioapp.com/ai-recipe-generator/|how an AI recipe generator can start from your ingredients]].",
+        "Recipes are AI-assisted suggestions. Always check ingredients and allergens yourself before cooking or serving."
+      ]
+    },
+    {
+      "heading": "The sparse-fridge rule: decide before you search",
+      "paragraphs": [
+        "A nearly empty fridge does not need a heroic recipe. It needs a simple choice: what is the base, what can support it, and what dinner shape fits tonight? Make that call first, then look for inspiration only if you still need it.",
+        "That is how a few odds and ends become dinner instead of another delay."
+      ]
+    }
+  ],
+  "delixio": {
+    "heading": "How Delixio helps",
+    "paragraphs": [
+      "Type what you already have. Delixio suggests recipe ideas you can cook tonight."
+    ]
+  },
+  "related": [
+    {
+      "slug": "what-can-i-cook-with-these-ingredients",
+      "label": "What can i cook with these ingredients",
+      "type": "landing"
+    },
+    {
+      "slug": "ai-recipe-generator",
+      "label": "Ai recipe generator",
+      "type": "landing"
+    }
+  ],
+  "datePublished": "2026-08-18"
+}
