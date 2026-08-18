@@ -20,9 +20,9 @@
         "You do not need every category to make a meal. The lists simply show which dinner shapes are realistic tonight."
       ],
       "list": [
-        "**A base:** pasta, rice, bread, wraps, potatoes, noodles, beans or eggs.",
-        "**Something to build around:** cooked chicken, a tin of beans, cheese, tofu, frozen peas, a leftover vegetable or a sauce.",
-        "**A flavour direction:** tomato, soy, curry paste, stock, herbs, lemon, chilli, mustard or a favourite seasoning."
+        "A base: pasta, rice, bread, wraps, potatoes, noodles, beans or eggs.",
+        "Something to build around: cooked chicken, a tin of beans, cheese, tofu, frozen peas, a leftover vegetable or a sauce.",
+        "A flavour direction: tomato, soy, curry paste, stock, herbs, lemon, chilli, mustard or a favourite seasoning."
       ]
     },
     {
@@ -37,13 +37,13 @@
       "heading": "Choose one dinner shape",
       "paragraphs": [
         "Pick the shape that matches your base and your energy. A decision is more useful than an endless list of possibilities.",
-        "### 1. Bowl or skillet",
+        "1. Bowl or skillet",
         "Use this when you have rice, grains, potatoes or noodles plus one or two add-ins. Cook the base, warm the supporting ingredients together, then add your flavour direction.",
-        "### 2. Toast, wrap or sandwich",
+        "2. Toast, wrap or sandwich",
         "Use bread or wraps when the fridge has small amounts rather than a full set of ingredients. A spread, leftover vegetables, cheese, eggs or beans can become a proper dinner with a crisp side or a simple soup.",
-        "### 3. Soup, sauce or stew",
+        "3. Soup, sauce or stew",
         "Use this when several small ingredients need one shared home. Start with an onion or seasoning if you have one, add a tin, stock or tomatoes, then fold in vegetables, beans, pasta or leftovers that suit the texture.",
-        "### 4. Tray, pan or baked potato dinner",
+        "4. Tray, pan or baked potato dinner",
         "Use this when the most convincing ingredient is a potato, frozen item or roastable vegetable. Let the oven do the work while you turn one small topping or sauce into the finishing move.",
         "The goal is not to make every ingredient disappear. It is to choose a dinner you can happily cook now."
       ]
@@ -105,7 +105,7 @@
   ],
   "datePublished": "2026-08-18",
   "image": {
-    "file": "how-to-decide-what-to-cook-when-the-fridge-looks-empty-hero.webp",
+    "file": "how-to-decide-what-to-cook-when-the-fridge-looks-empty.webp",
     "alt": "How to Decide What to Cook When the Fridge Looks Empty"
   }
 }
