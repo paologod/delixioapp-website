@@ -73,7 +73,7 @@
       "heading": "When you want more tailored ideas",
       "paragraphs": [
         "If you have ingredients but cannot see the connection between them, an ingredient-led tool can help you move from a short list to dinner options. Delixio lets you add what you have at home, choose cooking time, servings and meal type, then explore recipe ideas built around those ingredients. You can use Strict, Flexible or Creative modes depending on how closely you want to stay to your list.",
-        "For more ingredient-first dinner help, see <a href=\"https://delixioapp.com/what-can-i-cook-with-these-ingredients/\">what you can cook with the ingredients you have</a> or [[https://delixioapp.com/ai-recipe-generator/|how an AI recipe generator can start from your ingredients]].",
+        "For more ingredient-first dinner help, see <a href=\"https://delixioapp.com/what-can-i-cook-with-these-ingredients/\">what you can cook with the ingredients you have</a> or <a href=\"https://delixioapp.com/ai-recipe-generator/\">how an AI recipe generator can start from your ingredients</a>.",
         "Recipes are AI-assisted suggestions. Always check ingredients and allergens yourself before cooking or serving."
       ]
     },
@@ -106,7 +106,6 @@
   "datePublished": "2026-08-18",
   "image": {
     "file": "how-to-decide-what-to-cook-when-the-fridge-looks-empty-hero.webp",
-    "alt": "A sparse-fridge collection of simple ingredients ready to become dinner",
-    "credit": ""
+    "alt": "How to Decide What to Cook When the Fridge Looks Empty"
   }
 }
