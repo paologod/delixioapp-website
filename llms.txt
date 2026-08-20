@@ -28,6 +28,7 @@ Practical kitchen articles grouped under [Delixio Cooking Guides](https://delixi
 - [What to Look for in a Meal Planner App If You Actually Cook at Home](https://delixioapp.com/guides/what-to-look-for-in-a-meal-planner-app-if-you-actually-cook-at-home/)
 - [The 10-Minute Fridge Reset That Turns Forgotten Food Into Dinner](https://delixioapp.com/guides/the-10-minute-fridge-reset-that-turns-forgotten-food-into-dinner/)
 - [How to Decide What to Cook When the Fridge Looks Empty](https://delixioapp.com/guides/how-to-decide-what-to-cook-when-the-fridge-looks-empty/)
+- [A Pantry Backup List for Last-Minute Dinners](https://delixioapp.com/guides/a-pantry-backup-list-for-last-minute-dinners/)
 
 ## Intent / solution landing pages
 

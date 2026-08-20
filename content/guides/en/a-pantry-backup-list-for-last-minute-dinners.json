@@ -1,0 +1,96 @@
+{
+  "type": "guide",
+  "slug": "a-pantry-backup-list-for-last-minute-dinners",
+  "category": "pantry",
+  "card_blurb": "A useful pantry is not a museum of tins you feel guilty about. It is a short cast of ingredients that can step in when the fridge is thin, the day ran away from you, and dinner sti",
+  "breadcrumb": "A Pantry Backup List for Last-Minute Dinners",
+  "eyebrow": "Pantry",
+  "title": "A Pantry Backup List for Last-Minute Dinners | Delixio",
+  "description": "Build a small pantry backup list around bases, fillings, flavour builders and finishing touches, so last-minute dinners feel easier to start.",
+  "h1": "A Pantry Backup List for Last-Minute Dinners",
+  "intro": [
+    "A useful pantry is not a museum of tins you feel guilty about. It is a short cast of ingredients that can step in when the fridge is thin, the day ran away from you, and dinner still needs to happen.",
+    "This is not a list of meals to make from pantry staples. It is a way to build a backup list: ingredients that cover different jobs, combine easily, and make your next dinner decision less dramatic."
+  ],
+  "sections": [
+    {
+      "heading": "Start with dinner jobs, not a giant shopping list",
+      "paragraphs": [
+        "Before adding anything, think about the roles an ingredient can play. A backup pantry works best when it has a few options for each role:",
+        "The point is not to collect every option. Choose one or two from each role that suit how you cook. If nobody at home enjoys lentils, they are not a backup. They are clutter with good intentions."
+      ],
+      "list": [
+        "A base: pasta, rice, couscous, noodles, tortillas, or another grain you actually use.",
+        "A filling: beans, lentils, chickpeas, tinned fish, eggs, or a favourite shelf-stable protein.",
+        "A flavour builder: tomatoes, stock, curry paste, pesto, soy sauce, spices, or a sauce you reach for often.",
+        "A finishing move: nuts, seeds, breadcrumbs, crispy onions, cheese, chilli oil, or herbs you can keep nearby."
+      ]
+    },
+    {
+      "heading": "Build around combinations you already like",
+      "paragraphs": [
+        "A pantry list becomes useful when its items can meet each other in more than one dinner shape. Think in pairs and trios instead of isolated ingredients.",
+        "For example:",
+        "You do not need to decide the exact recipe when you restock. You only need to notice that the pieces have more than one possible future together."
+      ],
+      "list": [
+        "pasta + tomatoes + beans can become a quick, saucy bowl;",
+        "rice + chickpeas + a punchy sauce can become a warm skillet dinner;",
+        "tortillas + beans + a finishing ingredient can become a crisp, flexible supper;",
+        "noodles + stock + frozen vegetables can become a fast bowl when there is not much else around."
+      ]
+    },
+    {
+      "heading": "Make your list personal in three passes",
+      "paragraphs": [
+        "1. Write down the dinners that rescue your week",
+        "Look back at the dinners you make when you are tired but still want something better than an emergency snack. Which ingredients show up again and again? Those are the first things worth protecting on your list.",
+        "2. Circle the ingredients that do more than one job",
+        "A jar of sauce you use once a year is not a backup. A base, filling, or flavour builder that works in several dinner shapes earns its shelf space.",
+        "3. Keep the list deliberately short",
+        "Try a first version with eight to twelve ingredients. A smaller list is easier to remember, easier to use, and more likely to be replenished. You can add to it later when a real cooking habit proves itself."
+      ]
+    },
+    {
+      "heading": "Use a simple restock rhythm",
+      "paragraphs": [
+        "The best time to notice a missing backup is not at 7 p.m. Put a tiny pantry check next to the routine you already have: unpacking a shop, planning a few meals, or clearing the kitchen at the end of the week.",
+        "Ask three questions:",
+        "Add only the answers that fit your next shop. This keeps the pantry responsive rather than overstuffed."
+      ],
+      "steps": [
+        "Which base is nearly gone?",
+        "Which filling would make tonight easier if it were here?",
+        "Which flavour builder would give a plain dinner some personality?"
+      ]
+    },
+    {
+      "heading": "Let the fridge choose the direction",
+      "paragraphs": [
+        "Your backup list should support the ingredients that need attention in the fridge, not replace them. If you have a lonely pepper, a handful of greens, or half an onion, start there. Then let the pantry supply the base, filling, and flavour that turn those odds and ends into something coherent.",
+        "That is the quiet advantage of a good backup pantry: it gives you options without demanding a perfectly planned week."
+      ]
+    },
+    {
+      "heading": "The takeaway",
+      "paragraphs": [
+        "A pantry backup list is not about preparing for every possible dinner. It is about keeping a few reliable building blocks that work together, support the food already at home, and make the next meal feel easier to start."
+      ]
+    }
+  ],
+  "delixio": {
+    "heading": "How Delixio can help when you have the pieces but not the plan",
+    "paragraphs": [
+      "When you know what is in your fridge and pantry but the combination is not obvious, Delixio can turn the ingredients you add into recipe ideas. You can choose cooking time, servings, and a Strict, Flexible, or Creative approach, then save recipes or add missing items to a grocery list. Recipes are AI-assisted suggestions, so always check ingredients and allergens yourself before cooking or serving.",
+      "For more ingredient-led inspiration, explore the [[https://delixioapp.com/ai-recipe-generator/|AI recipe generator]]."
+    ]
+  },
+  "related": [
+    {
+      "slug": "recipe-generator-from-ingredients",
+      "label": "Recipe generator from ingredients",
+      "type": "landing"
+    }
+  ],
+  "datePublished": "2026-08-20"
+}
