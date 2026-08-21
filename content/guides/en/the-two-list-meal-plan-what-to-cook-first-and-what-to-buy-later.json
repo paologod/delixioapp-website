@@ -1,0 +1,123 @@
+{
+  "type": "guide",
+  "slug": "the-two-list-meal-plan-what-to-cook-first-and-what-to-buy-later",
+  "category": "planning",
+  "card_blurb": "A meal plan often starts with a small question: what can we make before we buy anything else?",
+  "breadcrumb": "The Two-List Meal Plan: What to Cook First and",
+  "eyebrow": "Planning",
+  "title": "Two-List Meal Plan: Cook First, Shop Later | Delixio",
+  "description": "Use the two-list meal plan to cook what you have first, shop with purpose later, and make weekday dinners easier.",
+  "h1": "The Two-List Meal Plan: What to Cook First and What to Buy Later",
+  "intro": [
+    "A meal plan often starts with a small question: what can we make before we buy anything else?",
+    "That is the point of a two-list meal plan. Instead of writing one long list of ideal dinners, you make two short lists:",
+    "1. Cook First: meals you can make from what is already in your fridge, freezer, or cupboard, plus everyday basics.",
+    "2. Buy Later: meals that sound good but need a deliberate shop.",
+    "The split keeps a week of dinners realistic. You use the ingredients already asking for attention, avoid buying duplicates, and still leave room for the meals you genuinely want next."
+  ],
+  "sections": [
+    {
+      "heading": "Why one big meal plan can make dinner harder",
+      "paragraphs": [
+        "A traditional plan can look tidy on Sunday and feel impossible by Wednesday. Plans change, a late meeting appears, or someone eats the spinach at lunch. And the dinner you were excited about suddenly needs four ingredients you do not have.",
+        "The two-list method gives those changes somewhere to go. Your Cook First list is the flexible part of the plan. Your Buy Later list is the wishlist, not a demand that you shop immediately.",
+        "It is especially useful when your kitchen has a few random ingredients that could become dinner, but no obvious menu."
+      ]
+    },
+    {
+      "heading": "Step 1: Make a quick kitchen scan",
+      "paragraphs": [
+        "Look for ingredients that can do a job in the next few dinners.",
+        "Start with these four groups:",
+        "In this step you are simply noticing what you would like to cook with first.",
+        "Write down three or four ingredients that could anchor a meal. That is enough to begin."
+      ],
+      "list": [
+        "Use-first ingredients: the vegetables, cooked leftovers, herbs, or opened items you want to cook around soon.",
+        "Anchors: eggs, beans, chicken, tofu, cheese, or another filling ingredient.",
+        "Bases: pasta, rice, potatoes, wraps, bread, noodles, or grains.",
+        "Flavour helpers: tinned tomatoes, stock, sauces, spices, garlic, onions, or something crunchy to finish."
+      ]
+    },
+    {
+      "heading": "Step 2: Build the Cook First list",
+      "paragraphs": [
+        "The Cook First list should contain only two or three dinner shapes. Keep it loose enough to survive a busy week.",
+        "For example, if you have mushrooms, eggs, rice, a tin of tomatoes, tortillas, and a little cheese, your list might be:",
+        "Notice that these are meal shapes: each one can bend if an ingredient disappears or you decide you want something different.",
+        "A helpful formula is:",
+        "use-first ingredient + base + filling + flavour",
+        "It works for bowls, soups, trays, pasta, wraps, and stir-fries. If the list contains a few adaptable shapes, dinner feels less like a test with a wrong answer."
+      ],
+      "list": [
+        "Mushroom and egg fried rice",
+        "Tomatoey bean wraps with cheese",
+        "A flexible tray dinner using the vegetables that need attention"
+      ]
+    },
+    {
+      "heading": "Step 3: Build the Buy Later list",
+      "paragraphs": [
+        "Now write the meals you would like to have after the next shop. These may be the dinners that need a specific protein, a new vegetable, or a few key ingredients.",
+        "Keep this list separate from the ingredients themselves at first. Write the meal idea, then note the few items it needs.",
+        "For example:",
+        "This is more useful than collecting a huge grocery list without knowing which dinner each item supports. It also makes it easy to drop a meal that no longer sounds appealing before you buy for it."
+      ],
+      "list": [
+        "Lemon chicken and potatoes: lemons, chicken",
+        "Coconut lentil curry: coconut milk, spinach",
+        "Pasta bake: pasta, mozzarella, broccoli"
+      ]
+    },
+    {
+      "heading": "Step 4: Choose the order, but not every detail",
+      "paragraphs": [
+        "A workable week only needs a sequence:",
+        "Try putting only three dinner decisions on the calendar. Leave the remaining evenings flexible for leftovers, a repeat favourite, or a plan change.",
+        "This is how planning for real life works."
+      ],
+      "list": [
+        "Early week: cook the meals built around ingredients already at home.",
+        "Shop day: buy for one or two Buy Later meals, not an entire fantasy week.",
+        "Later week: choose from the new options and whatever is still in the kitchen."
+      ]
+    },
+    {
+      "heading": "Step 5: Let the grocery list stay small and specific",
+      "paragraphs": [
+        "Your grocery list should support the Buy Later list, so, before adding an item, ask:",
+        "If you cannot connect an item to a meal, leave it off for now. You can always add it next time.",
+        "A smaller, meal-linked list gives you more freedom. It also makes it easier to use the ingredients you already bought before bringing more home."
+      ],
+      "list": [
+        "Which dinner is this for?",
+        "Can another item already at home do the same job?",
+        "Will this help more than one meal this week?"
+      ]
+    },
+    {
+      "heading": "A calmer way to plan dinner",
+      "paragraphs": [
+        "The two-list meal plan is not about finding the perfect weekly menu. It is about making the next dinner easier, then making the shop more intentional.",
+        "Start with what is already useful. Keep future meals visible but optional. Then let the plan change when life does.",
+        "That is usually enough structure to make dinner feel possible again."
+      ]
+    }
+  ],
+  "delixio": {
+    "heading": "Where Delixio fits into the two-list method",
+    "paragraphs": [
+      "Delixio can help when the Cook First list is the hard part. Add the ingredients you have, choose the cooking time, servings, meal type, and Strict, Flexible, or Creative mode, then explore dinner ideas built around your kitchen.",
+      "When an idea needs a few extras, you can save it and add ingredients to a grocery list. You can also plan meals on the in-app calendar when you want a clearer view of the week. Delixio offers recipe ideas from ingredients you already have, with one free full recipe per calendar day and no subscription.",
+      "For the product side of the save, shop, and plan loop, see the live [[https://delixioapp.com/grocery-list-recipe-app/|grocery list recipe app page]]. Recipes are AI-assisted suggestions, so always check ingredients and allergens yourself before cooking or serving."
+    ]
+  },
+  "related": [
+    {
+      "slug": "meal-planner-app",
+      "label": "Meal planner app",
+      "type": "landing"
+    }
+  ],
+  "datePublished": "2026-08-21"
+}

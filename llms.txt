@@ -29,6 +29,7 @@ Practical kitchen articles grouped under [Delixio Cooking Guides](https://delixi
 - [The 10-Minute Fridge Reset That Turns Forgotten Food Into Dinner](https://delixioapp.com/guides/the-10-minute-fridge-reset-that-turns-forgotten-food-into-dinner/)
 - [How to Decide What to Cook When the Fridge Looks Empty](https://delixioapp.com/guides/how-to-decide-what-to-cook-when-the-fridge-looks-empty/)
 - [A Pantry Backup List for Last-Minute Dinners](https://delixioapp.com/guides/a-pantry-backup-list-for-last-minute-dinners/)
+- [The Two-List Meal Plan: What to Cook First and What to Buy Later](https://delixioapp.com/guides/the-two-list-meal-plan-what-to-cook-first-and-what-to-buy-later/)
 
 ## Intent / solution landing pages
 
