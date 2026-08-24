@@ -1,0 +1,92 @@
+{
+  "type": "guide",
+  "slug": "the-3-2-1-dinner-formula-build-a-weeknight-meal-without-a-recipe",
+  "category": "dinner",
+  "card_blurb": "When dinner feels impossible, the problem is often not a lack of ingredients.",
+  "breadcrumb": "The 3-2-1 Dinner Formula: Build a Weeknight",
+  "eyebrow": "Dinner",
+  "title": "The 3-2-1 Dinner Formula: Build a Weeknight Meal Without a Recipe | Delixio",
+  "description": "Use a flexible 3-2-1 dinner formula,three components, two flavour builders, one finish,to make a weeknight meal without a recipe.",
+  "h1": "The 3-2-1 Dinner Formula: Build a Weeknight Meal Without a Recipe",
+  "intro": [
+    "When dinner feels impossible, the problem is often not a lack of ingredients.",
+    "The 3-2-1 formula gives a small, mixed collection of food somewhere to go: three flexible components, two flavour builders, and one finishing element. It is not a recipe and it does not need exact measurements, but it is a way to make a sensible next decision when the fridge, cupboard, and calendar are all a little messy."
+  ],
+  "sections": [
+    {
+      "heading": "What the numbers mean",
+      "paragraphs": [
+        "3 flexible components",
+        "Pick three roles:",
+        "The point is balance. If you have two strong components, let the third be something small: a handful of peas, a spoonful of beans, or an egg on top.",
+        "2 flavour builders",
+        "Choose two things that make the same ingredients feel like dinner rather than a collection of leftovers.",
+        "Try one from each lane:",
+        "You do not need every option. A little onion plus tomato paste can take one dinner in a cozy direction; lemon plus pepper can take the same ingredients somewhere lighter.",
+        "1 finishing element",
+        "The finish is the tiny decision that makes the plate feel complete. Think grated cheese, herbs, toasted crumbs, nuts or seeds, yoghurt, a squeeze of citrus, or a spoonful of something crunchy.",
+        "No finish on hand? That is fine. The formula still works. It is an invitation, not a rule book."
+      ],
+      "list": [
+        "A base: pasta, rice, bread, potatoes, beans, noodles, wraps, or a grain.",
+        "A substantial element: eggs, beans, tofu, cheese, chicken, lentils, or another ingredient you want to use.",
+        "A vegetable or extra: greens, onions, tomatoes, frozen vegetables, roasted vegetables, or a jarred ingredient with character.",
+        "Savory or bright: garlic, onion, soy sauce, lemon, vinegar, mustard, tomato paste, stock, or a favorite sauce.",
+        "Warm or spicy: dried herbs, chilli, curry powder, paprika, cumin, pepper, or a spice blend you already use."
+      ]
+    },
+    {
+      "heading": "Start with a dinner shape",
+      "paragraphs": [
+        "Once you have your 3-2-1, choose the easiest format for the time and equipment you have:",
+        "This is where the formula earns its place: you are choosing a shape, not trying to invent dinner from scratch."
+      ],
+      "list": [
+        "Skillet: cook the base and substantial element together, then fold in the extra and flavour builders.",
+        "Tray bake: spread the components out, season simply, and let the oven do the steady work.",
+        "Soup or broth bowl: use a base, add the substantial element and extra, then build flavour with stock and seasoning.",
+        "Pasta, grain, or noodle bowl: toss everything through a warm base and finish at the table.",
+        "Toast, wrap, or baked potato: use the base as a vehicle and pile the rest on top."
+      ]
+    },
+    {
+      "heading": "A few real-life ways it can look",
+      "paragraphs": [
+        "Pasta night: pasta + white beans + frozen spinach; garlic + lemon; parmesan or toasted crumbs.",
+        "Tray night: potatoes + chicken or chickpeas + carrots; mustard + paprika; yoghurt or herbs.",
+        "Fast bowl night: rice + egg + peas; soy sauce + chilli; sesame seeds or a squeeze of lime.",
+        "Cupboard-to-table night: beans + tomatoes + bread; onion + dried herbs; cheese or peppery greens.",
+        "Swap the base, substantial element, or extra based on what needs attention in your kitchen."
+      ]
+    },
+    {
+      "heading": "Use the formula in three modes",
+      "paragraphs": [
+        "Strict mode: Make the formula only from what is already at home. This is useful when you want to cook before adding to the grocery list.",
+        "Flexible mode: Start with what you have, then add one small missing piece that makes the dinner easier to enjoy,perhaps bread, herbs, or a favourite sauce.",
+        "Creative mode: Keep the roles but change the mood. Turn the same base and substantial element into a skillet, soup, wrap, or bowl by changing the flavour builders and finish."
+      ]
+    },
+    {
+      "heading": "Make the next decision, not every decision",
+      "paragraphs": [
+        "The 3-2-1 formula is especially helpful when you are stuck between too many almost-ideas. Pick the ingredient you most want to use, give it two companions, choose two flavours, and decide on one finish. Then choose a dinner shape and start.",
+        "If you want another starting point, Delixio can help turn the ingredients you already have into meal ideas. For recipes that use allergens or ingredients you are unsure about, always check the ingredients and allergens yourself."
+      ]
+    }
+  ],
+  "delixio": {
+    "heading": "How Delixio helps",
+    "paragraphs": [
+      "Type what you already have. Delixio suggests recipe ideas you can cook tonight."
+    ]
+  },
+  "related": [
+    {
+      "slug": "quick-dinner-ideas",
+      "label": "Quick dinner ideas",
+      "type": "landing"
+    }
+  ],
+  "datePublished": "2026-08-23"
+}

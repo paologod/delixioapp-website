@@ -31,6 +31,7 @@ Practical kitchen articles grouped under [Delixio Cooking Guides](https://delixi
 - [A Pantry Backup List for Last-Minute Dinners](https://delixioapp.com/guides/a-pantry-backup-list-for-last-minute-dinners/)
 - [The Two-List Meal Plan: What to Cook First and What to Buy Later](https://delixioapp.com/guides/the-two-list-meal-plan-what-to-cook-first-and-what-to-buy-later/)
 - [Cook Once, Remix Twice: A Leftover Plan for Two Different Dinners](https://delixioapp.com/guides/cook-once-remix-twice-a-leftover-plan-for-two-different-dinners/)
+- [The 3-2-1 Dinner Formula: Build a Weeknight Meal Without a Recipe](https://delixioapp.com/guides/the-3-2-1-dinner-formula-build-a-weeknight-meal-without-a-recipe/)
 
 ## Intent / solution landing pages
 
