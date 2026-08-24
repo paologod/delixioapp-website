@@ -1,0 +1,107 @@
+{
+  "type": "guide",
+  "slug": "cook-once-remix-twice-a-leftover-plan-for-two-different-dinners",
+  "category": "leftovers",
+  "card_blurb": "A good leftover dinner starts before there are leftovers.",
+  "breadcrumb": "Cook Once, Remix Twice: A Leftover Plan for Two",
+  "eyebrow": "Leftovers",
+  "title": "Cook Once, Remix Twice: A Leftover Plan for Two Different Dinners | Delixio",
+  "description": "Use one flexible cooked component in two different weeknight dinners with this simple cook-once, remix-twice leftovers plan.",
+  "h1": "Cook Once, Remix Twice: A Leftover Plan for Two Different Dinners",
+  "intro": [
+    "A good leftover dinner starts before there are leftovers.",
+    "Instead of making one big finished dish and hoping everyone is happy to repeat it tomorrow, cook one flexible component on purpose. Reserve part of it before the final seasoning or sauce, then give each portion a different job. The result is less dinner planning, less repetition, and a better chance that the food you made gets used in a way that still feels new.",
+    "This is a simple weeknight move: one main cooking session, two dinner directions."
+  ],
+  "sections": [
+    {
+      "heading": "Start with a flexible component, not a finished meal",
+      "paragraphs": [
+        "Choose something that can move between dinner shapes without much fuss. Good options include:",
+        "The key is to keep the first cook relatively neutral. Use enough flavour to make it pleasant, but save the strongest sauce, cheese, herbs, or finishing spice for later. That gives the reserved portion room to become something else.",
+        "For example, roast a tray of vegetables and cook a pot of rice. On night one, finish part with a lemony dressing and serve it as a warm grain bowl. Reserve the rest. On night two, fold the vegetables and rice into a quick tomato pan, top it with whatever you like, and you have a different dinner shape with almost no restart."
+      ],
+      "list": [
+        "roasted vegetables",
+        "cooked rice, potatoes, pasta, or grains",
+        "a tray of chicken, beans, lentils, or tofu",
+        "a tomatoey vegetable base",
+        "sautéed onions, mushrooms, peppers, or greens"
+      ]
+    },
+    {
+      "heading": "Use the three-part remix plan",
+      "paragraphs": [
+        "Before you serve the first dinner, decide three things.",
+        "1. What stays the same?",
+        "Pick the component that does the heavy lifting: the cooked veg, the grain, the beans, or the protein. This is your repeatable base.",
+        "2. What changes tomorrow?",
+        "Change at least two of these: the sauce, the format, the topping, or the side.",
+        "A roasted vegetable tray can become:",
+        "The ingredients may overlap. The experience should not.",
+        "3. What does tomorrow need?",
+        "Write down one small add-on while you are already in the kitchen. Maybe it is yoghurt, a tortilla, a tin of tomatoes, an egg, or a handful of leaves. Put it on your grocery list only if it is genuinely missing. That keeps the second dinner from becoming another full shop."
+      ],
+      "list": [
+        "a bowl with rice and a bright dressing",
+        "a filled wrap with beans and a crunchy topping",
+        "a quick pasta sauce with chopped tomatoes",
+        "a soup starter with stock and a tin of beans"
+      ]
+    },
+    {
+      "heading": "Reserve before the table",
+      "paragraphs": [
+        "The easiest way to protect a second dinner is to portion it before serving the first one. Put tomorrow's component aside while the pan or tray is still on the counter. It takes less than a minute and stops the familiar outcome where dinner disappears because everyone understandably goes back for seconds.",
+        "A sensible handful of cooked vegetables, a scoop of grains, or a few pieces of protein is enough to create a starting point. The goal is to make tomorrow easier."
+      ]
+    },
+    {
+      "heading": "Give each night a different dinner shape",
+      "paragraphs": [
+        "When a second dinner feels boring, the problem is often the shape, not the ingredient. Try pairing the same base with a different format.",
+        "| First night | Second night |",
+        "| --- | --- |",
+        "| bowl | wrap or toastie |",
+        "| tray dinner | saucy pan dinner |",
+        "| pasta | soup or frittata-style meal |",
+        "| rice plate | crisp-edged fritter or filling |",
+        "A different format changes the rhythm of the meal. A fresh topping, a quick sauce, or a crunchy element gives it a clear second identity."
+      ]
+    },
+    {
+      "heading": "Keep a tiny remix note",
+      "paragraphs": [
+        "If you are cooking for the next two evenings, make the plan visible. A note as simple as this is enough:",
+        "This is where planning becomes helpful rather than homework. You are simply giving one useful component a second purpose."
+      ],
+      "list": [
+        "Tonight: roast vegetables + rice bowls",
+        "Tomorrow: reserve vegetables + rice for tomato pan wraps",
+        "Missing: tortillas"
+      ]
+    },
+    {
+      "heading": "The point is less repeat",
+      "paragraphs": [
+        "Cook once, remix twice works because it removes one future decision without locking you into a rigid plan. Keep one component flexible, reserve it early, and give it a different ending tomorrow. Dinner still feels like dinner, not a rerun.",
+        "For another practical way to make better use of the food already at home, see Delixio's [[https://delixioapp.com/reduce-food-waste/|reduce food waste guide]]."
+      ]
+    }
+  ],
+  "delixio": {
+    "heading": "Let Delixio help when the second route is unclear",
+    "paragraphs": [
+      "If you have a reserved component and cannot see its next form, start with the ingredients that are already there. Delixio can generate meal ideas from what you have at home, with options for cooking time, servings, and Strict, Flexible, or Creative mode. You can save an idea, add genuinely missing ingredients to a grocery list, and plan it for another day.",
+      "Recipes are AI-assisted suggestions. Always check ingredients and allergens yourself before cooking or serving."
+    ]
+  },
+  "related": [
+    {
+      "slug": "leftover-recipe-generator",
+      "label": "Leftover recipe generator",
+      "type": "landing"
+    }
+  ],
+  "datePublished": "2026-08-24"
+}
