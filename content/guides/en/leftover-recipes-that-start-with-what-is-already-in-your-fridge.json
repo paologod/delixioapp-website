@@ -17,52 +17,93 @@
     {
       "heading": "Start by sorting leftovers by texture",
       "paragraphs": [
-        "Texture tells you what format will work best.",
-        "Soft leftovers",
-        "Think roasted vegetables, cooked greens, sauces, mashed potatoes, beans, or stews.",
-        "Best uses:",
-        "- Soup.",
-        "- Pasta sauce.",
-        "- Frittata.",
-        "- Curry.",
-        "- Toast topping.",
-        "- Wrap filling with crunch added.",
-        "Dry leftovers",
-        "Think rice, cooked grains, chicken, roasted potatoes, bread, or pasta.",
-        "Best uses:",
-        "- Fried rice.",
-        "- Bowls.",
-        "- Tray bakes.",
-        "- Salads.",
-        "- Wraps.",
-        "- Toasties.",
-        "Small leftovers",
-        "Think half an onion, a few herbs, a spoon of pesto, a little cheese, or a handful of vegetables.",
-        "Best uses:",
-        "- Omelette.",
-        "- Pasta finish.",
-        "- Soup boost.",
-        "- Sauce.",
-        "- Topping.",
-        "Small leftovers often work best as flavour, not as the whole meal."
+        "Texture tells you what format will work best."
       ]
     },
     {
-      "heading": "Seven reliable leftover meal shapes",
+      "heading": "Soft leftovers",
       "paragraphs": [
-        "1. Fried rice",
-        "Use cooked rice, egg, frozen vegetables, soy sauce, and any leftover protein or vegetables. Keep the heat high and avoid too much sauce.",
-        "2. Frittata",
-        "Eggs turn small leftovers into dinner. Use cooked potatoes, greens, peppers, mushrooms, cheese, herbs, or roasted vegetables.",
-        "3. Soup",
-        "Soup is perfect for odds and ends. Add stock, tinned tomatoes, lentils, beans, rice, pasta, or vegetables. Blend if the texture needs saving.",
-        "4. Pasta",
-        "Leftover vegetables, beans, cheese, cooked meat, pesto, cream cheese, and tomato sauce can all become pasta. Add pasta water to help everything come together.",
-        "5. Bowls",
-        "Start with rice, couscous, potatoes, noodles, or salad. Add leftovers, a sauce, and one fresh or crunchy thing.",
-        "6. Wraps",
-        "Wraps are ideal when ingredients feel too random for a formal recipe. Add sauce, crunch, and something filling.",
-        "7. Tray bakes",
+        "Think roasted vegetables, cooked greens, sauces, mashed potatoes, beans, or stews.",
+        "Best uses:"
+      ],
+      "list": [
+        "Soup.",
+        "Pasta sauce.",
+        "Frittata.",
+        "Curry.",
+        "Toast topping.",
+        "Wrap filling with crunch added."
+      ]
+    },
+    {
+      "heading": "Dry leftovers",
+      "paragraphs": [
+        "Think rice, cooked grains, chicken, roasted potatoes, bread, or pasta.",
+        "Best uses:"
+      ],
+      "list": [
+        "Fried rice.",
+        "Bowls.",
+        "Tray bakes.",
+        "Salads.",
+        "Wraps.",
+        "Toasties."
+      ]
+    },
+    {
+      "heading": "Small leftovers",
+      "paragraphs": [
+        "Think half an onion, a few herbs, a spoon of pesto, a little cheese, or a handful of vegetables.",
+        "Best uses:",
+        "Small leftovers often work best as flavour, not as the whole meal."
+      ],
+      "list": [
+        "Omelette.",
+        "Pasta finish.",
+        "Soup boost.",
+        "Sauce.",
+        "Topping."
+      ]
+    },
+    {
+      "heading": "1. Fried rice",
+      "paragraphs": [
+        "Use cooked rice, egg, frozen vegetables, soy sauce, and any leftover protein or vegetables. Keep the heat high and avoid too much sauce."
+      ]
+    },
+    {
+      "heading": "2. Frittata",
+      "paragraphs": [
+        "Eggs turn small leftovers into dinner. Use cooked potatoes, greens, peppers, mushrooms, cheese, herbs, or roasted vegetables."
+      ]
+    },
+    {
+      "heading": "3. Soup",
+      "paragraphs": [
+        "Soup is perfect for odds and ends. Add stock, tinned tomatoes, lentils, beans, rice, pasta, or vegetables. Blend if the texture needs saving."
+      ]
+    },
+    {
+      "heading": "4. Pasta",
+      "paragraphs": [
+        "Leftover vegetables, beans, cheese, cooked meat, pesto, cream cheese, and tomato sauce can all become pasta. Add pasta water to help everything come together."
+      ]
+    },
+    {
+      "heading": "5. Bowls",
+      "paragraphs": [
+        "Start with rice, couscous, potatoes, noodles, or salad. Add leftovers, a sauce, and one fresh or crunchy thing."
+      ]
+    },
+    {
+      "heading": "6. Wraps",
+      "paragraphs": [
+        "Wraps are ideal when ingredients feel too random for a formal recipe. Add sauce, crunch, and something filling."
+      ]
+    },
+    {
+      "heading": "7. Tray bakes",
+      "paragraphs": [
         "Leftover potatoes, vegetables, sausages, chicken, beans, and cheese can often go into one tray and become dinner with oil, seasoning, and heat."
       ]
     },
@@ -70,13 +111,15 @@
       "heading": "The use first rule",
       "paragraphs": [
         "Not every leftover has the same urgency. Use delicate foods first:",
-        "- Cooked rice.",
-        "- Seafood or fish.",
-        "- Salad leaves.",
-        "- Soft herbs.",
-        "- Open dairy.",
-        "- Cooked vegetables.",
         "Pantry items and hard vegetables can wait longer."
+      ],
+      "list": [
+        "Cooked rice.",
+        "Seafood or fish.",
+        "Salad leaves.",
+        "Soft herbs.",
+        "Open dairy.",
+        "Cooked vegetables."
       ]
     },
     {
