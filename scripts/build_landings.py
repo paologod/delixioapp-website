@@ -766,6 +766,24 @@ def render_guide_page(data: dict, locale: str = "en") -> str:
         for p in delixio.get("paragraphs", []):
             delixio_parts.append(f"      <p>{rich_text(p)}</p>")
 
+    faq_items = [item for item in data.get("faq", []) if isinstance(item, dict) and item.get("q") and item.get("a")]
+    faq_html = []
+    for item in faq_items:
+        faq_html.append("      <article class=\"faq-item\">")
+        faq_html.append(f'        <h3 class="faq-question">{esc_text(item["q"])}</h3>')
+        faq_html.append(f'        <p class="faq-answer">{rich_text(item["a"])}</p>')
+        faq_html.append("      </article>")
+    faq_block = ""
+    if faq_html:
+        faq_block = "\n      <h2>FAQ</h2>\n" + "\n".join(faq_html) + "\n"
+    faq_jsonld = ""
+    if faq_items:
+        faq_jsonld = (
+            "\n  <script type=\"application/ld+json\">\n"
+            + render_faq_jsonld(faq_items)
+            + "\n  </script>"
+        )
+
     return f"""<!DOCTYPE html>
 <html lang="{meta['html_lang']}">
 <head>
@@ -803,7 +821,7 @@ def render_guide_page(data: dict, locale: str = "en") -> str:
   </script>
   <script type="application/ld+json">
 {json.dumps(webpage, ensure_ascii=False, indent=2)}
-  </script>
+  </script>{faq_jsonld}
 </head>
 <body class="page-download page-internal">
 {site_header("../../assets/", current="guides")}
@@ -824,7 +842,7 @@ def render_guide_page(data: dict, locale: str = "en") -> str:
 {chr(10).join(sections_html)}
 
 {chr(10).join(delixio_parts)}
-{related_block}
+{related_block}{faq_block}
       <div class="landing-download">
         <h2>Try Delixio</h2>
         <p>Delixio is currently available for iPhone and Android. Type the ingredients you already have, explore free recipe ideas, then unlock a full recipe when you want to cook. You get 1 free full recipe every day, plus optional credit packs. No subscription.</p>
