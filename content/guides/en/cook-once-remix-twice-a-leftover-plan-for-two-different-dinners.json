@@ -32,21 +32,33 @@
     {
       "heading": "Use the three-part remix plan",
       "paragraphs": [
-        "Before you serve the first dinner, decide three things.",
-        "1. What stays the same?",
-        "Pick the component that does the heavy lifting: the cooked veg, the grain, the beans, or the protein. This is your repeatable base.",
-        "2. What changes tomorrow?",
+        "Before you serve the first dinner, decide three things."
+      ]
+    },
+    {
+      "heading": "1. What stays the same?",
+      "paragraphs": [
+        "Pick the component that does the heavy lifting: the cooked veg, the grain, the beans, or the protein. This is your repeatable base."
+      ]
+    },
+    {
+      "heading": "2. What changes tomorrow?",
+      "paragraphs": [
         "Change at least two of these: the sauce, the format, the topping, or the side.",
         "A roasted vegetable tray can become:",
-        "The ingredients may overlap. The experience should not.",
-        "3. What does tomorrow need?",
-        "Write down one small add-on while you are already in the kitchen. Maybe it is yoghurt, a tortilla, a tin of tomatoes, an egg, or a handful of leaves. Put it on your grocery list only if it is genuinely missing. That keeps the second dinner from becoming another full shop."
+        "The ingredients may overlap. The experience should not."
       ],
       "list": [
         "a bowl with rice and a bright dressing",
         "a filled wrap with beans and a crunchy topping",
         "a quick pasta sauce with chopped tomatoes",
         "a soup starter with stock and a tin of beans"
+      ]
+    },
+    {
+      "heading": "3. What does tomorrow need?",
+      "paragraphs": [
+        "Write down one small add-on while you are already in the kitchen. Maybe it is yoghurt, a tortilla, a tin of tomatoes, an egg, or a handful of leaves. Put it on your grocery list only if it is genuinely missing. That keeps the second dinner from becoming another full shop."
       ]
     },
     {
@@ -59,13 +71,33 @@
     {
       "heading": "Give each night a different dinner shape",
       "paragraphs": [
-        "When a second dinner feels boring, the problem is often the shape, not the ingredient. Try pairing the same base with a different format.",
-        "| First night | Second night |",
-        "| --- | --- |",
-        "| bowl | wrap or toastie |",
-        "| tray dinner | saucy pan dinner |",
-        "| pasta | soup or frittata-style meal |",
-        "| rice plate | crisp-edged fritter or filling |",
+        "When a second dinner feels boring, the problem is often the shape, not the ingredient. Try pairing the same base with a different format."
+      ],
+      "table": {
+        "headers": [
+          "First night",
+          "Second night"
+        ],
+        "rows": [
+          [
+            "bowl",
+            "wrap or toastie"
+          ],
+          [
+            "tray dinner",
+            "saucy pan dinner"
+          ],
+          [
+            "pasta",
+            "soup or frittata-style meal"
+          ],
+          [
+            "rice plate",
+            "crisp-edged fritter or filling"
+          ]
+        ]
+      },
+      "paragraphs_after": [
         "A different format changes the rhythm of the meal. A fresh topping, a quick sauce, or a crunchy element gives it a clear second identity."
       ]
     },
