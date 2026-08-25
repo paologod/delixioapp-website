@@ -52,17 +52,14 @@
       "heading": "Step 3: Sort by texture",
       "paragraphs": [
         "Searching for a recipe too early can make the fridge feel more complicated.",
-        "Instead, ask what texture your anchor has.",
-        "### Soft",
+        "Instead, ask what texture your anchor has."
+      ]
+    },
+    {
+      "heading": "Soft",
+      "paragraphs": [
         "Soft ingredients include roasted vegetables, cooked greens, sauces, beans, stews, mashed potato, cooked lentils, and open dairy.",
-        "Best dinner shapes:",
-        "### Dry or sturdy",
-        "Dry or sturdy ingredients include rice, potatoes, pasta, cooked grains, bread, wraps, chicken, firm tofu, and roasted vegetables with structure.",
-        "Best dinner shapes:",
-        "### Tiny but useful",
-        "Tiny leftovers include herbs, cheese, pesto, chilli oil, lemon, half an onion, a spoon of yoghurt, or a few olives.",
-        "Best uses:",
-        "Small leftovers rarely need to become the whole meal. They can be the thing that makes the meal feel intentional."
+        "Best dinner shapes:"
       ],
       "list": [
         "Soup.",
@@ -70,13 +67,32 @@
         "Frittata.",
         "Curry-style bowl.",
         "Toast topping.",
-        "Wrap filling with something crunchy.",
+        "Wrap filling with something crunchy."
+      ]
+    },
+    {
+      "heading": "Dry or sturdy",
+      "paragraphs": [
+        "Dry or sturdy ingredients include rice, potatoes, pasta, cooked grains, bread, wraps, chicken, firm tofu, and roasted vegetables with structure.",
+        "Best dinner shapes:"
+      ],
+      "list": [
         "Fried rice.",
         "Grain bowl.",
         "Tray bake.",
         "Salad with a warm topping.",
         "Toastie.",
-        "Wrap.",
+        "Wrap."
+      ]
+    },
+    {
+      "heading": "Tiny but useful",
+      "paragraphs": [
+        "Tiny leftovers include herbs, cheese, pesto, chilli oil, lemon, half an onion, a spoon of yoghurt, or a few olives.",
+        "Best uses:",
+        "Small leftovers rarely need to become the whole meal. They can be the thing that makes the meal feel intentional."
+      ],
+      "list": [
         "Sauce.",
         "Topping.",
         "Flavour boost.",
@@ -116,21 +132,36 @@
       ]
     },
     {
-      "heading": "Five fridge reset examples",
+      "heading": "1. Cooked rice, eggs, frozen peas, soy sauce",
       "paragraphs": [
-        "### 1. Cooked rice, eggs, frozen peas, soy sauce",
         "Dinner shape: fried rice.",
-        "Add onion, carrot, leftover chicken, tofu, spring onions, or chilli oil if you have them.",
-        "### 2. Roasted vegetables, eggs, a little cheese",
+        "Add onion, carrot, leftover chicken, tofu, spring onions, or chilli oil if you have them."
+      ]
+    },
+    {
+      "heading": "2. Roasted vegetables, eggs, a little cheese",
+      "paragraphs": [
         "Dinner shape: frittata.",
-        "Add herbs, leftover potatoes, spinach, or a spoon of yoghurt on the side.",
-        "### 3. Half a tin of beans, tomato sauce, wraps",
+        "Add herbs, leftover potatoes, spinach, or a spoon of yoghurt on the side."
+      ]
+    },
+    {
+      "heading": "3. Half a tin of beans, tomato sauce, wraps",
+      "paragraphs": [
         "Dinner shape: wraps or toasties.",
-        "Add cheese, salad, herbs, hot sauce, or rice.",
-        "### 4. Soft herbs, yoghurt, cooked potatoes",
+        "Add cheese, salad, herbs, hot sauce, or rice."
+      ]
+    },
+    {
+      "heading": "4. Soft herbs, yoghurt, cooked potatoes",
+      "paragraphs": [
         "Dinner shape: potato bowl or tray bake.",
-        "Turn the yoghurt and herbs into a sauce. Add beans, eggs, salad, or any roasted vegetables.",
-        "### 5. Cooked pasta, pesto, cherry tomatoes, cheese end",
+        "Turn the yoghurt and herbs into a sauce. Add beans, eggs, salad, or any roasted vegetables."
+      ]
+    },
+    {
+      "heading": "5. Cooked pasta, pesto, cherry tomatoes, cheese end",
+      "paragraphs": [
         "Dinner shape: warm pasta or pasta salad.",
         "Add tuna, chickpeas, spinach, roasted vegetables, or olives if they are around."
       ]
