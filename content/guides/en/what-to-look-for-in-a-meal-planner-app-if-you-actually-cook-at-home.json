@@ -19,11 +19,13 @@
       "paragraphs": [
         "Many meal plans start with recipes first. That can be inspiring, but it often creates a shopping list full of new ingredients while food you already bought gets ignored.",
         "An ingredient-first planner works differently. It helps you look at your fridge, freezer, and pantry, then build meals around what is already there.",
-        "That is better for:",
-        "- Reducing forgotten groceries.",
-        "- Using leftovers sooner.",
-        "- Avoiding unnecessary shopping.",
-        "- Making dinner decisions faster."
+        "That is better for:"
+      ],
+      "list": [
+        "Reducing forgotten groceries.",
+        "Using leftovers sooner.",
+        "Avoiding unnecessary shopping.",
+        "Making dinner decisions faster."
       ]
     },
     {
@@ -45,12 +47,14 @@
       "heading": "4. It should leave room for real life",
       "paragraphs": [
         "Rigid planning breaks quickly. A useful meal planner should support flexible cooking:",
-        "- Fast dinners for tired nights.",
-        "- Leftover-based meals.",
-        "- Pantry meals when you do not want to shop.",
-        "- Simple saved recipes you can repeat.",
-        "- Calendar planning that can change when the week changes.",
         "The goal is not perfection. The goal is fewer blank-stare-at-the-fridge moments."
+      ],
+      "list": [
+        "Fast dinners for tired nights.",
+        "Leftover-based meals.",
+        "Pantry meals when you do not want to shop.",
+        "Simple saved recipes you can repeat.",
+        "Calendar planning that can change when the week changes."
       ]
     },
     {
