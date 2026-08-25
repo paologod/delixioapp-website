@@ -149,24 +149,6 @@
         "A small pantry backup can make this kind of dinner easier to improvise: beans, herbs, onions, cheese, and a few bright condiments all create different routes from the same base. For a practical restock framework, see [[https://delixioapp.com/guides/a-pantry-backup-list-for-last-minute-dinners/|A Pantry Backup List for Last-Minute Dinners]].",
         "If eggs and potatoes are only part of the picture, add the ingredients you have to Delixio and get dinner ideas built around your actual kitchen. For AI-assisted recipe ideas, check ingredients and allergens yourself before cooking."
       ]
-    },
-    {
-      "heading": "Can I make dinner with only eggs and potatoes?",
-      "paragraphs": [
-        "Yes. Cook the potatoes in a skillet until tender, season well, and add eggs near the end. Onion, cheese, herbs, beans, or greens add variety, but they are optional."
-      ]
-    },
-    {
-      "heading": "What is the fastest egg and potato dinner?",
-      "paragraphs": [
-        "A hash made with small diced potatoes is usually the fastest route from raw potatoes. Potato cakes are faster when the potatoes are already cooked."
-      ]
-    },
-    {
-      "heading": "What can I add to eggs and potatoes?",
-      "paragraphs": [
-        "Onion, cheese, greens, canned beans, herbs, yoghurt, salsa, and leftover cooked vegetables all work. Choose one or two extras rather than trying to add everything at once."
-      ]
     }
   ],
   "delixio": {
@@ -186,5 +168,19 @@
   "image": {
     "file": "what-can-i-cook-with-eggs-and-potatoes-5-dinner-shapes-from-one-simple-pair.webp",
     "alt": "Skillet of golden potatoes and softly set eggs with herbs on a warm wooden kitchen table"
-  }
+  },
+  "faq": [
+    {
+      "q": "Can I make dinner with only eggs and potatoes?",
+      "a": "Yes. Cook the potatoes in a skillet until tender, season well, and add eggs near the end. Onion, cheese, herbs, beans, or greens add variety, but they are optional."
+    },
+    {
+      "q": "What is the fastest egg and potato dinner?",
+      "a": "A hash made with small diced potatoes is usually the fastest route from raw potatoes. Potato cakes are faster when the potatoes are already cooked."
+    },
+    {
+      "q": "What can I add to eggs and potatoes?",
+      "a": "Onion, cheese, greens, canned beans, herbs, yoghurt, salsa, and leftover cooked vegetables all work. Choose one or two extras rather than trying to add everything at once."
+    }
+  ]
 }
