@@ -19,34 +19,42 @@
       "paragraphs": [
         "Before choosing a recipe, choose the ingredient most likely to go to waste.",
         "That might be:",
-        "- Soft vegetables.",
-        "- Cooked rice or pasta.",
-        "- Half a tin of beans.",
-        "- Leftover chicken or roasted vegetables.",
-        "- Open cream, yoghurt, cheese, or herbs.",
-        "- Salad leaves that will not survive much longer.",
         "This makes dinner easier because one decision is already made. Instead of searching for every possible recipe, you are building around one ingredient."
+      ],
+      "list": [
+        "Soft vegetables.",
+        "Cooked rice or pasta.",
+        "Half a tin of beans.",
+        "Leftover chicken or roasted vegetables.",
+        "Open cream, yoghurt, cheese, or herbs.",
+        "Salad leaves that will not survive much longer."
       ]
     },
     {
       "heading": "Pick a dinner shape",
       "paragraphs": [
         "Most weeknight meals fit into one of a few shapes:",
-        "- **Bowl:** rice, grains, potatoes, noodles, vegetables, protein, sauce.",
-        "- **Pasta:** pasta plus vegetables, beans, cheese, sauce, or leftovers.",
-        "- **Wrap or toast:** quick base plus filling plus sauce.",
-        "- **Soup or stew:** vegetables, beans, lentils, stock, tomatoes, spices.",
-        "- **Egg dinner:** omelette, frittata, fried rice, eggs on toast.",
-        "- **Tray bake:** vegetables, potatoes, protein, oil, seasoning.",
         "Once you choose the shape, the ingredients stop looking random."
+      ],
+      "list": [
+        "**Bowl:** rice, grains, potatoes, noodles, vegetables, protein, sauce.",
+        "**Pasta:** pasta plus vegetables, beans, cheese, sauce, or leftovers.",
+        "**Wrap or toast:** quick base plus filling plus sauce.",
+        "**Soup or stew:** vegetables, beans, lentils, stock, tomatoes, spices.",
+        "**Egg dinner:** omelette, frittata, fried rice, eggs on toast.",
+        "**Tray bake:** vegetables, potatoes, protein, oil, seasoning."
       ]
     },
     {
       "heading": "Use the base, filling, flavour rule",
       "paragraphs": [
         "A meal usually needs three things:",
-        "1. **A base:** rice, pasta, potatoes, bread, wraps, couscous, noodles. 2. **A filling element:** eggs, beans, lentils, cheese, tofu, fish, chicken, leftovers. 3. **Flavour:** sauce, spices, herbs, lemon, vinegar, garlic, chilli, yoghurt, pesto.",
         "If dinner feels incomplete, it is usually missing one of those three."
+      ],
+      "steps": [
+        "**A base:** rice, pasta, potatoes, bread, wraps, couscous, noodles.",
+        "**A filling element:** eggs, beans, lentils, cheese, tofu, fish, chicken, leftovers.",
+        "**Flavour:** sauce, spices, herbs, lemon, vinegar, garlic, chilli, yoghurt, pesto."
       ]
     },
     {
