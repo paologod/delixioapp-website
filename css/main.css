@@ -1386,6 +1386,53 @@ button { font: inherit; cursor: pointer; border: none; background: none; }
   font-size: 13px;
   color: var(--color-text-muted);
 }
+.guide-table-wrap {
+  margin: 16px 0 24px;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.guide-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 15px;
+  line-height: 1.45;
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid var(--color-primary-border);
+  border-radius: 12px;
+  overflow: hidden;
+}
+.guide-table th,
+.guide-table td {
+  padding: 12px 14px;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid var(--color-primary-border);
+}
+.guide-table th {
+  background: var(--color-card-green);
+  color: var(--color-text);
+  font-weight: 700;
+}
+.guide-table tr:last-child td {
+  border-bottom: none;
+}
+.guide-table td {
+  color: var(--color-text);
+}
+.legal-page code,
+.guide-page code,
+.landing-page code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.92em;
+  padding: 0.1em 0.35em;
+  border-radius: 4px;
+  background: rgba(76, 32, 9, 0.06);
+}
+.legal-page em,
+.guide-page em,
+.landing-page em {
+  font-style: italic;
+}
 .explore-link--with-image {
   padding-top: 0;
   overflow: hidden;

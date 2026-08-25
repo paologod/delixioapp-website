@@ -9,20 +9,49 @@
   "description": "Turn eggs and potatoes into dinner tonight with five practical meal shapes: a crisp hash, tortilla-style skillet, frittata, loaded potatoes, or potato cakes.",
   "h1": "What Can I Cook With Eggs and Potatoes? 5 Dinner Shapes From One Simple Pair",
   "intro": [
-    "Eggs and potatoes can become a very good dinner without a long shopping list. The useful question is which dinner shape fits the time, pan, and extras you have tonight."
+    "Eggs and potatoes can become a very good dinner without a long shopping list. The useful question is which **dinner shape** fits the time, pan, and extras you have tonight."
   ],
   "sections": [
     {
       "heading": "Quick answer",
       "paragraphs": [
-        "Start with potatoes as the filling base, then choose one of these five directions:",
-        "| If you want… | Make… | Best extra to add |",
-        "|---|---|---|",
-        "| Crisp edges and a fast skillet | Potato-and-egg hash | Onion or greens |",
-        "| A sliceable one-pan dinner | Tortilla-style potato skillet | Onion |",
-        "| A softer, low-effort bake | Potato frittata | Cheese or vegetables |",
-        "| Something that feels more assembled | Loaded baked potatoes with eggs | Cheese, beans, or salsa |",
-        "| A way to use already-cooked potatoes | Potato cakes with a fried egg | Herbs or cheese |",
+        "Start with potatoes as the filling base, then choose one of these five directions:"
+      ],
+      "table": {
+        "headers": [
+          "If you want…",
+          "Make…",
+          "Best extra to add"
+        ],
+        "rows": [
+          [
+            "Crisp edges and a fast skillet",
+            "Potato-and-egg hash",
+            "Onion or greens"
+          ],
+          [
+            "A sliceable one-pan dinner",
+            "Tortilla-style potato skillet",
+            "Onion"
+          ],
+          [
+            "A softer, low-effort bake",
+            "Potato frittata",
+            "Cheese or vegetables"
+          ],
+          [
+            "Something that feels more assembled",
+            "Loaded baked potatoes with eggs",
+            "Cheese, beans, or salsa"
+          ],
+          [
+            "A way to use already-cooked potatoes",
+            "Potato cakes with a fried egg",
+            "Herbs or cheese"
+          ]
+        ]
+      },
+      "paragraphs_after": [
         "You only need eggs, potatoes, cooking oil or butter, salt, and pepper to begin. Everything else is a useful branch, not a requirement."
       ]
     },

@@ -45,7 +45,32 @@ Do **not** target a landing-page keyword as the guide’s primary intent.
 
 Path: `content/guides/en/<slug>.json` → public URL `/guides/<slug>/`.
 
-Inline links in paragraphs: `[[/path/|label]]`.
+### Inline formatting (allowed inside string fields)
+
+| Write | Renders as |
+|-------|------------|
+| `**bold**` or `__bold__` | strong |
+| `*italic*` or `_italic_` | emphasis |
+| `` `code` `` | inline code |
+| `[[/path/\|label]]` | preferred internal link |
+| `[label](/path/)` or `[label](https://…)` | Markdown link |
+
+Do not put raw HTML tags in JSON. Block structure uses fields (`heading`, `paragraphs`, `list`, `steps`, `table`), not `#` / `-` markers left in prose.
+
+### Tables
+
+Prefer a structured section field (do **not** leave Markdown pipes in `paragraphs`):
+
+```json
+"paragraphs": ["Lead-in sentence before the table."],
+"table": {
+  "headers": ["Col A", "Col B"],
+  "rows": [["a1", "b1"], ["a2", "b2"]]
+},
+"paragraphs_after": ["Sentence after the table."]
+```
+
+The builder also accepts a temporary fallback: consecutive Markdown table lines inside `paragraphs`. Content Intelligence should still publish structured `table` objects. Full publishing contract: [`CI_GUIDE_PUBLISHING_PROMPT.md`](CI_GUIDE_PUBLISHING_PROMPT.md).
 
 ### Optional image
 

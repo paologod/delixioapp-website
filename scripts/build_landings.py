@@ -157,17 +157,196 @@ def esc_text(text: str) -> str:
     return html.escape(text, quote=False)
 
 
-def linkify(text: str) -> str:
-    """Allow simple [[/path/|label]] markdown-ish links in content."""
-    def repl(m: re.Match[str]) -> str:
-        href, label = m.group(1), m.group(2)
-        return f'<a href="{esc(href)}">{esc_text(label)}</a>'
+def _safe_href(href: str) -> str | None:
+    h = href.strip()
+    if h.startswith("/") or h.startswith("https://") or h.startswith("http://") or h.startswith("#"):
+        return h
+    return None
 
-    return re.sub(r"\[\[([^|\]]+)\|([^\]]+)\]\]", repl, esc_text(text))
+
+def rich_text(text: str) -> str:
+    """Render allowed inline Markdown into HTML (escaped otherwise).
+
+    Supported:
+    - [[/path/|label]] internal/wiki links
+    - [label](url) Markdown links (http(s), /, # only)
+    - **bold** / __bold__
+    - *italic* / _italic_
+    - `inline code`
+    """
+    placeholders: list[str] = []
+
+    def stash(fragment: str) -> str:
+        placeholders.append(fragment)
+        return f"@@DELIXIOPH{len(placeholders) - 1}@@"
+
+    def wiki_link(m: re.Match[str]) -> str:
+        href = _safe_href(m.group(1).strip())
+        if not href:
+            return m.group(0)
+        return stash(f'<a href="{esc(href)}">{esc_text(m.group(2))}</a>')
+
+    def md_link(m: re.Match[str]) -> str:
+        href = _safe_href(m.group(2).strip())
+        if not href:
+            return m.group(0)
+        return stash(f'<a href="{esc(href)}">{esc_text(m.group(1))}</a>')
+
+    def bold(m: re.Match[str]) -> str:
+        return stash(f"<strong>{esc_text(m.group(1))}</strong>")
+
+    def italic(m: re.Match[str]) -> str:
+        return stash(f"<em>{esc_text(m.group(1))}</em>")
+
+    def code(m: re.Match[str]) -> str:
+        return stash(f"<code>{esc_text(m.group(1))}</code>")
+
+    s = text
+    s = re.sub(r"\[\[([^|\]]+)\|([^\]]+)\]\]", wiki_link, s)
+    s = re.sub(r"\[([^\]]+)\]\(([^)]+)\)", md_link, s)
+    s = re.sub(r"`([^`]+)`", code, s)
+    s = re.sub(r"\*\*([^*]+)\*\*", bold, s)
+    s = re.sub(r"__([^_]+)__", bold, s)
+    s = re.sub(r"(?<!\*)\*([^*]+)\*(?!\*)", italic, s)
+    s = re.sub(r"(?<!_)_([^_]+)_(?!_)", italic, s)
+    out = esc_text(s)
+    for i, fragment in enumerate(placeholders):
+        out = out.replace(f"@@DELIXIOPH{i}@@", fragment)
+    return out
+
+
+def linkify(text: str) -> str:
+    """Backward-compatible alias for rich_text."""
+    return rich_text(text)
+
+
+def _is_md_table_line(line: str) -> bool:
+    s = line.strip()
+    return s.startswith("|") and s.count("|") >= 2
+
+
+def _is_md_table_separator(line: str) -> bool:
+    s = line.strip().strip("|")
+    if not s:
+        return False
+    cells = [c.strip() for c in s.split("|")]
+    return bool(cells) and all(re.fullmatch(r":?-{3,}:?", c or "") for c in cells)
+
+
+def _split_md_row(line: str) -> list[str]:
+    s = line.strip()
+    if s.startswith("|"):
+        s = s[1:]
+    if s.endswith("|"):
+        s = s[:-1]
+    return [c.strip() for c in s.split("|")]
+
+
+def parse_md_table_lines(lines: list[str]) -> dict | None:
+    """Parse GitHub-flavored markdown table lines into headers + rows."""
+    body = [ln for ln in lines if ln.strip()]
+    if len(body) < 2:
+        return None
+    headers = _split_md_row(body[0])
+    if not headers:
+        return None
+    start = 1
+    if _is_md_table_separator(body[1]):
+        start = 2
+    rows = [_split_md_row(ln) for ln in body[start:]]
+    rows = [r for r in rows if any(cell for cell in r)]
+    if not rows:
+        return None
+    width = len(headers)
+    norm_rows = []
+    for row in rows:
+        padded = (row + [""] * width)[:width]
+        norm_rows.append(padded)
+    return {"headers": headers, "rows": norm_rows}
+
+
+def render_table_html(table: dict) -> str:
+    headers = table.get("headers") or []
+    rows = table.get("rows") or []
+    if not headers or not rows:
+        return ""
+    parts = ['      <div class="guide-table-wrap">', '        <table class="guide-table">']
+    parts.append("          <thead>")
+    parts.append("            <tr>")
+    for cell in headers:
+        parts.append(f"              <th>{rich_text(cell)}</th>")
+    parts.append("            </tr>")
+    parts.append("          </thead>")
+    parts.append("          <tbody>")
+    for row in rows:
+        parts.append("            <tr>")
+        for cell in row:
+            parts.append(f"              <td>{rich_text(str(cell))}</td>")
+        parts.append("            </tr>")
+    parts.append("          </tbody>")
+    parts.append("        </table>")
+    parts.append("      </div>")
+    return "\n".join(parts)
+
+
+def flow_paragraphs(items: list[str]) -> list[str]:
+    """Render paragraph strings, coalescing markdown pipe-tables into HTML tables."""
+    parts: list[str] = []
+    i = 0
+    while i < len(items):
+        line = items[i]
+        if _is_md_table_line(line):
+            block = []
+            while i < len(items) and _is_md_table_line(items[i]):
+                block.append(items[i])
+                i += 1
+            parsed = parse_md_table_lines(block)
+            if parsed:
+                html_table = render_table_html(parsed)
+                if html_table:
+                    parts.append(html_table)
+                    continue
+            for raw in block:
+                parts.append(f"      <p>{rich_text(raw)}</p>")
+            continue
+        parts.append(f"      <p>{rich_text(line)}</p>")
+        i += 1
+    return parts
 
 
 def paragraphs(items: list[str]) -> str:
-    return "\n".join(f"      <p>{linkify(p)}</p>" for p in items)
+    return "\n".join(flow_paragraphs(items))
+
+
+def render_section_body(section: dict) -> list[str]:
+    """Shared section body for landings and guides (paragraphs, table, list, steps)."""
+    parts: list[str] = []
+    parts.extend(flow_paragraphs(section.get("paragraphs") or []))
+    table = section.get("table")
+    if isinstance(table, dict):
+        html_table = render_table_html(table)
+        if html_table:
+            parts.append(html_table)
+    parts.extend(flow_paragraphs(section.get("paragraphs_after") or []))
+    if section.get("list"):
+        parts.append("      <ul>")
+        for item in section["list"]:
+            parts.append(f"        <li>{rich_text(item)}</li>")
+        parts.append("      </ul>")
+    if section.get("examples"):
+        parts.append('      <div class="landing-examples">')
+        for ex in section["examples"]:
+            parts.append('        <article class="landing-example">')
+            parts.append(f'          <h3>{esc_text(ex["title"])}</h3>')
+            parts.append(f"          <p>{rich_text(ex['text'])}</p>")
+            parts.append("        </article>")
+        parts.append("      </div>")
+    if section.get("steps"):
+        parts.append('      <ol class="landing-steps">')
+        for step in section["steps"]:
+            parts.append(f"        <li>{rich_text(step)}</li>")
+        parts.append("      </ol>")
+    return parts
 
 
 def page_url(slug: str, locale: str = "en") -> str:
@@ -231,33 +410,14 @@ def render_page(data: dict, locale: str = "en") -> str:
     sections_html = []
     for section in data.get("sections", []):
         parts = [f'      <h2>{esc_text(section["heading"])}</h2>']
-        for p in section.get("paragraphs", []):
-            parts.append(f"      <p>{linkify(p)}</p>")
-        if section.get("list"):
-            parts.append("      <ul>")
-            for li in section["list"]:
-                parts.append(f"        <li>{linkify(li)}</li>")
-            parts.append("      </ul>")
-        if section.get("examples"):
-            parts.append('      <div class="landing-examples">')
-            for ex in section["examples"]:
-                parts.append('        <article class="landing-example">')
-                parts.append(f'          <h3>{esc_text(ex["title"])}</h3>')
-                parts.append(f"          <p>{linkify(ex['text'])}</p>")
-                parts.append("        </article>")
-            parts.append("      </div>")
-        if section.get("steps"):
-            parts.append('      <ol class="landing-steps">')
-            for step in section["steps"]:
-                parts.append(f"        <li>{linkify(step)}</li>")
-            parts.append("      </ol>")
+        parts.extend(render_section_body(section))
         sections_html.append("\n".join(parts))
 
     faq_html = []
     for item in data.get("faq", []):
         faq_html.append("      <article class=\"faq-item\">")
         faq_html.append(f'        <h3 class="faq-question">{esc_text(item["q"])}</h3>')
-        faq_html.append(f'        <p class="faq-answer">{linkify(item["a"])}</p>')
+        faq_html.append(f'        <p class="faq-answer">{rich_text(item["a"])}</p>')
         faq_html.append("      </article>")
 
     related_html = []
@@ -278,7 +438,7 @@ def render_page(data: dict, locale: str = "en") -> str:
     delixio = data.get("delixio", {})
     delixio_parts = [f'      <h2>{esc_text(delixio.get("heading", "How Delixio helps"))}</h2>']
     for p in delixio.get("paragraphs", []):
-        delixio_parts.append(f"      <p>{linkify(p)}</p>")
+        delixio_parts.append(f"      <p>{rich_text(p)}</p>")
 
     faq_jsonld = ""
     if data.get("faq"):
@@ -572,18 +732,7 @@ def render_guide_page(data: dict, locale: str = "en") -> str:
     sections_html = []
     for section in data.get("sections", []):
         parts = [f'      <h2>{esc_text(section["heading"])}</h2>']
-        for p in section.get("paragraphs", []):
-            parts.append(f"      <p>{linkify(p)}</p>")
-        if section.get("list"):
-            parts.append("      <ul>")
-            for item in section["list"]:
-                parts.append(f"        <li>{linkify(item)}</li>")
-            parts.append("      </ul>")
-        if section.get("steps"):
-            parts.append('      <ol class="landing-steps">')
-            for step in section["steps"]:
-                parts.append(f"        <li>{linkify(step)}</li>")
-            parts.append("      </ol>")
+        parts.extend(render_section_body(section))
         sections_html.append("\n".join(parts))
 
     related_html = []
@@ -615,7 +764,7 @@ def render_guide_page(data: dict, locale: str = "en") -> str:
             f'      <h2>{esc_text(delixio.get("heading", "How Delixio helps"))}</h2>'
         )
         for p in delixio.get("paragraphs", []):
-            delixio_parts.append(f"      <p>{linkify(p)}</p>")
+            delixio_parts.append(f"      <p>{rich_text(p)}</p>")
 
     return f"""<!DOCTYPE html>
 <html lang="{meta['html_lang']}">
