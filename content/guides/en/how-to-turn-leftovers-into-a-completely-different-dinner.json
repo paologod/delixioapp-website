@@ -17,47 +17,71 @@
   "description": "Learn how to reuse leftover rice, roasted vegetables, cooked protein, and sauces by changing the meal format, flavour, and texture.",
   "h1": "How to turn leftovers into a completely different dinner",
   "intro": [
-    "Reheating yesterday’s dinner is fine. The more useful skill is turning leftovers into a meal that feels new.",
-    "That usually means changing three things: the format, the flavour direction, and the texture. Cooked rice can become fried rice. Roast vegetables can become a pasta sauce or frittata filling. Leftover chicken can become wraps, soup, or a grain bowl.",
-    "This guide is about that kitchen method. If you want software that suggests recipes from the leftovers you type in, see Delixio’s leftover recipe generator."
+    "A good leftover recipe generator should not ask you to shop for a completely new dinner.",
+    "It should start where real cooking starts: with the food already sitting in your fridge.",
+    "Leftovers are not always obvious. You might have cooked rice, half a pepper, a spoon of yoghurt, roasted vegetables, a little cheese, and no idea how to connect them. A leftover recipe generator is useful when it turns that messy list into practical meal ideas."
   ],
   "sections": [
     {
-      "heading": "Start with what needs using first",
+      "heading": "The problem with searching for leftover recipes",
       "paragraphs": [
-        "List the leftovers that will not last: cooked grains, roasted vegetables, open sauces, cooked protein, soft herbs, and cut produce.",
-        "Build dinner around the most urgent item. Pantry staples can fill gaps, but they should not decide the meal if something perishable is waiting."
+        "Traditional recipe search usually starts with the dish: fried rice, soup, pasta bake, curry, salad.",
+        "But at home, the question is different:",
+        "“What can I make with these exact things?”",
+        "That is why leftover cooking often feels frustrating. You search for recipes, then discover you are missing three ingredients, or the recipe uses leftovers you do not have.",
+        "A better tool should start from your kitchen, not from an ideal ingredient list."
       ]
     },
     {
-      "heading": "Change the format before you change the shopping list",
+      "heading": "Start from real ingredients",
       "paragraphs": [
-        "Most leftover wins come from a format swap:",
-        "- Cooked rice or grains → fried rice, bowls, soup, stuffed wraps.",
-        "- Roast vegetables → pasta, frittata, toast topping, blended soup.",
-        "- Cooked protein → wraps, salad, tacos, fried rice, quick stew.",
-        "- Bread → toast dinner, breadcrumbs, panzanella-style salad.",
-        "- Sauce leftovers → pasta coating, bowl dressing, wrap spread.",
-        "Ask: “What shape of dinner fits this food?” before searching for a named recipe."
+        "You should be able to enter what you actually have: cooked rice, carrots, chickpeas, spinach, eggs, cheese, wraps, pasta, herbs, sauces, or leftovers from yesterday.",
+        "The tool should help you see possible meals from those ingredients."
       ]
     },
     {
-      "heading": "Add contrast so it does not taste like leftovers",
+      "heading": "Let you choose how flexible to be",
       "paragraphs": [
-        "A second meal feels new when you add contrast:",
-        "- Acid: lemon, vinegar, pickles, yoghurt.",
-        "- Heat: chilli, black pepper, mustard, hot sauce.",
-        "- Freshness: herbs, salad leaves, cucumber, spring onion.",
-        "- Crunch: toast, seeds, nuts, crispy onions.",
-        "You do not need many extras. One sharp finish is often enough."
+        "Sometimes you want to use only what is already there. Sometimes you are happy to add one or two extras.",
+        "That difference matters.",
+        "A strict mode is useful when you cannot shop. A flexible mode is useful when one extra ingredient could make dinner much better. A creative mode is useful when you want new combinations."
       ]
     },
     {
-      "heading": "A simple leftover remix example",
+      "heading": "Respect the food that needs using first",
       "paragraphs": [
-        "Suppose you have leftover roast chicken, half a pepper, cooked potatoes, and a spoon of mustard.",
-        "Instead of reheating the plate, turn it into a skillet hash: crisp the potatoes, add pepper and chicken, finish with mustard and herbs.",
-        "Same ingredients. Different dinner."
+        "The best leftover meal is often the one that saves the ingredient closest to going bad.",
+        "Soft herbs, open dairy, cooked rice, salad leaves, and cooked vegetables often need attention before pantry staples do."
+      ]
+    },
+    {
+      "heading": "Suggest formats, not just recipes",
+      "paragraphs": [
+        "Leftovers often work best when the format is right:",
+        "A useful generator helps you see the shape of dinner."
+      ],
+      "list": [
+        "Cooked rice: fried rice, bowls, soup.",
+        "Roasted vegetables: pasta, frittata, wraps, tray bake.",
+        "Beans: stew, salad, toast topping, chilli.",
+        "Bread: toasties, breadcrumbs, panzanella-style salad.",
+        "Eggs: omelette, frittata, egg fried rice."
+      ]
+    },
+    {
+      "heading": "A simple leftover example",
+      "paragraphs": [
+        "Imagine you have cooked rice, eggs, frozen peas, half an onion, and soy sauce.",
+        "A useful leftover recipe generator should see egg fried rice, not a list of disconnected items.",
+        "If you also have carrots, leftover chicken, spring onions, chilli oil, or sesame seeds, it should help you make that dinner better."
+      ]
+    },
+    {
+      "heading": "Why this matters",
+      "paragraphs": [
+        "Food waste often happens because ingredients are forgotten, not because people do not care.",
+        "A leftover recipe generator helps at the exact moment where food usually gets ignored: after shopping, after cooking, and before expiry.",
+        "If it helps you turn one more leftover into dinner, it has done something useful."
       ]
     }
   ],
