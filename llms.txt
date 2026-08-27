@@ -34,6 +34,7 @@ Practical kitchen articles grouped under [Delixio Cooking Guides](https://delixi
 - [The 3-2-1 Dinner Formula: Build a Weeknight Meal Without a Recipe](https://delixioapp.com/guides/the-3-2-1-dinner-formula-build-a-weeknight-meal-without-a-recipe/)
 - [What Can I Cook With Eggs and Potatoes? 5 Dinner Shapes From One Simple Pair](https://delixioapp.com/guides/what-can-i-cook-with-eggs-and-potatoes-5-dinner-shapes-from-one-simple-pair/)
 - [The 4-Flavor Pantry: A Simple Way to Make Weeknight Food Taste Less Flat](https://delixioapp.com/guides/the-4-flavor-pantry-a-simple-way-to-make-weeknight-food-taste-less-flat/)
+- [How Much Pasta Per Person? A Flexible Dinner Planning Table](https://delixioapp.com/guides/how-much-pasta-per-person-a-flexible-dinner-planning-table/)
 
 ## Intent / solution landing pages
 
