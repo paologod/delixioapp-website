@@ -35,6 +35,7 @@ Practical kitchen articles grouped under [Delixio Cooking Guides](https://delixi
 - [What Can I Cook With Eggs and Potatoes? 5 Dinner Shapes From One Simple Pair](https://delixioapp.com/guides/what-can-i-cook-with-eggs-and-potatoes-5-dinner-shapes-from-one-simple-pair/)
 - [The 4-Flavor Pantry: A Simple Way to Make Weeknight Food Taste Less Flat](https://delixioapp.com/guides/the-4-flavor-pantry-a-simple-way-to-make-weeknight-food-taste-less-flat/)
 - [How Much Pasta Per Person? A Flexible Dinner Planning Table](https://delixioapp.com/guides/how-much-pasta-per-person-a-flexible-dinner-planning-table/)
+- [Leftover Rice Dinner Ideas: 4 Ways to Turn One Pot Into Tonight’s Meal](https://delixioapp.com/guides/leftover-rice-dinner-ideas-4-ways-to-turn-one-pot-into-tonight-s-meal/)
 
 ## Intent / solution landing pages
 
