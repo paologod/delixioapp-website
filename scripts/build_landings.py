@@ -80,7 +80,7 @@ def site_footer(asset_prefix: str, js_prefix: str) -> str:
     </div>
   </footer>
 
-  <script src="{js_prefix}main.js"></script>
+  <script src="{js_prefix}main.js?v=2"></script>
 """
 
 
