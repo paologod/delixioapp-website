@@ -4,12 +4,12 @@
   "intent": "Generate meal ideas from ingredients already at home",
   "breadcrumb": "Recipe generator from ingredients",
   "eyebrow": "Recipe ideas",
-  "title": "Recipe Generator from Ingredients – Cook with What You Have",
-  "description": "Learn how to turn ingredients you already have into practical meal ideas, then use Delixio to generate personalized recipes on iPhone or Android.",
-  "h1": "Recipe generator from ingredients",
+  "title": "Recipe Generator From Ingredients: Turn What You Have Into Dinner",
+  "description": "Enter ingredients you already have, choose your time and meal type, and get practical dinner ideas with Delixio. Free to try, no subscription.",
+  "h1": "Recipe generator from ingredients: turn what you have into dinner",
   "intro": [
-    "If you have food in the fridge but no plan for dinner, start with the ingredients, not a recipe search. List what you want to use, group it into protein, vegetables, carbs, and a flavor base, then choose a simple cooking format such as a skillet meal, pasta, soup, salad, bowl, or tray bake.",
-    "That approach works with a pen and paper. Delixio automates it: type the ingredients you already have, set preferences and a cooking mode, explore free recipe ideas, and unlock a full recipe when you are ready to cook."
+    "Got ingredients but no dinner plan? Delixio is a recipe generator that starts with what you already have. Add the food you want to use, choose your cooking time, servings, and meal type, then get practical recipe ideas for tonight.",
+    "Want to use only what is already at home? Choose Strict. Happy to pick up one or two extras? Choose Flexible. You can explore recipe ideas for free, then unlock a full recipe when you are ready to cook."
   ],
   "sections": [
     {
