@@ -36,6 +36,7 @@ Practical kitchen articles grouped under [Delixio Cooking Guides](https://delixi
 - [The 4-Flavor Pantry: A Simple Way to Make Weeknight Food Taste Less Flat](https://delixioapp.com/guides/the-4-flavor-pantry-a-simple-way-to-make-weeknight-food-taste-less-flat/)
 - [How Much Pasta Per Person? A Flexible Dinner Planning Table](https://delixioapp.com/guides/how-much-pasta-per-person-a-flexible-dinner-planning-table/)
 - [Leftover Rice Dinner Ideas: 4 Ways to Turn One Pot Into Tonight’s Meal](https://delixioapp.com/guides/leftover-rice-dinner-ideas-4-ways-to-turn-one-pot-into-tonight-s-meal/)
+- [No-Oven Dinners for Hot Nights: 5 Flexible Ways to Cook With What You Have](https://delixioapp.com/guides/no-oven-dinners-for-hot-nights-5-flexible-ways-to-cook-with-what-you-have/)
 
 ## Intent / solution landing pages
 
