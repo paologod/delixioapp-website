@@ -382,6 +382,28 @@ def render_page(data: dict, locale: str = "en") -> str:
     h1 = data["h1"]
     eyebrow = data.get("eyebrow", "Guide")
     breadcrumb_name = data.get("breadcrumb", h1)
+    raw_hero = data.get("hero") if isinstance(data.get("hero"), dict) else {}
+    hero_file = str(raw_hero.get("file") or "").strip()
+    if hero_file and not re.fullmatch(r"[a-z0-9][a-z0-9._-]*\.webp", hero_file):
+        raise ValueError(f"Invalid landing hero filename for {slug}: {hero_file}")
+    hero_alt = str(raw_hero.get("alt") or "").strip()
+    hero_width = int(raw_hero.get("width") or 1440)
+    hero_height = int(raw_hero.get("height") or 810)
+    hero_image_url = f"{SITE}/assets/landings/{hero_file}" if hero_file else OG_IMAGE
+    hero_html = ""
+    hero_css = ""
+    if hero_file:
+        hero_html = (
+            '      <figure class="landing-hero">\n'
+            f'        <img src="../assets/landings/{esc(hero_file)}" alt="{esc(hero_alt)}" '
+            f'width="{hero_width}" height="{hero_height}" fetchpriority="high">\n'
+            "      </figure>\n"
+        )
+        hero_css = """  <style>
+    .landing-hero { margin: clamp(20px, 3vw, 32px) 0; overflow: hidden; border-radius: 24px; background: var(--color-primary-light); }
+    .landing-hero img { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; }
+  </style>
+"""
 
     breadcrumb = {
         "@context": "https://schema.org",
@@ -469,13 +491,13 @@ def render_page(data: dict, locale: str = "en") -> str:
   <meta property="og:url" content="{url}">
   <meta property="og:title" content="{esc(title)}">
   <meta property="og:description" content="{esc(description)}">
-  <meta property="og:image" content="{OG_IMAGE}">
+  <meta property="og:image" content="{hero_image_url}">
   <meta property="og:locale" content="{meta['og_locale']}">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{esc(title)}">
   <meta name="twitter:description" content="{esc(description)}">
-  <meta name="twitter:image" content="{OG_IMAGE}">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <meta name="twitter:image" content="{hero_image_url}">
+{hero_css}  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Quicksand:wght@700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../css/main.css?v={CSS_VERSION}">
@@ -499,7 +521,7 @@ def render_page(data: dict, locale: str = "en") -> str:
       </nav>
       <p class="legal-eyebrow">{esc_text(eyebrow)}</p>
       <h1>{esc_text(h1)}</h1>
-{paragraphs(data.get("intro", []))}
+{hero_html}{paragraphs(data.get("intro", []))}
 
 {chr(10).join(sections_html)}
 
