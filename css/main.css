@@ -1277,22 +1277,32 @@ button { font: inherit; cursor: pointer; border: none; background: none; }
 .landing-breadcrumb a:hover {
   text-decoration: underline;
 }
-/* Current-release app screens are intentionally kept portrait: product proof stays legible. */
+/* Portrait product proof sits beside the opening promise instead of reading as a dominant banner. */
 .landing-page .landing-hero:has(img[src*="-app-screen.webp"]) {
-  width: min(100%, 400px);
-  margin: clamp(20px, 3vw, 32px) auto;
+  float: right;
+  width: min(38vw, 340px);
+  margin: 0 0 24px clamp(28px, 6vw, 80px);
+  overflow: hidden;
   border: 1px solid var(--color-primary-border);
+  border-radius: 24px;
+  background: var(--color-primary-light);
   box-shadow: 0 18px 42px rgba(76, 32, 9, 0.12);
 }
 .landing-page .landing-hero img[src*="-app-screen.webp"] {
+  display: block;
   width: 100%;
   height: auto;
   aspect-ratio: auto;
   object-fit: contain;
 }
-@media (max-width: 480px) {
+.landing-page .landing-hero:has(img[src*="-app-screen.webp"]) ~ h2 {
+  clear: both;
+}
+@media (max-width: 720px) {
   .landing-page .landing-hero:has(img[src*="-app-screen.webp"]) {
+    float: none;
     width: min(100%, 340px);
+    margin: 24px auto;
   }
 }
 .landing-page .landing-examples {
