@@ -7,6 +7,12 @@
   "title": "Leftover Recipe Generator – New Meals from Yesterday’s Food",
   "description": "Learn how to turn leftovers into new dinners with simple formats and examples, then use Delixio to generate leftover-friendly recipe ideas from ingredients you already have.",
   "h1": "Leftover recipe generator",
+  "hero": {
+    "file": "cook-ingredients-app-screen.webp",
+    "alt": "Delixio Cook screen with ingredients added before generating meal ideas.",
+    "width": 591,
+    "height": 1280
+  },
   "intro": [
     "Leftovers are not a failure of meal planning. They are ingredients with a head start. The trick is transforming them so dinner does not feel like a rerun: change the format, add a fresh flavor, and introduce one contrasting texture.",
     "A leftover recipe generator: whether that is a method on paper or an app like Delixio, starts from cooked food you already have and suggests a second life for it."

@@ -7,6 +7,12 @@
   "title": "AI Recipe Generator – Personalized Meals from Your Ingredients",
   "description": "An AI recipe generator can turn a list of ingredients and preferences into meal ideas. Learn how to use one well, and how Delixio generates personalized recipes on iPhone and Android.",
   "h1": "AI recipe generator",
+  "hero": {
+    "file": "recipe-ideas-app-screen.webp",
+    "alt": "Delixio showing recipe ideas generated from the ingredients selected for a meal.",
+    "width": 591,
+    "height": 1280
+  },
   "intro": [
     "An AI recipe generator creates meal ideas from prompts or ingredients. The useful versions for home cooks are not generic “give me dinner” chatbots. They are tools that respect what you already have, your preferences, and how much time you want to spend.",
     "Delixio is an AI recipe app for that ingredient-first use case: you type the foods you have, set preferences and a cooking mode, explore free recipe ideas, then unlock full recipes when you want them."

@@ -7,6 +7,12 @@
   "title": "Recipe App Without Subscription | Daily Free Recipe Ideas",
   "description": "Looking for a recipe app without another subscription? Delixio uses daily free full recipes and optional credit packs instead.",
   "h1": "Recipe app without subscription",
+  "hero": {
+    "file": "daily-free-recipe-app-screen.webp",
+    "alt": "Delixio explains that one full recipe each day can be opened without spending a credit.",
+    "width": 591,
+    "height": 1280
+  },
   "intro": [
     "Another subscription is not always what home cooks need. Sometimes you just want practical dinner help when the fridge is full but the plan is missing.",
     "Delixio is built for that lighter commitment: generate recipe ideas from ingredients you already have, use your daily free full recipe, and buy optional credit packs only when you want more."

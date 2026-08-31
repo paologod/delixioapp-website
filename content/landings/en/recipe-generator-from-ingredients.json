@@ -8,10 +8,10 @@
   "description": "Enter ingredients you already have, choose your time and meal type, and get practical dinner ideas with Delixio. Free to try, no subscription.",
   "h1": "Recipe generator from ingredients: turn what you have into dinner",
   "hero": {
-    "file": "recipe-generator-from-ingredients-hero.webp",
-    "alt": "Ingredients already at home arranged beside a simple skillet dinner, showing how Delixio turns what is on hand into a meal.",
-    "width": 1440,
-    "height": 810
+    "file": "cook-ingredients-app-screen.webp",
+    "alt": "Delixio Cook screen with ingredients added before generating recipe ideas.",
+    "width": 591,
+    "height": 1280
   },
   "intro": [
     "Got ingredients but no dinner plan? Delixio is a recipe generator that starts with what you already have. Add the food you want to use, choose your cooking time, servings, and meal type, then get practical recipe ideas for tonight.",

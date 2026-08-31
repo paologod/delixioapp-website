@@ -7,6 +7,12 @@
   "title": "Fridge Recipe App – Turn What’s in Your Fridge into Dinner",
   "description": "A fridge recipe app starts from food you already have. Learn how fridge-based cooking works and how Delixio helps you generate meal ideas from your ingredients.",
   "h1": "Fridge recipe app",
+  "hero": {
+    "file": "kitchen-use-first-app-screen.webp",
+    "alt": "Delixio Kitchen screen with ingredients organised for cooking from food already at home.",
+    "width": 591,
+    "height": 1280
+  },
   "intro": [
     "A fridge recipe app is built for the everyday moment when you open the fridge, see random ingredients, and need dinner. Instead of browsing recipes that assume a full shopping trip, you start with what is already there.",
     "Delixio is designed for that workflow: type ingredients, set preferences, choose a cooking mode, explore free meal ideas, and unlock a full recipe when you want to cook, on iPhone or Android."
@@ -16,7 +22,7 @@
       "heading": "What a good fridge recipe workflow looks like",
       "list": [
         "Type or add ingredients quickly (no full fridge inventory, barcode, or camera required).",
-        "Remember pantry staples you always have (My Kitchen in Delixio).",
+        "Remember pantry staples you always have in Kitchen.",
         "Respect preferences, servings, cooking time, and meal type.",
         "Show whether a recipe needs extra shopping.",
         "Help you save the meals that worked."
@@ -36,7 +42,7 @@
     {
       "heading": "Where Delixio fits",
       "paragraphs": [
-        "Delixio adds AI recipe ideas on top of ingredient-first cooking, then full recipes when you unlock them, plus grocery lists, saved recipes with lists (Favorites, Quick dinners, Healthy, and custom), notes, ratings, mark cooked, and a meal calendar with optional one-way export to your device calendar. My Kitchen stores pantry staples so everyday basics are available without re-entering them, and they stay off the grocery list unless needed."
+        "Delixio adds AI recipe ideas on top of ingredient-first cooking, then full recipes when you unlock them, plus grocery lists, saved recipes with lists (Favorites, Quick dinners, Healthy, and custom), notes, ratings, mark cooked, and a meal calendar with optional one-way export to your device calendar. Kitchen keeps pantry staples marked as Always have available without re-entering them, and they stay off the grocery list unless needed."
       ]
     }
   ],

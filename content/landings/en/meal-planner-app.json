@@ -7,6 +7,12 @@
   "title": "Meal Planner App – Plan Dinners from Real Ingredients",
   "description": "Looking for a meal planner app that fits real life? Learn a lightweight planning method and how Delixio helps you save recipes and schedule meals on iPhone and Android.",
   "h1": "Meal planner app",
+  "hero": {
+    "file": "plan-calendar-app-screen.webp",
+    "alt": "Delixio meal calendar showing planned meals across the week.",
+    "width": 591,
+    "height": 1280
+  },
   "intro": [
     "A meal planner app should reduce decision fatigue, not create a second job. The most sustainable plans are short, flexible, and based on food you will actually cook, often starting from ingredients already at home.",
     "Delixio includes a meal calendar so you can save recipes and schedule meals after generating ideas from your ingredients. You can also export plans one-way to your device calendar."

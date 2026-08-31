@@ -7,6 +7,12 @@
   "title": "Grocery List Recipe App – Shop Only for What You’re Missing",
   "description": "A grocery list recipe app should start from ingredients you have and list only what is missing. Learn the workflow and how Delixio helps on iPhone and Android.",
   "h1": "Grocery list recipe app",
+  "hero": {
+    "file": "recipe-to-grocery-app-screen.webp",
+    "alt": "A Delixio recipe separates ingredients you have from missing ingredients and lets you add selected missing items to Grocery.",
+    "width": 591,
+    "height": 1280
+  },
   "intro": [
     "The best grocery lists for home cooks are short because they start from a meal decision, not from wandering the store. A grocery list recipe app helps you choose a recipe, see missing ingredients, and shop only for the gaps.",
     "Delixio is built around that loop: generate ideas from ingredients you have, unlock a full recipe when you want it, review what is missing, and add those items to a grocery list (you can also add items manually)."
@@ -51,7 +57,7 @@
   "delixio": {
     "heading": "Grocery lists inside Delixio",
     "paragraphs": [
-      "From a recipe, you can add selected ingredients to your grocery list. You can also add items manually with an optional quantity, check them off, clear completed items, and sort the list. My Kitchen staples stay off the grocery list unless needed.",
+      "From a recipe, you can add selected ingredients to your grocery list. You can also add items manually with an optional quantity, check them off, clear completed items, and sort the list. Kitchen staples marked as Always have stay off the grocery list unless needed.",
       "Combine grocery with meal planning so shopping stays connected to real dinners. Grocery lists themselves do not require a subscription."
     ]
   },
