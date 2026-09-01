@@ -38,6 +38,7 @@ Practical kitchen articles grouped under [Delixio Cooking Guides](https://delixi
 - [Leftover Rice Dinner Ideas: 4 Ways to Turn One Pot Into Tonight’s Meal](https://delixioapp.com/guides/leftover-rice-dinner-ideas-4-ways-to-turn-one-pot-into-tonight-s-meal/)
 - [No-Oven Dinners for Hot Nights: 5 Flexible Ways to Cook With What You Have](https://delixioapp.com/guides/no-oven-dinners-for-hot-nights-5-flexible-ways-to-cook-with-what-you-have/)
 - [What to Make With Leftover Mashed Potatoes: A 4-Route Dinner Decision Tree](https://delixioapp.com/guides/what-to-make-with-leftover-mashed-potatoes-a-4-route-dinner-decision-tree/)
+- [What Can I Cook With Chicken and Rice? 5 Dinner Routes From One Reliable Pair](https://delixioapp.com/guides/what-can-i-cook-with-chicken-and-rice-5-dinner-routes-from-one-reliable-pair/)
 
 ## Intent / solution landing pages
 
