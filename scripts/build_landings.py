@@ -96,8 +96,12 @@ STATIC_SITEMAP = [
     "/privacy/fr/",
     "/privacy/it/",
     "/terms/",
+    "/terms/es/",
+    "/terms/fr/",
+    "/terms/it/",
     "/support/",
     "/delete-account/",
+    "/it/ricette-con-ingredienti/",
 ]
 
 CLUSTER_ORDER = ["discovery", "waste", "planning"]

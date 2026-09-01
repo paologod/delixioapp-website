@@ -1,0 +1,93 @@
+{
+  "type": "paid_landing",
+  "locale": "it",
+  "slug": "ricette-con-ingredienti",
+  "url_path": "/it/ricette-con-ingredienti/",
+  "status": "published",
+  "title": "Ricette con gli ingredienti che hai già | Delixio",
+  "description": "Scopri cosa cucinare con gli ingredienti che hai già in frigo o in dispensa. Delixio ti suggerisce ricette personalizzate. 1 ricetta gratuita ogni giorno, senza abbonamento.",
+  "hero": {
+    "eyebrow": "Il tuo frigo ha già qualche idea.",
+    "headline": "Cucina con quello che hai già",
+    "subheadline": "Inserisci gli ingredienti che hai in frigo o in dispensa e Delixio ti suggerisce ricette personalizzate in pochi secondi.",
+    "trust": [
+      "1 ricetta gratuita ogni giorno",
+      "Nessun abbonamento",
+      "Disponibile per iPhone e Android"
+    ]
+  },
+  "how_it_works": {
+    "heading": "Dal frigo alla ricetta in pochi secondi",
+    "intro": "Ti bastano gli ingredienti che hai già.",
+    "steps": [
+      {
+        "title": "Aggiungi i tuoi ingredienti",
+        "text": "Scrivi quello che hai già in frigo o in dispensa."
+      },
+      {
+        "title": "Scopri cosa puoi cucinare",
+        "text": "Delixio crea idee e ricette personalizzate in base agli ingredienti disponibili."
+      },
+      {
+        "title": "Cucina",
+        "text": "Scegli la ricetta, segui i passaggi e porta il piatto in tavola."
+      }
+    ]
+  },
+  "benefits": {
+    "heading": "Meno dubbi. Più idee per quello che hai già.",
+    "items": [
+      {
+        "title": "Usa quello che hai già",
+        "text": "Trasforma gli ingredienti che hai in casa in idee concrete per pranzo o cena."
+      },
+      {
+        "title": "Riduci gli sprechi",
+        "text": "Trova un modo per usare gli ingredienti prima che restino dimenticati in frigo."
+      },
+      {
+        "title": "Decidi più velocemente",
+        "text": "Quando non sai cosa cucinare, parti semplicemente da ciò che hai disponibile."
+      },
+      {
+        "title": "Nessun abbonamento",
+        "text": "Hai una ricetta gratuita ogni giorno. Se vuoi usarne di più, puoi acquistare crediti quando ti servono."
+      }
+    ]
+  },
+  "showcase": {
+    "heading": "Da quello che hai a quello che cucinerai",
+    "text": "Delixio parte dai tuoi ingredienti e ti accompagna fino alla ricetta."
+  },
+  "cta": {
+    "headline": "Non sai cosa cucinare stasera?",
+    "body": "Apri Delixio, aggiungi gli ingredienti che hai già e trova subito qualcosa da preparare.",
+    "support": "1 ricetta gratuita ogni giorno. Nessun abbonamento."
+  },
+  "faq": {
+    "heading": "Domande frequenti",
+    "items": [
+      {
+        "q": "Delixio è gratis?",
+        "a": "Sì. Hai una ricetta gratuita ogni giorno. Se vuoi creare altre ricette, puoi acquistare crediti quando ti servono."
+      },
+      {
+        "q": "Serve un abbonamento?",
+        "a": "No. Delixio non richiede un abbonamento."
+      },
+      {
+        "q": "Posso usare gli ingredienti che ho già in casa?",
+        "a": "Sì. È proprio da qui che parte Delixio: aggiungi gli ingredienti che hai in frigo o in dispensa e scopri cosa puoi cucinare."
+      },
+      {
+        "q": "Delixio è disponibile su iPhone e Android?",
+        "a": "Sì. Puoi scaricare Delixio da App Store e Google Play."
+      }
+    ]
+  },
+  "micro_cta": {
+    "headline": "Cosa puoi cucinare con quello che hai?",
+    "button": "Prova Delixio"
+  },
+  "header_cta": "Scarica l'app"
+}

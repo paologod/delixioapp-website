@@ -34,10 +34,22 @@
     <loc>https://delixioapp.com/terms/</loc>
   </url>
   <url>
+    <loc>https://delixioapp.com/terms/es/</loc>
+  </url>
+  <url>
+    <loc>https://delixioapp.com/terms/fr/</loc>
+  </url>
+  <url>
+    <loc>https://delixioapp.com/terms/it/</loc>
+  </url>
+  <url>
     <loc>https://delixioapp.com/support/</loc>
   </url>
   <url>
     <loc>https://delixioapp.com/delete-account/</loc>
+  </url>
+  <url>
+    <loc>https://delixioapp.com/it/ricette-con-ingredienti/</loc>
   </url>
   <url>
     <loc>https://delixioapp.com/ai-recipe-generator/</loc>
