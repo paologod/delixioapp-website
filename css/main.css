@@ -2966,6 +2966,10 @@ button { font: inherit; cursor: pointer; border: none; background: none; }
   text-align: center;
 }
 
+.it-ads-micro-cta .it-ads-store-row {
+  justify-content: center;
+}
+
 .it-ads-micro-title {
   margin: 0 0 24px;
   font-family: var(--font-heading);
