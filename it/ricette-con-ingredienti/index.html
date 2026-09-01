@@ -28,7 +28,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Quicksand:wght@700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../../css/main.css?v=96">
+  <link rel="stylesheet" href="../../css/main.css?v=98">
   <link rel="icon" href="../../assets/logo.webp?v=45" type="image/webp">
   <script type="application/ld+json">
   {
@@ -114,7 +114,7 @@
       </div>
       <div class="hero-stage">
         <div class="hero-content">
-          <span class="hero-badge">Il tuo frigo ha già qualche idea.</span>
+          <span class="hero-eyebrow">Il tuo frigo ha già qualche idea.</span>
           <h1 class="hero-title" id="hero-title">
             Cucina con quello che <span class="hero-brand">hai già</span>
           </h1>
@@ -189,30 +189,28 @@
           <span class="section-tag">Perché Delixio</span>
           <h2 class="section-title" id="benefits-title">Meno dubbi. Più idee per quello che <span class="highlight">hai già.</span></h2>
         </header>
-        <div class="features-panel it-ads-benefits">
-          <div class="features-grid">
-            <article class="feature-item">
-              <div class="feature-icon" aria-hidden="true"><img src="../../assets/icons/icon-basket.png?v=45" alt="" width="89" height="98" loading="lazy"></div>
-              <h3 class="feature-title">Usa quello che hai già</h3>
-              <p class="feature-desc">Trasforma gli ingredienti che hai in casa in idee concrete per pranzo o cena.</p>
+        <div class="it-ads-benefits-grid">
+            <article class="it-ads-benefit-card">
+              <div class="it-ads-benefit-icon" aria-hidden="true"><img src="../../assets/icons/icon-basket.png?v=45" alt="" width="89" height="98" loading="lazy"></div>
+              <h3 class="it-ads-benefit-title">Usa quello che hai già</h3>
+              <p class="it-ads-benefit-desc">Trasforma gli ingredienti che hai in casa in idee concrete per pranzo o cena.</p>
             </article>
-            <article class="feature-item">
-              <div class="feature-icon" aria-hidden="true"><img src="../../assets/icons/icon-missing.png?v=45" alt="" width="92" height="86" loading="lazy"></div>
-              <h3 class="feature-title">Riduci gli sprechi</h3>
-              <p class="feature-desc">Trova un modo per usare gli ingredienti prima che restino dimenticati in frigo.</p>
+            <article class="it-ads-benefit-card">
+              <div class="it-ads-benefit-icon" aria-hidden="true"><img src="../../assets/icons/icon-missing.png?v=45" alt="" width="92" height="86" loading="lazy"></div>
+              <h3 class="it-ads-benefit-title">Riduci gli sprechi</h3>
+              <p class="it-ads-benefit-desc">Trova un modo per usare gli ingredienti prima che restino dimenticati in frigo.</p>
             </article>
-            <article class="feature-item">
-              <div class="feature-icon" aria-hidden="true"><img src="../../assets/icons/icon-chef-hat.png?v=45" alt="" width="94" height="80" loading="lazy"></div>
-              <h3 class="feature-title">Decidi più velocemente</h3>
-              <p class="feature-desc">Quando non sai cosa cucinare, parti semplicemente da ciò che hai disponibile.</p>
+            <article class="it-ads-benefit-card">
+              <div class="it-ads-benefit-icon" aria-hidden="true"><img src="../../assets/icons/icon-chef-hat.png?v=45" alt="" width="94" height="80" loading="lazy"></div>
+              <h3 class="it-ads-benefit-title">Decidi più velocemente</h3>
+              <p class="it-ads-benefit-desc">Quando non sai cosa cucinare, parti semplicemente da ciò che hai disponibile.</p>
             </article>
-            <article class="feature-item">
-              <div class="feature-icon" aria-hidden="true"><img src="../../assets/icons/icon-lightning.png?v=45" alt="" width="70" height="85" loading="lazy"></div>
-              <h3 class="feature-title">Nessun abbonamento</h3>
-              <p class="feature-desc">Hai una ricetta gratuita ogni giorno. Se vuoi usarne di più, puoi acquistare crediti quando ti servono.</p>
+            <article class="it-ads-benefit-card">
+              <div class="it-ads-benefit-icon" aria-hidden="true"><img src="../../assets/icons/icon-lightning.png?v=45" alt="" width="70" height="85" loading="lazy"></div>
+              <h3 class="it-ads-benefit-title">Nessun abbonamento</h3>
+              <p class="it-ads-benefit-desc">Hai una ricetta gratuita ogni giorno. Se vuoi usarne di più, puoi acquistare crediti quando ti servono.</p>
             </article>
           </div>
-        </div>
       </div>
     </section>
 
@@ -223,16 +221,28 @@
           <h2 class="section-title" id="showcase-title">Da quello che hai a quello che <span class="highlight">cucinerai</span></h2>
           <p class="it-ads-section-intro">Delixio parte dai tuoi ingredienti e ti accompagna fino alla ricetta.</p>
         </header>
-        <div class="it-ads-showcase-phones" aria-hidden="false">
-          <figure class="journey-shot">
-            <img src="../../assets/how-it-works/cook-add-ingredients.jpg" alt="Schermata Delixio per aggiungere ingredienti" width="591" height="1280" loading="lazy" decoding="async">
-          </figure>
-          <figure class="journey-shot">
-            <img src="../../assets/how-it-works/recipe-ideas.jpg" alt="Schermata Delixio con idee ricetta dagli ingredienti selezionati" width="591" height="1280" loading="lazy" decoding="async">
-          </figure>
-          <figure class="journey-shot">
-            <img src="../../assets/how-it-works/full-recipe.jpg" alt="Schermata Delixio con ricetta completa e passaggi" width="591" height="1280" loading="lazy" decoding="async">
-          </figure>
+        <!-- Screenshot paths: replace src values when Italian app screenshots are ready -->
+        <div class="it-ads-carousel" data-it-ads-carousel aria-roledescription="carousel" aria-label="Anteprima dell'app Delixio">
+          <button type="button" class="it-ads-carousel-arrow it-ads-carousel-arrow--prev" data-carousel-prev aria-label="Schermata precedente">
+            <span aria-hidden="true">‹</span>
+          </button>
+          <div class="it-ads-carousel-viewport" data-carousel-viewport tabindex="0">
+            <div class="it-ads-carousel-track" data-carousel-track>
+              <figure class="it-ads-carousel-slide journey-shot is-active">
+                <img src="../../assets/how-it-works/cook-add-ingredients.jpg" alt="Schermata Delixio per aggiungere ingredienti" width="591" height="1280" loading="lazy" decoding="async">
+              </figure>
+              <figure class="it-ads-carousel-slide journey-shot">
+                <img src="../../assets/how-it-works/recipe-ideas.jpg" alt="Schermata Delixio con idee ricetta dagli ingredienti selezionati" width="591" height="1280" loading="lazy" decoding="async">
+              </figure>
+              <figure class="it-ads-carousel-slide journey-shot">
+                <img src="../../assets/how-it-works/full-recipe.jpg" alt="Schermata Delixio con ricetta completa e passaggi" width="591" height="1280" loading="lazy" decoding="async">
+              </figure>
+            </div>
+          </div>
+          <button type="button" class="it-ads-carousel-arrow it-ads-carousel-arrow--next" data-carousel-next aria-label="Schermata successiva">
+            <span aria-hidden="true">›</span>
+          </button>
+          <div class="it-ads-carousel-dots" data-carousel-dots role="tablist" aria-label="Seleziona schermata"></div>
         </div>
       </div>
     </section>
@@ -310,6 +320,7 @@
   </footer>
 
   <script src="../../js/campaign-attribution.js?v=1"></script>
+  <script src="../../js/it-ads-carousel.js?v=1"></script>
   <script src="../../js/main.js?v=3"></script>
 </body>
 </html>
