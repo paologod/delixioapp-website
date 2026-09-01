@@ -7,12 +7,6 @@
   "title": "Quick Dinner Ideas App from Ingredients You Already Have",
   "description": "Generate quick dinner ideas in Delixio from ingredients you already have. Set cooking time, explore free recipe ideas, and unlock full recipes when you want to cook.",
   "h1": "Quick dinner ideas with Delixio",
-  "hero": {
-    "file": "quick-dinner-under-30-app-screen.webp",
-    "alt": "Delixio Cook screen with Under 30 min selected in the cooking time picker.",
-    "width": 591,
-    "height": 1280
-  },
   "intro": [
     "When you want a fast dinner solution from food already at home, Delixio can generate quick dinner ideas around the ingredients you enter and the cooking time you choose.",
     "This page is the Delixio solution for that intent. For a hands-on kitchen framework you can use without an app, see the cooking guide on building a quick weeknight dinner from what you have."

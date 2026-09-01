@@ -7,12 +7,6 @@
   "title": "Fridge Recipe App – Turn What’s in Your Fridge into Dinner",
   "description": "A fridge recipe app starts from food you already have. Learn how fridge-based cooking works and how Delixio helps you generate meal ideas from your ingredients.",
   "h1": "Fridge recipe app",
-  "hero": {
-    "file": "kitchen-use-first-app-screen.webp",
-    "alt": "Delixio Kitchen screen with ingredients organised for cooking from food already at home.",
-    "width": 591,
-    "height": 1280
-  },
   "intro": [
     "A fridge recipe app is built for the everyday moment when you open the fridge, see random ingredients, and need dinner. Instead of browsing recipes that assume a full shopping trip, you start with what is already there.",
     "Delixio is designed for that workflow: type ingredients, set preferences, choose a cooking mode, explore free meal ideas, and unlock a full recipe when you want to cook, on iPhone or Android."
