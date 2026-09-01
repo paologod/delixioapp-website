@@ -2632,10 +2632,6 @@ button { font: inherit; cursor: pointer; border: none; background: none; }
 }
 
 /* Italian paid-traffic landing (/it/ricette-con-ingredienti/) */
-.page-it-ads {
-  --hero-height: clamp(680px, 88vh, 920px);
-}
-
 .page-it-ads .site-header--minimal {
   padding: 51px 0 0;
 }
@@ -2695,20 +2691,8 @@ button { font: inherit; cursor: pointer; border: none; background: none; }
   padding-top: clamp(52px, 5.5vw, 76px);
 }
 
-.page-it-ads .hero-stage {
-  min-height: clamp(520px, 62vh, 680px);
-}
-
-.page-it-ads .hero-phones-wrap {
-  width: 40%;
-  height: 76%;
-  top: 6%;
-}
-
-.page-it-ads .hero-phones-shadow {
-  left: 44%;
-  top: 72%;
-  width: 46%;
+.page-it-ads .hero-ingredient {
+  display: none;
 }
 
 .it-ads-trust {
@@ -2758,11 +2742,6 @@ button { font: inherit; cursor: pointer; border: none; background: none; }
 
 .store-badge--primary {
   transform: scale(1.03);
-}
-
-.page-it-ads .it-ads-hero-visual .hero-character,
-.page-it-ads .hero-ingredient {
-  display: none;
 }
 
 .page-it-ads .it-ads-section .section-header,
@@ -2946,22 +2925,25 @@ button { font: inherit; cursor: pointer; border: none; background: none; }
   transform: scale(1.15);
 }
 
-.it-ads-cta .cta-inner {
-  min-height: auto;
-  padding: clamp(40px, 6vw, 72px) clamp(20px, 4vw, 48px);
+.it-ads-cta .cta-content {
+  width: min(860px, 72%);
+}
+
+.it-ads-cta .cta-title {
+  margin-bottom: clamp(16px, 2.5cqw, 28px);
 }
 
 .it-ads-cta-body,
 .it-ads-cta-support {
-  margin: 0 auto 20px;
-  max-width: 640px;
-  font-size: clamp(16px, 1.7vw, 20px);
-  line-height: 1.55;
+  margin: 0 auto 16px;
+  max-width: 720px;
+  font-size: clamp(15px, 1.8cqw, 22px);
+  line-height: 1.5;
   color: rgba(255, 255, 255, 0.95);
 }
 
 .it-ads-cta-support {
-  margin-bottom: 28px;
+  margin-bottom: clamp(24px, 3.5cqw, 36px);
 }
 
 .it-ads-store-row--light {
@@ -3121,6 +3103,10 @@ button { font: inherit; cursor: pointer; border: none; background: none; }
     top: auto;
     width: 88%;
     margin: -12% auto 0;
+  }
+
+  .page-it-ads .hero-character {
+    display: none !important;
   }
 
   .page-it-ads .hero-eyebrow {
