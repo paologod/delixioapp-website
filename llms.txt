@@ -39,6 +39,7 @@ Practical kitchen articles grouped under [Delixio Cooking Guides](https://delixi
 - [No-Oven Dinners for Hot Nights: 5 Flexible Ways to Cook With What You Have](https://delixioapp.com/guides/no-oven-dinners-for-hot-nights-5-flexible-ways-to-cook-with-what-you-have/)
 - [What to Make With Leftover Mashed Potatoes: A 4-Route Dinner Decision Tree](https://delixioapp.com/guides/what-to-make-with-leftover-mashed-potatoes-a-4-route-dinner-decision-tree/)
 - [What Can I Cook With Chicken and Rice? 5 Dinner Routes From One Reliable Pair](https://delixioapp.com/guides/what-can-i-cook-with-chicken-and-rice-5-dinner-routes-from-one-reliable-pair/)
+- [What Can I Use Instead of Tomato Paste? A Pantry Substitution Guide for Weeknight Cooking](https://delixioapp.com/guides/what-can-i-use-instead-of-tomato-paste-a-pantry-substitution-guide-for-weeknight/)
 
 ## Intent / solution landing pages
 
