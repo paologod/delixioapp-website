@@ -28,7 +28,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Quicksand:wght@700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../css/main.css?v=94">
+  <link rel="stylesheet" href="../css/main.css?v=101">
   <link rel="icon" href="../assets/logo.webp?v=45" type="image/webp">
   <script type="application/ld+json">
   {
@@ -107,6 +107,33 @@
         </div>
       </div>
 
+      <section class="download-showcase" aria-labelledby="download-showcase-title">
+        <h2 id="download-showcase-title">See Delixio in action</h2>
+        <!-- Screenshot paths: replace src values when new English screenshots are ready -->
+        <div class="product-carousel" data-product-carousel data-carousel-lang="en" aria-roledescription="carousel" aria-label="Delixio app preview">
+          <button type="button" class="product-carousel-arrow product-carousel-arrow--prev" data-carousel-prev aria-label="Previous screen">
+            <span aria-hidden="true">‹</span>
+          </button>
+          <div class="product-carousel-viewport" data-carousel-viewport tabindex="0">
+            <div class="product-carousel-track" data-carousel-track>
+              <figure class="product-carousel-slide journey-shot is-active">
+                <img src="../assets/how-it-works/cook-add-ingredients.jpg" alt="Delixio screen for adding ingredients" width="591" height="1280" loading="lazy" decoding="async">
+              </figure>
+              <figure class="product-carousel-slide journey-shot">
+                <img src="../assets/how-it-works/recipe-ideas.jpg" alt="Delixio screen with recipe ideas from selected ingredients" width="591" height="1280" loading="lazy" decoding="async">
+              </figure>
+              <figure class="product-carousel-slide journey-shot">
+                <img src="../assets/how-it-works/full-recipe.jpg" alt="Delixio screen with a full recipe and steps" width="591" height="1280" loading="lazy" decoding="async">
+              </figure>
+            </div>
+          </div>
+          <button type="button" class="product-carousel-arrow product-carousel-arrow--next" data-carousel-next aria-label="Next screen">
+            <span aria-hidden="true">›</span>
+          </button>
+          <div class="product-carousel-dots" data-carousel-dots role="tablist" aria-label="Choose screen"></div>
+        </div>
+      </section>
+
       <h2>About Delixio</h2>
       <p>Delixio is an AI recipe app that generates practical recipe ideas from the ingredients you already have at home.</p>
       <p>You get 1 free full recipe every day. Recipe ideas are free to explore. When you need more full recipes, buy credit packs (6, 28, or 90) in the app, there is no subscription. Credits do not expire.</p>
@@ -136,6 +163,7 @@
     </div>
   </footer>
 
+  <script src="../js/product-carousel.js?v=1"></script>
   <script src="../js/main.js?v=2"></script>
 </body>
 </html>
