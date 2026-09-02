@@ -2940,8 +2940,6 @@ button { font: inherit; cursor: pointer; border: none; background: none; }
 
 .download-showcase {
   margin: 48px 0 40px;
-  padding-top: 40px;
-  border-top: 1px solid rgba(76, 32, 9, 0.12);
 }
 
 .download-showcase h2 {
