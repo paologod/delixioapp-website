@@ -2940,26 +2940,24 @@ button { font: inherit; cursor: pointer; border: none; background: none; }
 
 .download-showcase {
   margin: 48px 0 40px;
+  padding-top: 40px;
+  border-top: 1px solid rgba(76, 32, 9, 0.12);
 }
 
 .download-showcase h2 {
-  display: inline-block;
-  margin: 40px 0 28px;
-  padding: 10px 18px;
+  margin: 0 0 28px;
   text-align: left;
-  border: 1px solid var(--color-primary-border);
-  border-radius: 20px;
-  background: rgba(255, 255, 255, 0.72);
-  font-family: var(--font-heading);
-  font-size: clamp(22px, 3vw, 28px);
-  font-weight: 700;
-  line-height: 1.2;
-  color: var(--color-text);
 }
 
 .download-showcase .product-carousel {
   max-width: min(640px, 100%);
   margin-left: 0;
+}
+
+.download-about-title {
+  margin-top: 0;
+  padding-top: 40px;
+  border-top: 1px solid rgba(76, 32, 9, 0.12);
 }
 
 .it-ads-cta .cta-content {
