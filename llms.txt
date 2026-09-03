@@ -40,6 +40,7 @@ Practical kitchen articles grouped under [Delixio Cooking Guides](https://delixi
 - [What to Make With Leftover Mashed Potatoes: A 4-Route Dinner Decision Tree](https://delixioapp.com/guides/what-to-make-with-leftover-mashed-potatoes-a-4-route-dinner-decision-tree/)
 - [What Can I Cook With Chicken and Rice? 5 Dinner Routes From One Reliable Pair](https://delixioapp.com/guides/what-can-i-cook-with-chicken-and-rice-5-dinner-routes-from-one-reliable-pair/)
 - [What Can I Use Instead of Tomato Paste? A Pantry Substitution Guide for Weeknight Cooking](https://delixioapp.com/guides/what-can-i-use-instead-of-tomato-paste-a-pantry-substitution-guide-for-weeknight/)
+- [Last-Minute Dinner for Four: A 30-Minute Plan From Shop to Table](https://delixioapp.com/guides/last-minute-dinner-for-four-a-30-minute-plan-from-shop-to-table/)
 
 ## Intent / solution landing pages
 
