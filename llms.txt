@@ -41,6 +41,7 @@ Practical kitchen articles grouped under [Delixio Cooking Guides](https://delixi
 - [What Can I Cook With Chicken and Rice? 5 Dinner Routes From One Reliable Pair](https://delixioapp.com/guides/what-can-i-cook-with-chicken-and-rice-5-dinner-routes-from-one-reliable-pair/)
 - [What Can I Use Instead of Tomato Paste? A Pantry Substitution Guide for Weeknight Cooking](https://delixioapp.com/guides/what-can-i-use-instead-of-tomato-paste-a-pantry-substitution-guide-for-weeknight/)
 - [Last-Minute Dinner for Four: A 30-Minute Plan From Shop to Table](https://delixioapp.com/guides/last-minute-dinner-for-four-a-30-minute-plan-from-shop-to-table/)
+- [How to Use Half a Jar of Pesto: 5 Dinner Routes Beyond Pasta](https://delixioapp.com/guides/how-to-use-half-a-jar-of-pesto-5-dinner-routes-beyond-pasta/)
 
 ## Intent / solution landing pages
 
