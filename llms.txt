@@ -43,6 +43,7 @@ Practical kitchen articles grouped under [Delixio Cooking Guides](https://delixi
 - [Last-Minute Dinner for Four: A 30-Minute Plan From Shop to Table](https://delixioapp.com/guides/last-minute-dinner-for-four-a-30-minute-plan-from-shop-to-table/)
 - [How to Use Half a Jar of Pesto: 5 Dinner Routes Beyond Pasta](https://delixioapp.com/guides/how-to-use-half-a-jar-of-pesto-5-dinner-routes-beyond-pasta/)
 - [Frozen Vegetables for Dinner: 4 Fast Formats That Feel Like a Proper Meal](https://delixioapp.com/guides/frozen-vegetables-for-dinner-4-fast-formats-that-feel-like-a-proper-meal/)
+- [What to Do With Leftover Roasted Vegetables: A Texture-First Dinner Decision Tree](https://delixioapp.com/guides/what-to-do-with-leftover-roasted-vegetables-a-texture-first-dinner-decision-tree/)
 
 ## Intent / solution landing pages
 
