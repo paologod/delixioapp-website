@@ -45,6 +45,7 @@ Practical kitchen articles grouped under [Delixio Cooking Guides](https://delixi
 - [Frozen Vegetables for Dinner: 4 Fast Formats That Feel Like a Proper Meal](https://delixioapp.com/guides/frozen-vegetables-for-dinner-4-fast-formats-that-feel-like-a-proper-meal/)
 - [What to Do With Leftover Roasted Vegetables: A Texture-First Dinner Decision Tree](https://delixioapp.com/guides/what-to-do-with-leftover-roasted-vegetables-a-texture-first-dinner-decision-tree/)
 - [The Backup Dinner Plan: How to Keep One Weeknight Meal From Falling Apart](https://delixioapp.com/guides/the-backup-dinner-plan-how-to-keep-one-weeknight-meal-from-falling-apart/)
+- [How to Use Half a Jar of Tahini: 6 Dinner and Snack Routes](https://delixioapp.com/guides/how-to-use-half-a-jar-of-tahini-6-dinner-and-snack-routes/)
 
 ## Intent / solution landing pages
 
