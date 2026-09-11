@@ -47,6 +47,7 @@ Practical kitchen articles grouped under [Delixio Cooking Guides](https://delixi
 - [The Backup Dinner Plan: How to Keep One Weeknight Meal From Falling Apart](https://delixioapp.com/guides/the-backup-dinner-plan-how-to-keep-one-weeknight-meal-from-falling-apart/)
 - [How to Use Half a Jar of Tahini: 6 Dinner and Snack Routes](https://delixioapp.com/guides/how-to-use-half-a-jar-of-tahini-6-dinner-and-snack-routes/)
 - [The One-Ingredient Anchor: Plan 3 Dinners Around One Fresh Ingredient](https://delixioapp.com/guides/the-one-ingredient-anchor-plan-3-dinners-around-one-fresh-ingredient/)
+- [What to Make With Leftover Lentils: A 4-Route Dinner Decision Guide](https://delixioapp.com/guides/what-to-make-with-leftover-lentils-a-4-route-dinner-decision-guide/)
 
 ## Intent / solution landing pages
 
