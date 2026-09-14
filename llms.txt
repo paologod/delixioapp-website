@@ -49,6 +49,7 @@ Practical kitchen articles grouped under [Delixio Cooking Guides](https://delixi
 - [The One-Ingredient Anchor: Plan 3 Dinners Around One Fresh Ingredient](https://delixioapp.com/guides/the-one-ingredient-anchor-plan-3-dinners-around-one-fresh-ingredient/)
 - [What to Make With Leftover Lentils: A 4-Route Dinner Decision Guide](https://delixioapp.com/guides/what-to-make-with-leftover-lentils-a-4-route-dinner-decision-guide/)
 - [Chickpeas and Eggs for Dinner: A One-Skillet Formula With 4 Flavor Paths](https://delixioapp.com/guides/chickpeas-and-eggs-for-dinner-a-one-skillet-formula-with-4-flavor-paths/)
+- [What to Make With Leftover Baked Potatoes: 4 Dinner Routes That Start With One Cooked Potato](https://delixioapp.com/guides/what-to-make-with-leftover-baked-potatoes-4-dinner-routes-that-start-with-one-co/)
 
 ## Intent / solution landing pages
 
