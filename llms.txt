@@ -53,6 +53,7 @@ Practical kitchen articles grouped under [Delixio Cooking Guides](https://delixi
 - [Tortillas and Beans for Dinner: A 4-Route Equipment Decision Guide](https://delixioapp.com/guides/tortillas-and-beans-for-dinner-a-4-route-equipment-decision-guide/)
 - [How to Use a Jar of Sun-Dried Tomatoes: 5 Dinner Routes Beyond Pasta](https://delixioapp.com/guides/how-to-use-a-jar-of-sun-dried-tomatoes-5-dinner-routes-beyond-pasta/)
 - [How to Plan Dinners for a Week When You Don't Know Which Nights Will Be Busy](https://delixioapp.com/guides/how-to-plan-dinners-for-a-week-when-you-don-t-know-which-nights-will-be-busy/)
+- [What to Make With Leftover Pasta: 4 Dinner Routes for Cooked Noodles](https://delixioapp.com/guides/what-to-make-with-leftover-pasta-4-dinner-routes-for-cooked-noodles/)
 
 ## Intent / solution landing pages
 
