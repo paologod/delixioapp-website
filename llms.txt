@@ -54,6 +54,7 @@ Practical kitchen articles grouped under [Delixio Cooking Guides](https://delixi
 - [How to Use a Jar of Sun-Dried Tomatoes: 5 Dinner Routes Beyond Pasta](https://delixioapp.com/guides/how-to-use-a-jar-of-sun-dried-tomatoes-5-dinner-routes-beyond-pasta/)
 - [How to Plan Dinners for a Week When You Don't Know Which Nights Will Be Busy](https://delixioapp.com/guides/how-to-plan-dinners-for-a-week-when-you-don-t-know-which-nights-will-be-busy/)
 - [What to Make With Leftover Pasta: 4 Dinner Routes for Cooked Noodles](https://delixioapp.com/guides/what-to-make-with-leftover-pasta-4-dinner-routes-for-cooked-noodles/)
+- [What to Make With Ricotta: 5 Savory Dinner Routes for a Tub in the Fridge](https://delixioapp.com/guides/what-to-make-with-ricotta-5-savory-dinner-routes-for-a-tub-in-the-fridge/)
 
 ## Intent / solution landing pages
 
