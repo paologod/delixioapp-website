@@ -55,6 +55,7 @@ Practical kitchen articles grouped under [Delixio Cooking Guides](https://delixi
 - [How to Plan Dinners for a Week When You Don't Know Which Nights Will Be Busy](https://delixioapp.com/guides/how-to-plan-dinners-for-a-week-when-you-don-t-know-which-nights-will-be-busy/)
 - [What to Make With Leftover Pasta: 4 Dinner Routes for Cooked Noodles](https://delixioapp.com/guides/what-to-make-with-leftover-pasta-4-dinner-routes-for-cooked-noodles/)
 - [What to Make With Ricotta: 5 Savory Dinner Routes for a Tub in the Fridge](https://delixioapp.com/guides/what-to-make-with-ricotta-5-savory-dinner-routes-for-a-tub-in-the-fridge/)
+- [The Use-First Dinner Plan: How to Plan Meals Around Ingredients That Won't Wait](https://delixioapp.com/guides/the-use-first-dinner-plan-how-to-plan-meals-around-ingredients-that-won-t-wait/)
 
 ## Intent / solution landing pages
 
