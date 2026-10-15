@@ -61,6 +61,7 @@ Practical kitchen articles grouped under [Delixio Cooking Guides](https://delixi
 - [Canned Tuna for Dinner: 5 Fast Routes Beyond Tuna Pasta](https://delixioapp.com/guides/canned-tuna-for-dinner-5-fast-routes-beyond-tuna-pasta/)
 - [Gnocchi for Dinner: 4 Weeknight Formats for a Packet in the Cupboard](https://delixioapp.com/guides/gnocchi-for-dinner-4-weeknight-formats-for-a-packet-in-the-cupboard/)
 - [What to Make With Leftover Roasted Sweet Potatoes: 4 Dinner Routes](https://delixioapp.com/guides/what-to-make-with-leftover-roasted-sweet-potatoes-4-dinner-routes/)
+- [The 2+1 Baked Egg Formula: Build Dinner From Eggs, a Base, and a Bold Finish](https://delixioapp.com/guides/the-2-1-baked-egg-formula-build-dinner-from-eggs-a-base-and-a-bold-finish/)
 
 ## Intent / solution landing pages
 
