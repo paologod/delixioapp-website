@@ -1,0 +1,132 @@
+{
+  "type": "guide",
+  "language": "en",
+  "status": "published",
+  "slug": "the-three-component-dinner-prep-map-plan-flexible-weeknight-meals-without-a-fixe",
+  "category": "planning",
+  "card_blurb": "A short prep session can make the rest of the week feel far less demanding. The goal is simple: give future-you a few useful building blocks, then decide what sounds good when dinn",
+  "breadcrumb": "The Three-Component Dinner Prep Map: Plan",
+  "eyebrow": "Planning",
+  "title": "The Three-Component Dinner Prep Map: Plan Flexible Weeknight Meals Without a Fixed Menu | Delixio",
+  "description": "Use a cooked base, versatile vegetables, and one flavour starter to make flexible weeknight dinners without a rigid menu.",
+  "h1": "The Three-Component Dinner Prep Map: Plan Flexible Weeknight Meals Without a Fixed Menu",
+  "intro": [
+    "A short prep session can make the rest of the week feel far less demanding. The goal is simple: give future-you a few useful building blocks, then decide what sounds good when dinner time actually arrives.",
+    "This map starts with three components:",
+    "**A cooked base** , grains, potatoes, noodles, beans, or another substantial starting point.",
+    "**A versatile vegetable** , roasted, sautéed, shaved, or quickly blanched.",
+    "**A flavour starter** , a punchy sauce, seasoned oil, cooked onions, a tomato base, or a herby dressing.",
+    "Each part earns its place in more than one dinner. That flexibility helps when plans change, energy dips, or one person wants a bowl while another wants a skillet meal."
+  ],
+  "sections": [
+    {
+      "heading": "Start with components that can change shape",
+      "paragraphs": [
+        "Choose components by the jobs they can do at dinner, rather than assigning every item to one recipe."
+      ],
+      "table": {
+        "headers": [
+          "Component",
+          "Good choices",
+          "Dinner jobs it can cover"
+        ],
+        "rows": [
+          [
+            "Cooked base",
+            "rice, couscous, potatoes, lentils, noodles",
+            "bowl, skillet, tray bake, soup addition"
+          ],
+          [
+            "Versatile vegetable",
+            "roasted peppers, broccoli, mushrooms, courgette, greens",
+            "topping, filling, side, folded into eggs or grains"
+          ],
+          [
+            "Flavour starter",
+            "salsa verde, tomato-onion base, lemony dressing, spiced oil",
+            "sauce, finishing spoonful, pan shortcut, marinade-style coating"
+          ]
+        ]
+      },
+      "paragraphs_after": [
+        "Pick familiar ingredients. The map works best when each component feels easy to use in several directions."
+      ]
+    },
+    {
+      "heading": "A 30-minute setup example",
+      "paragraphs": [
+        "Here is one combination that can cover several evenings:",
+        "The following nights can go in different directions:",
+        "The choice happens close to dinner, when you can see what you have and how much cooking you want to do."
+      ],
+      "list": [
+        "Cook a pot of rice or another grain.",
+        "Roast a tray of broccoli, peppers, and onions.",
+        "Stir together a lemon-herb sauce with olive oil, garlic, herbs, and something sharp such as lemon or vinegar.",
+        "**Crisp skillet:** Fry the grain until it catches at the edges, add vegetables, then finish with the sauce and a fried egg or beans.",
+        "**Warm bowl:** Reheat the base and vegetables, add a quick protein, and spoon the sauce over the top.",
+        "**Stuffed or folded dinner:** Use the vegetables and sauce inside tortillas, pitas, omelettes, or baked potatoes.",
+        "**Fast soup or braise:** Start with the flavour base, add stock or tinned tomatoes, then use the cooked grains or beans for body."
+      ]
+    },
+    {
+      "heading": "Make the three components work together",
+      "paragraphs": [
+        "A useful prep map has contrast in texture and flavour:",
+        "You do not need every component every night. Sometimes the cooked base becomes lunch, the vegetables join a quick pasta, and the sauce becomes a sandwich spread. The map still did its job: it gave you options."
+      ],
+      "list": [
+        "Choose a **soft or hearty base** that can absorb a sauce.",
+        "Add a **vegetable with some bite or char** for a different texture.",
+        "Keep the **flavour starter bright, savoury, spicy, or deeply oniony** so it can change the mood of the final meal."
+      ]
+    },
+    {
+      "heading": "A tiny shopping note that keeps the map flexible",
+      "paragraphs": [
+        "Before you shop, write down only the roles you need:",
+        "That list leaves room for what is already in the kitchen. It also makes a midweek top-up much easier to judge.",
+        "For a broader way to give dinners different roles across the week, see [[https://delixioapp.com/guides/how-to-plan-meals-for-the-week-without-making-dinner-feel-like-homework/|How to Plan Meals for the Week Without Making Dinner Feel Like Homework]]."
+      ],
+      "list": [
+        "one base",
+        "one vegetable group",
+        "one flavour starter",
+        "one or two quick add-ins, such as eggs, beans, cheese, tofu, fish, or cooked chicken"
+      ]
+    },
+    {
+      "heading": "Let the evening make the final call",
+      "paragraphs": [
+        "A prep map gives you a head start without locking you into a menu. Keep the components visible, choose a format that suits the night, and build from there.",
+        "When you are ready to turn the ingredients you have into a dinner idea, use Delixio for ingredient-led inspiration and check ingredients and allergens yourself."
+      ]
+    }
+  ],
+  "related": [
+    {
+      "slug": "meal-planner-app",
+      "label": "Meal planner app",
+      "type": "landing"
+    },
+    {
+      "slug": "leftover-recipe-generator",
+      "label": "Leftover recipe generator",
+      "type": "landing"
+    }
+  ],
+  "delixio": {
+    "heading": "How Delixio helps",
+    "paragraphs": [
+      "Type what you already have. Delixio suggests recipe ideas you can cook tonight."
+    ]
+  },
+  "author": "Delixio Editorial Team",
+  "datePublished": "2026-10-08",
+  "dateModified": "2026-10-15",
+  "primary_intent": "Informational: learn a flexible make-ahead component method for weeknight dinners.",
+  "image": {
+    "file": "the-three-component-dinner-prep-map-plan-flexible-weeknight-meals-without-a-fixe.webp",
+    "alt": "Cooked grains, roasted vegetables, and a bright herb sauce arranged as flexible dinner-prep components on a warm kitchen counter."
+  }
+}
