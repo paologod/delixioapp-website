@@ -59,6 +59,7 @@ Practical kitchen articles grouped under [Delixio Cooking Guides](https://delixi
 - [What to Make With Leftover Farro: 4 Dinner Routes for Cooked Grains](https://delixioapp.com/guides/what-to-make-with-leftover-farro-4-dinner-routes-for-cooked-grains/)
 - [What to Make With Halloumi: 5 Fast Dinner Routes for a Block in the Fridge](https://delixioapp.com/guides/what-to-make-with-halloumi-5-fast-dinner-routes-for-a-block-in-the-fridge/)
 - [Canned Tuna for Dinner: 5 Fast Routes Beyond Tuna Pasta](https://delixioapp.com/guides/canned-tuna-for-dinner-5-fast-routes-beyond-tuna-pasta/)
+- [Gnocchi for Dinner: 4 Weeknight Formats for a Packet in the Cupboard](https://delixioapp.com/guides/gnocchi-for-dinner-4-weeknight-formats-for-a-packet-in-the-cupboard/)
 
 ## Intent / solution landing pages
 
