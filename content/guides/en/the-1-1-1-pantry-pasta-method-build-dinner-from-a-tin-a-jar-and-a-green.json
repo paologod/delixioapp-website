@@ -1,0 +1,173 @@
+{
+  "type": "guide",
+  "language": "en",
+  "status": "published",
+  "slug": "the-1-1-1-pantry-pasta-method-build-dinner-from-a-tin-a-jar-and-a-green",
+  "category": "dinner",
+  "card_blurb": "A weeknight pasta can start with three small decisions: one canned base, one jarred flavour driver, and one green vegetable. The 1-1-1 method gives those ingredients a clear job, t",
+  "breadcrumb": "The 1-1-1 Pantry Pasta Method: Build Dinner",
+  "eyebrow": "Dinner",
+  "title": "The 1-1-1 Pantry Pasta Method: Build Dinner From a Tin, a Jar, and a Green | Delixio",
+  "description": "Use one canned base, one jarred flavour driver, and one green vegetable to build an easy pantry pasta dinner with the 1-1-1 method.",
+  "h1": "The 1-1-1 Pantry Pasta Method: Build Dinner From a Tin, a Jar, and a Green",
+  "intro": [
+    "A weeknight pasta can start with three small decisions: one canned base, one jarred flavour driver, and one green vegetable. The 1-1-1 method gives those ingredients a clear job, then lets you choose a pasta shape and finish that suit what is already around.",
+    "The result is a dinner route rather than a rigid recipe. Use it when you have a tin of beans, tuna, or tomatoes; a jar that can bring punch; and a green that needs a place on the plate."
+  ],
+  "sections": [
+    {
+      "heading": "The 1-1-1 setup",
+      "paragraphs": [
+        "Choose one ingredient from each column."
+      ],
+      "table": {
+        "headers": [
+          "Part",
+          "Give it this job",
+          "Useful examples"
+        ],
+        "rows": [
+          [
+            "One tin",
+            "Make the pasta feel substantial",
+            "Cannellini beans, chickpeas, lentils, tuna, tomatoes"
+          ],
+          [
+            "One jar",
+            "Carry the flavour",
+            "Pesto, olive tapenade, roasted peppers, sun-dried tomatoes, capers"
+          ],
+          [
+            "One green",
+            "Bring freshness or bite",
+            "Spinach, kale, broccoli, peas, green beans, rocket"
+          ]
+        ]
+      },
+      "paragraphs_after": [
+        "Add pasta, olive oil, garlic or onion if you have it, and a final element such as lemon, cheese, breadcrumbs, or herbs."
+      ]
+    },
+    {
+      "heading": "Match the pasta to the route",
+      "paragraphs": [
+        "The shape can help the ingredients feel like one dinner instead of a bowl of separate add-ons."
+      ],
+      "table": {
+        "headers": [
+          "If your base is...",
+          "Try this pasta",
+          "Finish with..."
+        ],
+        "rows": [
+          [
+            "Creamy beans",
+            "Short tubes or shells",
+            "Lemon and grated cheese"
+          ],
+          [
+            "Tuna or lentils",
+            "Spaghetti or linguine",
+            "Toasted breadcrumbs and herbs"
+          ],
+          [
+            "Tomatoes",
+            "Rigatoni or penne",
+            "Torn greens and a spoonful of pesto"
+          ],
+          [
+            "Chickpeas",
+            "Orecchiette or small shells",
+            "Chilli flakes and a sharp cheese"
+          ]
+        ]
+      },
+      "paragraphs_after": [
+        "Use whatever pasta you have. The table is a nudge for texture, not a rulebook."
+      ]
+    },
+    {
+      "heading": "1. White beans + pesto + spinach",
+      "paragraphs": [
+        "Warm garlic in olive oil, add drained white beans, then loosen pesto with a little pasta water. Fold in spinach at the end and toss with shells or short tubes. Lemon keeps the finish lively."
+      ]
+    },
+    {
+      "heading": "2. Tuna + roasted peppers + green beans",
+      "paragraphs": [
+        "Slice roasted peppers and warm them with garlic and olive oil. Add tuna in generous flakes, then toss through spaghetti with blanched green beans. A handful of breadcrumbs gives the plate a welcome crunch."
+      ]
+    },
+    {
+      "heading": "3. Chickpeas + sun-dried tomatoes + kale",
+      "paragraphs": [
+        "Chop sun-dried tomatoes finely so they season the oil. Add chickpeas, a splash of pasta water, and ribbons of kale. Orecchiette catches the small pieces beautifully. Finish with cheese or a squeeze of lemon."
+      ]
+    },
+    {
+      "heading": "4. Tomatoes + capers + peas",
+      "paragraphs": [
+        "Simmer canned tomatoes briefly with capers, then add peas while the sauce bubbles. Toss with rigatoni and finish with herbs if you have them. This route leans bright, briny, and saucy."
+      ]
+    },
+    {
+      "heading": "A five-step cooking sequence",
+      "paragraphs": [
+        "Taste as you go. Jarred ingredients bring different levels of salt, oil, and acidity, so the last adjustment belongs at the table."
+      ],
+      "steps": [
+        "Put the pasta water on first.",
+        "Start the flavour driver in olive oil: chop, blend, or warm it as needed.",
+        "Add the canned base and enough pasta water to make a light sauce.",
+        "Add the green at the moment it needs: earlier for broccoli or beans, later for spinach, rocket, or herbs.",
+        "Toss everything with the pasta and choose one finishing element for contrast in texture or brightness."
+      ]
+    },
+    {
+      "heading": "When the cupboard looks mismatched",
+      "paragraphs": [
+        "A useful order of operations keeps dinner moving:",
+        "That is enough structure for a real dinner, even when the ingredient list looks a little random at first glance."
+      ],
+      "list": [
+        "Start with the tin that needs a job.",
+        "Pick the jarred ingredient that can season it.",
+        "Choose the green that works with the cooking time you have.",
+        "Let pasta shape and finishing ingredients solve the rest."
+      ]
+    },
+    {
+      "heading": "Make the method yours",
+      "paragraphs": [
+        "The 1-1-1 method is built for small variations. Swap the green, change the jar, or use a different pasta shape next time. Keeping a few flexible ingredients visible makes these dinner routes easier to spot.",
+        "Open your kitchen, choose one ingredient for each part of the 1-1-1 method, and make tonight's pasta route your own."
+      ]
+    }
+  ],
+  "related": [
+    {
+      "slug": "quick-dinner-ideas",
+      "label": "Quick dinner ideas",
+      "type": "landing"
+    },
+    {
+      "slug": "recipe-generator-from-ingredients",
+      "label": "Recipe generator from ingredients",
+      "type": "landing"
+    }
+  ],
+  "delixio": {
+    "heading": "How Delixio helps",
+    "paragraphs": [
+      "Type what you already have. Delixio suggests recipe ideas you can cook tonight."
+    ]
+  },
+  "author": "Delixio Editorial Team",
+  "datePublished": "2026-10-13",
+  "dateModified": "2026-10-15",
+  "primary_intent": "informational",
+  "image": {
+    "file": "the-1-1-1-pantry-pasta-method-build-dinner-from-a-tin-a-jar-and-a-green.webp",
+    "alt": "A bowl of pantry pasta with white beans, spinach, roasted peppers, lemon, and herbs on a warm kitchen counter."
+  }
+}

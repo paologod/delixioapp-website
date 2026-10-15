@@ -63,6 +63,7 @@ Practical kitchen articles grouped under [Delixio Cooking Guides](https://delixi
 - [What to Make With Leftover Roasted Sweet Potatoes: 4 Dinner Routes](https://delixioapp.com/guides/what-to-make-with-leftover-roasted-sweet-potatoes-4-dinner-routes/)
 - [The 2+1 Baked Egg Formula: Build Dinner From Eggs, a Base, and a Bold Finish](https://delixioapp.com/guides/the-2-1-baked-egg-formula-build-dinner-from-eggs-a-base-and-a-bold-finish/)
 - [The Three-Component Dinner Prep Map: Plan Flexible Weeknight Meals Without a Fixed Menu](https://delixioapp.com/guides/the-three-component-dinner-prep-map-plan-flexible-weeknight-meals-without-a-fixe/)
+- [The 1-1-1 Pantry Pasta Method: Build Dinner From a Tin, a Jar, and a Green](https://delixioapp.com/guides/the-1-1-1-pantry-pasta-method-build-dinner-from-a-tin-a-jar-and-a-green/)
 
 ## Intent / solution landing pages
 
