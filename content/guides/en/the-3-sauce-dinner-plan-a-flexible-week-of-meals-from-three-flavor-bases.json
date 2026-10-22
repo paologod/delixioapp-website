@@ -1,0 +1,157 @@
+{
+  "type": "guide",
+  "language": "en",
+  "status": "published",
+  "slug": "the-3-sauce-dinner-plan-a-flexible-week-of-meals-from-three-flavor-bases",
+  "category": "planning",
+  "card_blurb": "A weeknight plan gets easier when you decide how dinner will taste before you decide every recipe. Pick three flavor bases you genuinely enjoy, then give each one two possible jobs",
+  "breadcrumb": "The 3-Sauce Dinner Plan: A Flexible Week of",
+  "eyebrow": "Planning",
+  "title": "The 3-Sauce Dinner Plan: A Flexible Week of Meals From Three Flavor Bases | Delixio",
+  "description": "Plan flexible weeknight dinners around three flavor bases, then turn each sauce into two easy meal routes across the week.",
+  "h1": "The 3-Sauce Dinner Plan: A Flexible Week of Meals From Three Flavor Bases",
+  "intro": [
+    "A weeknight plan gets easier when you decide how dinner will taste before you decide every recipe. Pick three flavor bases you genuinely enjoy, then give each one two possible jobs. You end up with six dinner routes and plenty of room to follow your mood, your schedule, and the ingredients already in the kitchen.",
+    "This approach works especially well when a fixed Monday-to-Sunday menu feels fragile. A sauce can become pasta one night, a skillet the next, or a traybake when the oven is doing the work for you."
+  ],
+  "sections": [
+    {
+      "heading": "Start with three flavor bases",
+      "paragraphs": [
+        "Choose a mix with different moods so the week has contrast without extra complexity:"
+      ],
+      "table": {
+        "headers": [
+          "Flavor base",
+          "Make it with",
+          "Good dinner jobs"
+        ],
+        "rows": [
+          [
+            "Tomato-herb",
+            "passata or canned tomatoes, garlic, dried herbs",
+            "pasta sauce, beans-and-eggs skillet, baked vegetables"
+          ],
+          [
+            "Lemon-bean",
+            "white beans, lemon, olive oil, water, garlic",
+            "creamy pasta coating, toast or flatbread spread, warm grain bowl"
+          ],
+          [
+            "Green herb",
+            "herbs, greens, olive oil, nuts or seeds if you use them",
+            "tossed grains, roasted-vegetable finish, spoon-over eggs or beans"
+          ]
+        ]
+      },
+      "paragraphs_after": [
+        "The bases can be homemade, partly assembled, or simply planned from jars and tins you already like using. The useful part is assigning each one more than one possible dinner job."
+      ]
+    },
+    {
+      "heading": "Give every base two routes",
+      "paragraphs": [
+        "Write your routes in a quick grid before shopping. Keep the base constant and change the format around it."
+      ],
+      "table": {
+        "headers": [
+          "Base",
+          "Route 1",
+          "Route 2",
+          "Flexible add-ins"
+        ],
+        "rows": [
+          [
+            "Tomato-herb",
+            "pasta with greens",
+            "beans-and-eggs skillet",
+            "spinach, peppers, mushrooms, breadcrumbs"
+          ],
+          [
+            "Lemon-bean",
+            "creamy grain bowl",
+            "flatbread with roasted vegetables",
+            "rice, couscous, broccoli, zucchini"
+          ],
+          [
+            "Green herb",
+            "traybake finish",
+            "warm potato-and-bean salad",
+            "potatoes, chickpeas, carrots, feta if wanted"
+          ]
+        ]
+      },
+      "paragraphs_after": [
+        "A route is a dinner shape, not a strict recipe. That distinction keeps the plan useful when you get home later than expected or one ingredient changes."
+      ]
+    },
+    {
+      "heading": "Build your grocery list around shared building blocks",
+      "paragraphs": [
+        "Once the routes are visible, buy for overlap. A short list can support several meals:",
+        "Try to choose ingredients that can move between at least two routes. A bag of greens can join tomato pasta, a lemon-bean bowl, or a green-herb traybake. That gives the plan flexibility without turning it into a puzzle."
+      ],
+      "list": [
+        "**Two or three vegetables** that work raw, roasted, or folded into a skillet",
+        "**One or two filling bases** such as pasta, rice, potatoes, or flatbreads",
+        "**A few protein options** you already enjoy cooking with, including beans, eggs, fish, or meat",
+        "**Finishes** such as herbs, citrus, cheese, toasted crumbs, or chili oil"
+      ]
+    },
+    {
+      "heading": "Use the plan in the order your week allows",
+      "paragraphs": [
+        "On a high-energy night, make the route with more chopping or roasting. On a low-energy night, choose the quickest base-plus-format pairing. The plan still holds because the flavor base already does much of the decision-making.",
+        "For a more time-based framework, see [[https://delixioapp.com/guides/how-to-plan-meals-for-the-week-without-making-dinner-feel-like-homework/|How to Plan Meals for the Week Without Making Dinner Feel Like Homework]]. If you prefer to start from one ingredient instead, [[https://delixioapp.com/guides/the-one-ingredient-anchor-plan-3-dinners-around-one-fresh-ingredient/|The One-Ingredient Anchor]] offers another flexible way to shape a few dinners."
+      ]
+    },
+    {
+      "heading": "A simple example week",
+      "paragraphs": [
+        "Here is what the method can look like without locking you into a rigid menu:",
+        "The point is to reuse the flavor work while letting the dinner format change. Your week feels connected, and each meal still has its own character."
+      ],
+      "steps": [
+        "**Monday:** tomato-herb pasta with greens.",
+        "**Tuesday:** lemon-bean grain bowls with roasted vegetables.",
+        "**Wednesday:** green-herb potatoes and beans.",
+        "**Thursday:** tomato-herb skillet with eggs or another filling you enjoy.",
+        "**Friday:** flatbreads with lemon-bean spread and leftover vegetables.",
+        "**Weekend:** use any remaining base as a finishing spoon over a traybake, bowl, or toast night."
+      ]
+    },
+    {
+      "heading": "Make the plan work with what you already have",
+      "paragraphs": [
+        "Before your next grocery shop, write down three flavor bases and two dinner jobs for each. Then check your kitchen for the grains, vegetables, beans, and finishes that can move between those jobs.",
+        "Save your three flavor bases and their dinner jobs before your next grocery shop, then let the ingredients you already have decide which route happens first."
+      ]
+    }
+  ],
+  "related": [
+    {
+      "slug": "meal-planner-app",
+      "label": "Meal planner app",
+      "type": "landing"
+    },
+    {
+      "slug": "leftover-recipe-generator",
+      "label": "Leftover recipe generator",
+      "type": "landing"
+    }
+  ],
+  "delixio": {
+    "heading": "How Delixio helps",
+    "paragraphs": [
+      "Type what you already have. Delixio suggests recipe ideas you can cook tonight."
+    ]
+  },
+  "author": "Delixio Editorial Team",
+  "datePublished": "2026-10-22",
+  "dateModified": "2026-10-21",
+  "primary_intent": "informational culinary planning",
+  "image": {
+    "file": "the-3-sauce-dinner-plan-a-flexible-week-of-meals-from-three-flavor-bases.webp",
+    "alt": "Three colorful sauce bases with simple ingredients arranged on a warm home-kitchen worktop."
+  }
+}
