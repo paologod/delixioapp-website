@@ -67,6 +67,7 @@ Practical kitchen articles grouped under [Delixio Cooking Guides](https://delixi
 - [Spinach for Dinner: 5 Flexible Routes for a Bag in the Fridge](https://delixioapp.com/guides/spinach-for-dinner-5-flexible-routes-for-a-bag-in-the-fridge/)
 - [The 3-Sauce Dinner Plan: A Flexible Week of Meals From Three Flavor Bases](https://delixioapp.com/guides/the-3-sauce-dinner-plan-a-flexible-week-of-meals-from-three-flavor-bases/)
 - [The 2-Dinner Ingredient Handoff: Plan One Shop Ingredient for Two Different Meals](https://delixioapp.com/guides/the-2-dinner-ingredient-handoff-plan-one-shop-ingredient-for-two-different-meals/)
+- [The Leftover Roast Tray Map: 4 Ways to Rebuild Dinner From Cooked Vegetables, Protein, and Sauce](https://delixioapp.com/guides/the-leftover-roast-tray-map-4-ways-to-rebuild-dinner-from-cooked-vegetables-prot/)
 
 ## Intent / solution landing pages
 
