@@ -69,6 +69,7 @@ Practical kitchen articles grouped under [Delixio Cooking Guides](https://delixi
 - [The 2-Dinner Ingredient Handoff: Plan One Shop Ingredient for Two Different Meals](https://delixioapp.com/guides/the-2-dinner-ingredient-handoff-plan-one-shop-ingredient-for-two-different-meals/)
 - [The Leftover Roast Tray Map: 4 Ways to Rebuild Dinner From Cooked Vegetables, Protein, and Sauce](https://delixioapp.com/guides/the-leftover-roast-tray-map-4-ways-to-rebuild-dinner-from-cooked-vegetables-prot/)
 - [The 10-Minute Crispy Breadcrumb Finish: 4 Ways to Make Simple Dinners Feel Complete](https://delixioapp.com/guides/the-10-minute-crispy-breadcrumb-finish-4-ways-to-make-simple-dinners-feel-comple/)
+- [The 5-Minute Pan Sauce Map: Match a Fast Sauce to Beans, Vegetables, Eggs, or Gnocchi](https://delixioapp.com/guides/the-5-minute-pan-sauce-map-match-a-fast-sauce-to-beans-vegetables-eggs-or-gnocch/)
 
 ## Intent / solution landing pages
 
