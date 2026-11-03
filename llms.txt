@@ -71,6 +71,7 @@ Practical kitchen articles grouped under [Delixio Cooking Guides](https://delixi
 - [The 10-Minute Crispy Breadcrumb Finish: 4 Ways to Make Simple Dinners Feel Complete](https://delixioapp.com/guides/the-10-minute-crispy-breadcrumb-finish-4-ways-to-make-simple-dinners-feel-comple/)
 - [The 5-Minute Pan Sauce Map: Match a Fast Sauce to Beans, Vegetables, Eggs, or Gnocchi](https://delixioapp.com/guides/the-5-minute-pan-sauce-map-match-a-fast-sauce-to-beans-vegetables-eggs-or-gnocch/)
 - [The Leftover Texture Map: Turn Soft, Crisp, Saucy, and Dry Components Into Dinner](https://delixioapp.com/guides/the-leftover-texture-map-turn-soft-crisp-saucy-and-dry-components-into-dinner/)
+- [The Crisp-Edge Tortilla Dinner Method: 4 Ways to Turn a Pack of Tortillas Into a Weeknight Meal](https://delixioapp.com/guides/the-crisp-edge-tortilla-dinner-method-4-ways-to-turn-a-pack-of-tortillas-into-a/)
 
 ## Intent / solution landing pages
 
