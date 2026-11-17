@@ -71,6 +71,16 @@ document.addEventListener('DOMContentLoaded', () => {
       && (destination.pathname === '/go/' || destination.pathname === '/download/');
 
     if (isAppStore || isPlayStore) {
+      if (
+        isPlayStore &&
+        typeof window.DelixioCampaign === 'object' &&
+        typeof window.DelixioCampaign.applyPlayStoreOppref === 'function'
+      ) {
+        const withOppref = window.DelixioCampaign.applyPlayStoreOppref(link.href);
+        if (withOppref && withOppref !== link.href) {
+          link.href = withOppref;
+        }
+      }
       const platform = isAppStore ? 'ios' : 'android';
       sendEvent('store_click', {
         ...shared,

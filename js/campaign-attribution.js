@@ -1,6 +1,10 @@
 /**
  * Capture ad campaign query params for landing-page attribution.
  * Does not modify the browser URL. Params are read on load and on each CTA click.
+ *
+ * When OpenAI supplies `oppref` on the landing URL, Android Play store links can
+ * forward that exact value via the Play Install Referrer. iOS App Store links
+ * cannot carry a deferred oppref this way; do not invent one.
  */
 (function () {
   var CAMPAIGN_KEYS = [
@@ -12,6 +16,7 @@
     'openai_campaign_id',
     'openai_ad_group_id',
     'openai_ad_id',
+    'oppref',
   ];
 
   function readCampaignParams() {
@@ -19,6 +24,11 @@
     var out = {};
     CAMPAIGN_KEYS.forEach(function (key) {
       var val = params.get(key);
+      // Keep oppref exactly as supplied (including whitespace). Other keys trim.
+      if (key === 'oppref') {
+        if (val !== null && val !== '') out[key] = val;
+        return;
+      }
       if (val) out[key] = val;
     });
     return out;
@@ -61,6 +71,8 @@
       openai_campaign_id: ctx.openai_campaign_id || undefined,
       openai_ad_group_id: ctx.openai_ad_group_id || undefined,
       openai_ad_id: ctx.openai_ad_id || undefined,
+      // Presence only — never put the raw oppref into GA4.
+      has_oppref: ctx.oppref ? true : undefined,
     };
   }
 
@@ -70,11 +82,41 @@
       if (target.origin !== window.location.origin) return url;
       var ctx = getCampaignContext();
       Object.keys(ctx).forEach(function (key) {
+        if (key === 'oppref') return;
         if (!target.searchParams.has(key)) {
           target.searchParams.set(key, ctx[key]);
         }
       });
       return target.pathname + target.search + target.hash;
+    } catch (_) {
+      return url;
+    }
+  }
+
+  /**
+   * Attach an exact oppref to a Google Play details URL via `referrer=`.
+   * Returns the original URL when oppref is absent or the host is not Play.
+   * Merges with an existing referrer and never invents an oppref value.
+   */
+  function applyPlayStoreOppref(url, opprefOverride) {
+    try {
+      var target = new URL(url, window.location.origin);
+      if (target.hostname !== 'play.google.com') return url;
+      var oppref =
+        typeof opprefOverride === 'string'
+          ? opprefOverride
+          : getCampaignContext().oppref;
+      if (oppref === undefined || oppref === null || oppref === '') return url;
+
+      var existing = target.searchParams.get('referrer') || '';
+      if (/(?:^|&)oppref=/.test(existing)) {
+        return target.toString();
+      }
+      var payload = existing
+        ? existing + '&oppref=' + oppref
+        : 'oppref=' + oppref;
+      target.searchParams.set('referrer', payload);
+      return target.toString();
     } catch (_) {
       return url;
     }
@@ -97,6 +139,7 @@
     getCampaignContext: getCampaignContext,
     campaignAnalyticsProps: campaignAnalyticsProps,
     appendCampaignQuery: appendCampaignQuery,
+    applyPlayStoreOppref: applyPlayStoreOppref,
     detectPrimaryStore: detectPrimaryStore,
     persist: persistCampaignContext,
   };

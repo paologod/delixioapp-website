@@ -27,10 +27,28 @@
         (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
       var isAndroid = /Android/i.test(ua);
 
+      function playStoreWithOppref() {
+        try {
+          var params = new URLSearchParams(window.location.search);
+          var oppref = params.get('oppref');
+          if (oppref === null || oppref === '') return PLAY_STORE;
+          var target = new URL(PLAY_STORE);
+          var existing = target.searchParams.get('referrer') || '';
+          if (/(?:^|&)oppref=/.test(existing)) return target.toString();
+          var payload = existing
+            ? existing + '&oppref=' + oppref
+            : 'oppref=' + oppref;
+          target.searchParams.set('referrer', payload);
+          return target.toString();
+        } catch (_) {
+          return PLAY_STORE;
+        }
+      }
+
       if (isIos) {
         window.location.replace(APP_STORE);
       } else if (isAndroid) {
-        window.location.replace(PLAY_STORE);
+        window.location.replace(playStoreWithOppref());
       } else {
         window.location.replace(FALLBACK);
       }
