@@ -73,6 +73,7 @@ Practical kitchen articles grouped under [Delixio Cooking Guides](https://delixi
 - [The Leftover Texture Map: Turn Soft, Crisp, Saucy, and Dry Components Into Dinner](https://delixioapp.com/guides/the-leftover-texture-map-turn-soft-crisp-saucy-and-dry-components-into-dinner/)
 - [The Crisp-Edge Tortilla Dinner Method: 4 Ways to Turn a Pack of Tortillas Into a Weeknight Meal](https://delixioapp.com/guides/the-crisp-edge-tortilla-dinner-method-4-ways-to-turn-a-pack-of-tortillas-into-a/)
 - [How to Use a Jar of Capers: 5 Fast Dinner Routes Beyond Pasta](https://delixioapp.com/guides/how-to-use-a-jar-of-capers-5-fast-dinner-routes-beyond-pasta/)
+- [The Dinner Swap Map: How to Move a Weeknight Meal Without Starting Your Plan Again](https://delixioapp.com/guides/the-dinner-swap-map-how-to-move-a-weeknight-meal-without-starting-your-plan-agai/)
 
 ## Intent / solution landing pages
 
